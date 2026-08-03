@@ -129,9 +129,9 @@ def article_entry(a):
   <p class="meta">{pub} &middot; {fmt_pubdate(a["pub_date"])}</p>{q}
 </div>"""
 
-def issue_images_html(meta, rel):
+def issue_images_html(imgs, rel):
     out = []
-    for img in meta.get("images", []):
+    for img in imgs or []:
         src = img.get("src", "")
         cap = img.get("caption")
         href = img.get("href") or src
@@ -155,20 +155,31 @@ def issue_body(d, rel):
         nav += f"<a href='{rel}issues/{next_d}/index.html'>Next Issue &rarr;</a>"
     nav += "</p>"
 
+    imgs = meta.get("images") or []
+    ai_cats = order_categories(cats_present, "ai")
+    has_ai = bool(ai_cats or meta.get("ai_intro_md"))
+    # The final scraped image belongs at the end of the A.I. Update text,
+    # ahead of the A.I. Update articles. Everything before it stays in the intro.
+    ai_imgs = imgs[-1:] if (has_ai and imgs) else []
+    intro_imgs = imgs[:-1] if (has_ai and imgs) else imgs
+
     parts = [f"<h1>Educator&rsquo;s Notebook #{n} ({fmt_date(d)})</h1>", nav]
     if meta.get("intro_md"):
         parts.append("<section class='intro'><h3>Introduction</h3>")
         parts.append(md_block(meta["intro_md"]))
-        parts.append(issue_images_html(meta, rel))
+        parts.append(issue_images_html(intro_imgs, rel))
         parts.append("</section>")
     for c in order_categories(cats_present, "main"):
         parts.append(f"<h3 class='cat'>{html.escape(categories[c]['display'].upper())}</h3>")
         parts.extend(article_entry(a) for a in arts if a["category"] == c)
-    ai_cats = order_categories(cats_present, "ai")
-    if ai_cats or meta.get("ai_intro_md"):
+    if has_ai:
         parts.append("<hr><h2 class='ai-part'>A.I. Update</h2>")
-        if meta.get("ai_intro_md"):
-            parts.append(f"<section class='intro'>{md_block(meta['ai_intro_md'])}</section>")
+        if meta.get("ai_intro_md") or ai_imgs:
+            parts.append("<section class='intro'>")
+            if meta.get("ai_intro_md"):
+                parts.append(md_block(meta["ai_intro_md"]))
+            parts.append(issue_images_html(ai_imgs, rel))
+            parts.append("</section>")
         for c in ai_cats:
             parts.append(f"<h3 class='cat'>{html.escape(categories[c]['display'].upper())}</h3>")
             parts.extend(article_entry(a) for a in arts if a["category"] == c)

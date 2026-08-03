@@ -1,6 +1,7 @@
 :root {
   --ink: #1a1a1a;
   --muted: #6b6b6b;
+  --quote: #5f5f5f;
   --accent: #1a5276;
   --rule: #e3ded6;
   --bg: #faf9f7;
@@ -26,7 +27,7 @@ a:hover { text-decoration: underline; }
 h1 { font-family: var(--serif); font-size: 26px; line-height: 1.25; }
 h2.ai-part { font-family: var(--serif); font-size: 23px; margin-top: 40px; }
 h3.cat { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
-         border-bottom: 1px solid var(--rule); padding-bottom: 5px; margin: 34px 0 14px; }
+         margin: 34px 0 14px; }
 h3.cat a { color: var(--muted); }
 .issue-nav { font-size: 14px; color: var(--muted); }
 
@@ -34,8 +35,8 @@ h3.cat a { color: var(--muted); }
 .entry h4 { margin: 0 0 2px; font-size: 17px; line-height: 1.35; }
 .entry .meta { margin: 0; }
 .meta { color: var(--muted); font-size: 13.5px; }
-blockquote { margin: 8px 0 0 14px; padding-left: 14px; border-left: 2px solid var(--rule);
-             color: #444; font-family: var(--serif); font-size: 15.5px; font-style: italic; }
+blockquote { margin: 8px 0 0; padding: 0; border: 0;
+             color: var(--quote); font-family: var(--serif); font-size: 15.5px; font-style: italic; }
 
 .intro { font-size: 16.5px; }
 .intro p { margin: 0 0 14px; }
