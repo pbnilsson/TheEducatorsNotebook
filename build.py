@@ -139,6 +139,17 @@ def issue_images_html(imgs, rel):
         out.append(f"""<figure><a href="{html.escape(href, quote=True)}"><img src="{html.escape(src, quote=True)}" alt="{html.escape(cap or '', quote=True)}" loading="lazy"></a>{cap_html}</figure>""")
     return "\n".join(out)
 
+FEATURE_CATS = {"*feature", "tech/ai: *feature"}
+
+def category_block(c, arts):
+    """One category heading plus its entries. Featured sections are wrapped so
+    they carry a rule above and below."""
+    inner = [f"<h3 class='cat'>{html.escape(categories[c]['display'].upper())}</h3>"]
+    inner.extend(article_entry(a) for a in arts if a["category"] == c)
+    if c in FEATURE_CATS:
+        return ["<section class='feature-block'>", *inner, "</section>"]
+    return inner
+
 def issue_body(d, rel):
     meta = issues[d]
     arts = by_issue.get(d, [])
@@ -170,10 +181,9 @@ def issue_body(d, rel):
         parts.append(issue_images_html(intro_imgs, rel))
         parts.append("</section>")
     for c in order_categories(cats_present, "main"):
-        parts.append(f"<h3 class='cat'>{html.escape(categories[c]['display'].upper())}</h3>")
-        parts.extend(article_entry(a) for a in arts if a["category"] == c)
+        parts.extend(category_block(c, arts))
     if has_ai:
-        parts.append("<hr><h2 class='ai-part'>A.I. Update</h2>")
+        parts.append("<hr class='ai-rule'><h2 class='ai-part'>A.I. Update</h2>")
         if meta.get("ai_intro_md") or ai_imgs:
             parts.append("<section class='intro'>")
             if meta.get("ai_intro_md"):
@@ -181,8 +191,7 @@ def issue_body(d, rel):
             parts.append(issue_images_html(ai_imgs, rel))
             parts.append("</section>")
         for c in ai_cats:
-            parts.append(f"<h3 class='cat'>{html.escape(categories[c]['display'].upper())}</h3>")
-            parts.extend(article_entry(a) for a in arts if a["category"] == c)
+            parts.extend(category_block(c, arts))
     parts.append(nav)
     return "\n".join(parts)
 

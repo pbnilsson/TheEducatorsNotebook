@@ -27,15 +27,16 @@ a:hover { text-decoration: underline; }
 h1 { font-family: var(--serif); font-size: 26px; line-height: 1.25; }
 h2.ai-part { font-family: var(--serif); font-size: 23px; margin-top: 40px; }
 h3.cat { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
-         margin: 34px 0 14px; }
+         margin: 56px 0 14px; }
 h3.cat a { color: var(--muted); }
 .issue-nav { font-size: 14px; color: var(--muted); }
 
-.entry { margin: 0 0 18px; }
+.entry { margin: 0 0 18px; padding-left: 30px; }
+@media (max-width: 560px) { .entry { padding-left: 0; } }
 .entry h4 { margin: 0 0 2px; font-size: 17px; line-height: 1.35; }
 .entry .meta { margin: 0; }
 .meta { color: var(--muted); font-size: 13.5px; }
-blockquote { margin: 8px 0 0; padding: 0; border: 0;
+blockquote { margin: 2px 0 0; padding: 0; border: 0;
              color: var(--quote); font-family: var(--serif); font-size: 15.5px; font-style: italic; }
 
 .intro { font-size: 16.5px; }
@@ -63,3 +64,8 @@ figcaption { color: var(--muted); font-size: 13.5px; font-style: italic; margin-
 footer { border-top: 1px solid var(--rule); margin-top: 40px; padding: 18px 20px 40px;
          text-align: center; color: var(--muted); font-size: 13.5px; }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 40px 0; }
+hr.ai-rule { border-top: 3px solid var(--ink); margin: 56px 0 0; }
+
+.feature-block { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                 margin: 56px 0 0; padding-bottom: 26px; }
+.feature-block h3.cat { margin-top: 26px; }
