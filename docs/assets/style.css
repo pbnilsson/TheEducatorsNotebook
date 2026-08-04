@@ -69,3 +69,8 @@ hr.ai-rule { border-top: 3px solid var(--ink); margin: 56px 0 0; }
 .feature-block { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
                  margin: 56px 0 0; padding-bottom: 26px; }
 .feature-block h3.cat { margin-top: 26px; }
+
+.jump-list { margin: 4px 0 10px; font-size: 15px; }
+section.group { scroll-margin-top: 14px; }
+p.more { margin: 12px 0 0; padding-left: 30px; font-size: 14.5px; }
+@media (max-width: 560px) { p.more { padding-left: 0; } }

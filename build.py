@@ -306,27 +306,39 @@ def build():
             for u in (others or [c]):
                 groups.setdefault(u, []).append(a)
 
-        parts = [f"<h1>{html.escape(info['display'])}</h1>",
-                 f"<p class='meta'>{len(arts)} articles</p>"]
+        ordered = sorted(groups, key=topic_sort_key)
 
-        def group_block(key, items, heading=None):
-            label = html.escape(heading or categories[key]["display"]).upper()
-            href = f"../{categories[key]['slug']}/index.html"
-            block = [f"<h3 class='cat'><a href='{href}'>{label}</a></h3>"]
+        def group_block(key, items):
+            g = categories[key]
+            # "…articles in Curriculum" — except on the page's own group, where
+            # the topic name would just repeat itself.
+            suffix = f"{g['display']} articles"
+            if key != c:
+                suffix += f" in {info['display']}"
+            cls = "group feature-block" if (key in FEATURE_CATS and key != c) else "group"
+            block = [f"<section class='{cls}' id='g-{g['slug']}' "
+                     f'data-suffix="{html.escape(suffix, quote=True)}">',
+                     f"<h3 class='cat'><a href='../{g['slug']}/index.html'>"
+                     f"{html.escape(g['display']).upper()}</a></h3>"]
             for a in items:
                 d = a["issue"]
                 ref = (f" &middot; <a href='../../issues/{d}/index.html'>"
                        f"#{issues[d]['number']}</a>")
                 block.append(article_entry(a, ref))
+            block.append("</section>")
             return block
 
-        for key in sorted(groups, key=topic_sort_key):
-            if key in FEATURE_CATS and key != c:
-                parts.append("<section class='feature-block'>")
-                parts.extend(group_block(key, groups[key]))
-                parts.append("</section>")
-            else:
-                parts.extend(group_block(key, groups[key]))
+        parts = [f"<h1>{html.escape(info['display'])}</h1>",
+                 f"<p class='meta'>{len(arts)} articles</p>",
+                 "<ul class='topic-list jump-list'>"]
+        for key in ordered:
+            g = categories[key]
+            parts.append(f"<li><a href='#g-{g['slug']}'>{html.escape(g['display'])}</a> "
+                         f"<span class='meta'>({len(groups[key])})</span></li>")
+        parts.append("</ul>")
+        for key in ordered:
+            parts.extend(group_block(key, groups[key]))
+        parts.append("<script src='../../assets/topics.js'></script>")
 
         write(f"topics/{info['slug']}/index.html",
               page("../../", f"{info['display']} — {SITE_TITLE}", "\n".join(parts)))
