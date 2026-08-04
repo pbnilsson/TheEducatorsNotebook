@@ -12,7 +12,7 @@ from datetime import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
-OUT = os.path.join(HERE, "site")
+OUT = os.path.join(HERE, "docs")   # GitHub Pages serves this folder from main
 STATIC = os.path.join(HERE, "static")
 
 SITE_TITLE = "The Educator's Notebook"
@@ -121,12 +121,12 @@ def order_categories(cats_present, section):
         return (1, c)
     return sorted([c for c in cats_present if categories[c]["section"] == section], key=key)
 
-def article_entry(a):
+def article_entry(a, issue_ref=""):
     q = f'\n  <blockquote>{html.escape(a["quote"], quote=False)}</blockquote>' if a["quote"] else ""
     pub = html.escape(a["publication"], quote=False)
     return f"""<div class="entry">
   <h4><a href="{html.escape(a["link"], quote=True)}">{html.escape(a["headline"], quote=False)}</a></h4>
-  <p class="meta">{pub} &middot; {fmt_pubdate(a["pub_date"])}</p>{q}
+  <p class="meta">{pub} &middot; {fmt_pubdate(a["pub_date"])}{issue_ref}</p>{q}
 </div>"""
 
 def issue_images_html(imgs, rel):
@@ -149,6 +149,61 @@ def category_block(c, arts):
     if c in FEATURE_CATS:
         return ["<section class='feature-block'>", *inner, "</section>"]
     return inner
+
+# ---------------------------------------------------------------- topics
+# Tags were entered by hand over twelve years, so the same topic appears under
+# several spellings. Fold the clear variants into the canonical category keys;
+# ignore fine-grained one-off tags (poetry, memory, coding, montessori, ...),
+# which would otherwise produce hundreds of single-article groupings.
+TAG_ALIASES = {
+    "feature": "*feature",
+    "other": "z-other",
+    "admission": "admissions",
+    "adolescent": "adolescence",
+    "art": "arts",
+    "assessments": "assessment",
+    "diversity": "diversity/inclusion",
+    "diversity/inclusions": "diversity/inclusion",
+    "diversity/inclustion": "diversity/inclusion",
+    "inclusion": "diversity/inclusion",
+    "pedgogy": "pedagogy",
+    "professional development": "pd",
+    "reading": "reading/writing",
+    "sustainabtility": "sustainability",
+    "technology": "tech",
+    "humanities grammar": "humanities",
+    "a.i.": "tech/ai",
+    "ai": "tech/ai",
+    "tech/ai: ethics and risks": "tech/ai: ethics and risk",
+    "tech/ai: government": "tech/ai: government and law",
+}
+# A couple of tags hold two topics in one string.
+TAG_SPLITS = {"visual design. stem": ["visual design", "stem"]}
+
+def article_topics(a):
+    """Every canonical topic an article belongs to (its section plus its tags)."""
+    out = set()
+    for raw in a["tags"]:
+        t = raw.strip().lower()
+        for piece in TAG_SPLITS.get(t, [t]):
+            piece = TAG_ALIASES.get(piece, piece)
+            if piece in categories:
+                out.add(piece)
+    if a["category"] in categories:
+        out.add(a["category"])
+    return out
+
+def index_sort_key(c):
+    """Featured first, then strictly alphabetical by display name."""
+    return (0 if c in FEATURE_CATS else 1, categories[c]["display"].casefold())
+
+def topic_sort_key(c):
+    """Featured first, Other last, alphabetical by display name between."""
+    if c in FEATURE_CATS:
+        return (0, "")
+    if c in ("z-other", "tech/ai: z-other"):
+        return (2, categories[c]["display"].casefold())
+    return (1, categories[c]["display"].casefold())
 
 def issue_body(d, rel):
     meta = issues[d]
@@ -231,18 +286,48 @@ def build():
     write("issues/index.html", page("../", f"Browse by Issue — {SITE_TITLE}",
                                     "<h1>Issues</h1>\n" + "\n".join(rows)))
 
-    # topic pages
+    # topic pages -- each page groups its articles by the *other* topics they
+    # are cross-listed with: Featured first, then alphabetically, with the
+    # page's own topic holding the articles that carry no other topic.
+    topic_members = {c: [] for c in categories}
+    for a in articles:
+        for c in article_topics(a):
+            topic_members[c].append(a)
+    topic_counts = {c: len(v) for c, v in topic_members.items()}
+
     for c, info in categories.items():
-        arts = [a for a in articles if a["category"] == c]
-        arts.sort(key=lambda a: a["issue"], reverse=True)
+        arts = sorted(topic_members[c], key=lambda a: a["issue"], reverse=True)
+        groups = {}
+        for a in arts:
+            if a["category"] in FEATURE_CATS and c not in FEATURE_CATS:
+                groups.setdefault(a["category"], []).append(a)
+                continue
+            others = sorted(article_topics(a) - {c} - FEATURE_CATS, key=topic_sort_key)
+            for u in (others or [c]):
+                groups.setdefault(u, []).append(a)
+
         parts = [f"<h1>{html.escape(info['display'])}</h1>",
                  f"<p class='meta'>{len(arts)} articles</p>"]
-        cur = None
-        for a in arts:
-            if a["issue"] != cur:
-                cur = a["issue"]
-                parts.append(f"<h3 class='cat'><a href='../../issues/{cur}/index.html'>#{issues[cur]['number']} &middot; {fmt_date(cur)}</a></h3>")
-            parts.append(article_entry(a))
+
+        def group_block(key, items, heading=None):
+            label = html.escape(heading or categories[key]["display"]).upper()
+            href = f"../{categories[key]['slug']}/index.html"
+            block = [f"<h3 class='cat'><a href='{href}'>{label}</a></h3>"]
+            for a in items:
+                d = a["issue"]
+                ref = (f" &middot; <a href='../../issues/{d}/index.html'>"
+                       f"#{issues[d]['number']}</a>")
+                block.append(article_entry(a, ref))
+            return block
+
+        for key in sorted(groups, key=topic_sort_key):
+            if key in FEATURE_CATS and key != c:
+                parts.append("<section class='feature-block'>")
+                parts.extend(group_block(key, groups[key]))
+                parts.append("</section>")
+            else:
+                parts.extend(group_block(key, groups[key]))
+
         write(f"topics/{info['slug']}/index.html",
               page("../../", f"{info['display']} — {SITE_TITLE}", "\n".join(parts)))
 
@@ -251,11 +336,11 @@ def build():
     ai = [c for c in categories if categories[c]["section"] == "ai"]
     def topic_li(c):
         i = categories[c]
-        return f"<li><a href='{i['slug']}/index.html'>{html.escape(i['display'])}</a> <span class='meta'>({i['count']})</span></li>"
+        return f"<li><a href='{i['slug']}/index.html'>{html.escape(i['display'])}</a> <span class='meta'>({topic_counts[c]})</span></li>"
     body = ["<h1>Topics</h1><ul class='topic-list'>"]
-    body += [topic_li(c) for c in sorted(main, key=lambda c: categories[c]["display"])]
+    body += [topic_li(c) for c in sorted(main, key=index_sort_key)]
     body.append("</ul><h2>A.I. Update</h2><ul class='topic-list'>")
-    body += [topic_li(c) for c in sorted(ai, key=lambda c: categories[c]["display"])]
+    body += [topic_li(c) for c in sorted(ai, key=index_sort_key)]
     body.append("</ul>")
     write("topics/index.html", page("../", f"Browse by Topic — {SITE_TITLE}", "\n".join(body)))
 
