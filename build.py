@@ -280,8 +280,10 @@ def build():
         rows.append(f"<h3>{y}</h3><ul class='issue-list'>")
         for d in years[y]:
             n = issues[d]["number"]
-            note = " — update" if issues[d].get("special") else ""
-            rows.append(f"<li><a href='{d}/index.html'>#{n} &middot; {fmt_date(d)}</a>{note}</li>")
+            note = "<span class='note'>&nbsp;&mdash; update</span>" if issues[d].get("special") else ""
+            t = issues[d].get("teaser")
+            teaser = f"<span class='teaser'>&middot; {html.escape(t)}</span>" if t else ""
+            rows.append(f"<li><a href='{d}/index.html'>#{n} &middot; {fmt_date(d)}</a>{note}{teaser}</li>")
         rows.append("</ul>")
     write("issues/index.html", page("../", f"Browse by Issue — {SITE_TITLE}",
                                     "<h1>Issues</h1>\n" + "\n".join(rows)))

@@ -74,3 +74,11 @@ hr.ai-rule { border-top: 3px solid var(--ink); margin: 56px 0 0; }
 section.group { scroll-margin-top: 14px; }
 p.more { margin: 12px 0 0; padding-left: 30px; font-size: 14.5px; }
 @media (max-width: 560px) { p.more { padding-left: 0; } }
+
+/* Browse by Issue: one left-aligned column, each row a single clipped line. */
+.issue-list { column-count: 1; }
+.issue-list li { display: flex; align-items: baseline; white-space: nowrap; }
+.issue-list li > a, .issue-list .note { flex: 0 0 auto; }
+.issue-list .note { color: var(--muted); font-size: 13.5px; }
+.issue-list .teaser { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+                      color: var(--muted); font-size: 15px; padding-left: .45em; }
