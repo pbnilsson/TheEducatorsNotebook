@@ -17,6 +17,9 @@ docs/                 ← the generated site. GitHub Pages serves this folder
 
 No dependencies — `python3 build.py` is the whole build (≈2 seconds).
 
+See **[CONVENTIONS.md](CONVENTIONS.md)** for the editorial and structural rules
+behind the build — teaser style, topic grouping, tag handling, intro headers.
+
 ## Weekly update workflow
 
 1. Add the new issue's rows to the master spreadsheet (Numbers).
