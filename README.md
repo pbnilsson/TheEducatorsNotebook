@@ -2,7 +2,7 @@
 
 Static rebuild of [educatorsnotebook.com](https://educatorsnotebook.com): 525 issues,
 ~17,000 curated articles (2013–present), generated from a single data file and
-deployed to GitHub Pages on every push.
+served by GitHub Pages from the committed `docs/` folder.
 
 ## How it works
 
@@ -10,8 +10,9 @@ deployed to GitHub Pages on every push.
 data/articles.json    ← the spreadsheet (one row per article)
 data/issues.json      ← per-issue editorial content (intros, A.I. Update intros, images)
 data/categories.json  ← canonical category names, slugs, section assignment
-build.py              ← reads the three files above, writes site/
-.github/workflows/    ← builds and deploys to GitHub Pages on push
+build.py              ← reads the three files above, writes docs/
+docs/                 ← the generated site. GitHub Pages serves this folder
+                        from main (Settings → Pages → Branch: main /docs)
 ```
 
 No dependencies — `python3 build.py` is the whole build (≈2 seconds).
@@ -21,13 +22,20 @@ No dependencies — `python3 build.py` is the whole build (≈2 seconds).
 1. Add the new issue's rows to the master spreadsheet (Numbers).
 2. Export as CSV, run the converter (`scripts/csv_to_json.py`) to refresh `data/articles.json`.
 3. Add the issue's intro/images to `data/issues.json` (or run the helper).
-4. Commit and push. The Action rebuilds and deploys automatically (~1 minute).
+4. Run `python3 build.py` — this regenerates `docs/`.
+5. Commit **both** the data change and the regenerated `docs/`, then push.
+
+> **Always commit `docs/`.** GitHub Pages serves the committed `docs/` folder,
+> not a build artifact — there is no Action installed (`setup/github-actions-build.yml`
+> is a template, not active). A data-only commit changes nothing on the live site.
+> `build.py` writes straight into `docs/`; it wipes and regenerates the folder each
+> run, so never hand-edit anything inside it.
 
 ## Local preview
 
 ```
 python3 build.py
-cd site && python3 -m http.server 8000
+cd docs && python3 -m http.server 8000
 ```
 
 ## Images

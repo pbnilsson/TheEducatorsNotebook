@@ -1,2 +1,3 @@
+site/          # legacy build dir; the live site is docs/
 __pycache__/
 .DS_Store
