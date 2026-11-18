@@ -43,10 +43,16 @@ cd docs && python3 -m http.server 8000
 
 ## Images
 
-Issue images currently reference the live WordPress URLs. Run
-`scripts/download_images.py` once (locally, on a machine with normal internet
-access) to download all 160 images into `static/images/` and rewrite
-`data/issues.json` to use local paths. Do this before retiring WordPress.
+All issue images are served from the repo — nothing points at WordPress.
+They live in `static/images/` (the build copies them to `docs/assets/images/`)
+as WebP, resized to at most 1400px on the long side. In `data/issues.json` an
+image's `src` is `assets/images/<name>.webp`, relative to the site root;
+`build.py` adds the right `../` prefix per page.
+
+Full-size originals are archived outside the repo, in
+`EdNewsletter/Issues/Website Images/` with a `manifest.csv` mapping each file
+to its issue. For a new issue: save the image as WebP (≤1400px) into
+`static/images/` named `YYYY-MM-<name>.webp`, and reference it as above.
 
 ## URL compatibility
 

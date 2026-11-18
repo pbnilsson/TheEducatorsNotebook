@@ -133,6 +133,8 @@ def issue_images_html(imgs, rel):
     out = []
     for img in imgs or []:
         src = img.get("src", "")
+        if src and not src.startswith(("http://", "https://")):
+            src = rel + src   # local images live under docs/assets/images/
         cap = img.get("caption")
         href = img.get("href") or src
         cap_html = f"<figcaption>{md_inline(cap)}</figcaption>" if cap else ""

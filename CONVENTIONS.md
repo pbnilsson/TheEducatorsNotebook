@@ -172,7 +172,5 @@ topics. Don't wire the page back to it.
 - **Titles are bare.** *Hidden Figures*, *The Martian*, *Gatsby* appear without
   quotes or italics in teasers, because punctuation costs characters. Italicising
   them means a template change plus markup in the data.
-- **Images point at WordPress.** `scripts/download_images.py` localises them; run
-  it before retiring the WordPress site.
 - **The subscribe form is a stub.** Wired up during the email-platform migration.
 - **DNS cutover to educatorsnotebook.com has not happened.** See README.

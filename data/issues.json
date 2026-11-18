@@ -4407,8 +4407,8 @@
   "ai_intro_md": "#### Education use cases continue to climb, the industry continues to evolve\n\nTectonic shifts continue in the AI world, as [Microsoft acquires](https://www.nytimes.com/2024/03/20/business/dealbook/microsoft-suleyman-ai-inflection.html) the key leadership team of Inflection AI. This bodes well for Microsoft’s AI division, and bodes ill for the future of [Pi.ai](https://pi.ai/discover), which is one of my favorite destinations for developing ideas. Most of all, this suggests that we are still in the very early phases of the AI landscape. Companies are searching for sustainable business models, and even extraordinarily well funded companies are having trouble entering the market. It’s increasingly clear that the big data models will belong only to massive companies, and the smaller companies will have to innovate around the margins.\n\nIn AI and education, schools are still early in the exploration phase. See this week’s features for ideas around policies (or positions) and ways in which AI may be able to reduce teacher workload. Also note in the education section that LA’s large public school district is experimenting with a chatbot for students and parents.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/03/Prompt-Library-1.webp",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/03/Prompt-Library-1.webp",
+    "src": "assets/images/2024-03-Prompt-Library-1.webp",
+    "href": null,
     "caption": "“Prompt Library” (GPT-4)"
    }
   ],
@@ -4433,13 +4433,13 @@
   "ai_intro_md": "#### State of the industry reports, New models, and Global perspectives on AI\n\nThe technology continues racing ahead, and policies are slowly catching up.\n\nStunning developments have emerged in recent weeks, including Udio’s new music generation tool and Microsoft just-unveiled research on lifelike deepfake technology. Learn more about both of them below.\n\nAlso this week, Meta released its newest model, Llama3, on all of its platforms, so now every user of Facebook, Messenger, Instagram, and WhatsApp has an AI chatbot built into their smartphone apps. What this will do for accessibility to AI is unprecedented.\n\nIt’s worth reflecting on the impact of Meta’s decision for the global AI landscape. More than 3 billion people are reported to use Meta’s app universe daily. Only a fraction of them are in developed nations. Significantly, public opinion about generative AI ranges widely across countries; while developed nations are more suspicious of generative AI, emerging nations are more excited about it. This may be natural given what a leveling force generative AI has already proven to be — emerging nations see this as an opportunity to have access to what developed nations take for granted. Now, Meta’s decision to make a powerful LLM freely accessible to all its users massively expands access to AI. What will the outcome be? We’ll see. In the meantime, happy Q&A with Llama3 in Facebook, Messenger, Instagram and WhatsApp!\n\nAlso of particular interest this week is Stanford Human-Centered AI Lab’s report on the State of AI. Check out the lab’s findings across a host of topics, including ways in which scientific research has accelerated with the use of AI.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/04/IMG_3660-1024x768.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/04/IMG_3660-scaled.jpeg",
+    "src": "assets/images/2024-04-IMG_3660-1024x768.webp",
+    "href": null,
     "caption": "The cast and crew of Schooled at the AIR Show in San Diego"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/04/Screenshot-2024-04-22-at-9.13.11 AM-1024x682.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/04/Screenshot-2024-04-22-at-9.13.11 AM.png",
+    "src": "assets/images/2024-04-Screenshot-2024-04-22-at-9.13.11-AM-1024x682.webp",
+    "href": null,
     "caption": "One slide from Stanford HAI’s AI Index Report"
    }
   ],
@@ -4454,8 +4454,8 @@
   "ai_intro_md": "#### The big picture: A Cambrian explosion, Darwinian natural selection...\n\nExcellent updates, including a harrowing story of how an employee created a deepfake recording of a principal in a social revenge event (the first feature), and an emerging understanding of intellectual property may be applied to works created with AI (the second feature). The US Copyright Office’s approach to what can and cannot be copyrighted offers an interesting angle into how we might read student work.\n\nBut I want to take a step back for just a moment. In his reflection on the recent ASU GSV conference, EdTech Insider’s Ben Kornell [wrote that](https://edtechinsiders.substack.com/p/the-edtech-insiders-rundown-of-asugsv) “the Cambrian Explosion of AI in edtech is entering a Darwinian moment.” This is a perfect characterization. Last year, AI technology exploded with vision and opportunity, and with remarkable speed, edtech companies burst out of the woodwork. This year, teachers and schools will be assessing these new edtech tools to assess which will survive. In the next two years, the field will narrow and other forms will emerge. But what’s most compelling to me is that schools have the opportunity to determine what survive. This is the time when teachers and leaders provide feedback to the industry to direct it to what actually helps.\n\nBut perhaps as a friend of mine said, if we’re coming out of the Cambrian explosion and into Darwinian natural selection, then is the next stage the AI domination? Well, we’ll see.\n\nSee below for excellent posts on these and other topics, including a helpful piece on brainstorming strategies with AI.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/04/DALL·E-2024-04-28-14.25.43-Icon-style-image-representing-the-explosion-of-AI-companies-and-Darwinian-natural-selection.-The-left-side-features-a-symbolic-explosion-illustrated--1024x585.webp",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/04/DALL·E-2024-04-28-14.25.43-Icon-style-image-representing-the-explosion-of-AI-companies-and-Darwinian-natural-selection.-The-left-side-features-a-symbolic-explosion-illustrated-.webp",
+    "src": "assets/images/2024-04-DALL-E-2024-04-28-14.25.43-Icon-style-image-representing-the-explosion-of-AI-companies-and-Darwinian-natural-selection.-The-left-side-features-a-symbolic-explosion-illustrated--1024x585.webp",
+    "href": null,
     "caption": "DALL-E’s representation of a Cambrian explosion of AI leading to Darwinian natural selection."
    }
   ],
@@ -4470,13 +4470,13 @@
   "ai_intro_md": "#### Rethinking Assessment, Chatbots for Wellness, AI Skepticism, and Garlic Bread\n\nSeveral excellent posts for teachers this week:\n\nIn this week’s features, find a link to Leon Furze’s ebook on how we can rethink assessment in a time of GenAI. Collecting many of his most helpful posts on assessment, Furze’s ebook gathers up much of today’s thinking about assessment and packages it in one file for helpful reference. It requires an email address, but is free and well worth it. Also in the features, check out Dan Meyer’s address at ASU GSV making the case for skepticism about today’s AI boom.\n\nAlso this week, find more information LAUSD’s chatbot for students and families, explore the growing risks of deepfakes, and see several of Leon Furze’s shorter posts on relevant topics for schools: a faculty strategy for your AI work, a (much) abbreviated post on assessment, and three part framework for engaging with AI as a creator, consumer, and critic.\n\nLast, don’t miss Ethan Mollick’s humorous conversation with Claude about garlic bread.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/05/DALL·E-2024-05-06-09.08.44-A-professional-and-elegant-illustration-celebrating-Teacher-Appreciation-Week-focusing-on-diverse-high-school-teachers-of-different-ages-in-a-library-1024x585.webp",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/05/DALL·E-2024-05-06-09.08.44-A-professional-and-elegant-illustration-celebrating-Teacher-Appreciation-Week-focusing-on-diverse-high-school-teachers-of-different-ages-in-a-library.webp",
+    "src": "assets/images/2024-05-DALL-E-2024-05-06-09.08.44-A-professional-and-elegant-illustration-celebrating-Teacher-Appreciation-Week-focusing-on-diverse-high-school-teachers-of-different-ages-in-a-library-1024x585.webp",
+    "href": null,
     "caption": "Image by DALL-E 3, including the extra P…"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/05/a_cute_ai_robot_holding_a_steaming_plate_of_garlic_bread_but_sad_because_its_conversation_partner.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/05/a_cute_ai_robot_holding_a_steaming_plate_of_garlic_bread_but_sad_because_its_conversation_partner.jpeg",
+    "src": "assets/images/2024-05-a_cute_ai_robot_holding_a_steaming_plate_of_garlic_bread_but_sad_because_its_conversation_partner.webp",
+    "href": null,
     "caption": "Image by Meta.ai"
    }
   ],
@@ -4491,8 +4491,8 @@
   "ai_intro_md": "#### AI growth in the workplace, tips for teaching about deepfakes, OpenAI's \"model spec\" and more\n\nSome important pieces published this week.\n\nThe first feature highlights an excellent resource put out by AI for Education to help educators and students navigate the increasing appearance of deepfakes in society. This is a much needed and very helpful guide.\n\nAlso, to understand just how much AI is emerging in the workplace, explore Microsoft’s AI Workplace Trends report. Not only is AI increasingly common in the workplace, but it is also leading to higher levels of job satisfaction. The challenge, however, is that employees are using it without guidance from leadership, so it is often happening in secret. Explore this report for further guidance as you consider how AI might fit within your own workplace.\n\nAlso of particular interest this week is the survey of 2,778 AI researchers about the state of AI development. Pulled out below is a chart that shows when on aggregate these researchers think AI will meet certain developmental milestones. The horizontal bands in the chart represent the researchers’ estimates for meeting these milestones in 2022 (blue) versus their estimates one year later in 2023 (red). almost all estimates are moving to the left, revealing just how fast the industry is developing.\n\nLast, see the post on OpenAI’s model spec to better understand the specifications OpenAI aims for ChatGPT to follow. This is OpenAI’s first effort to make the behavior of their models more transparent, similar to how Anthropic has committed publicly to their constitutional AI approach.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/05/AI-Industry-Developmental-Milestones-765x1024.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/05/AI-Industry-Developmental-Milestones.png",
+    "src": "assets/images/2024-05-AI-Industry-Developmental-Milestones-765x1024.webp",
+    "href": null,
     "caption": "Estimates of when AI will reach certain milestones"
    }
   ],
@@ -4507,13 +4507,13 @@
   "ai_intro_md": "#### Astonishing new models from OpenAI and Google, how to engage faculty, and more\n\nThis week’s first feature dives right into the implications of OpenAI’s new release — GPT-4o. Ethan Mollick’s reflections highlight what it means to have an extraordinarily high-powered, omni-modal tool available to millions of people for free. See his post for an overview, and then explore the actual demonstrations from OpenAI further down. And also see the updates from Google in Industry Development — their new model was released the very next day and shares many of the same features.\n\nAlso in the feature, explore Leon Furze’s excellent post on engaging your colleagues and faculty with GenAI. Furze walks through a faculty meeting or department meeting exercise to show the new capabilities of emerging models, including opportunities for making meaning.\n\nThese and much more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/05/Screenshot-2024-05-18-at-2.12.15 PM-1024x695.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/05/Screenshot-2024-05-18-at-2.12.15 PM.png",
+    "src": "assets/images/2024-05-Screenshot-2024-05-18-at-2.12.15-PM-1024x695.webp",
+    "href": null,
     "caption": "From this week’s feature article on curiosity and AI"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/05/Screenshot-2024-05-18-at-9.49.48 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/05/Screenshot-2024-05-18-at-9.49.48 PM.png",
+    "src": "assets/images/2024-05-Screenshot-2024-05-18-at-9.49.48-PM.webp",
+    "href": null,
     "caption": "From the student poll referenced in the Education section below."
    }
   ],
@@ -4538,13 +4538,13 @@
   "ai_intro_md": "#### Planning for the Fall Term, Even More Tools Emerging, Pervasive Deepfakes in Politics, and More\n\nTwo helpful features this week: First, as you close this year and begin planning for next, find a simple framework for how to think about your school’s AI plan for the 24-25 school year. Also, in the second feature, check out Perplexity’s new tool that enables users to create instant, customizable wikipedia-style pages on a topic of your choice. This can be helpful for creating study guides and or review documents.\n\nMore broadly, as the industry matures, positive and negative uses and applications of AI are emerging at faster and faster rates. Deepfakes are now almost already pervasive in politics. See the report on India’s elections for more here. And on the positive side, research is accelerating with generative AI support, though not without its own risks.\n\nThese and more, including (a deepfake of) Ryan Gosling teaching the technical structure of LLMs, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-01-at-9.37.39 PM-1024x668.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-01-at-9.37.39 PM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-01-at-9.37.39-PM-1024x668.webp",
+    "href": null,
     "caption": "Source: After Babel"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-02-at-2.27.57 PM-1024x518.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-02-at-2.27.57 PM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-02-at-2.27.57-PM-1024x518.webp",
+    "href": null,
     "caption": "Source: Reuters"
    }
   ],
@@ -4559,13 +4559,13 @@
   "ai_intro_md": "#### Student and Teacher AI Usage Surges, Google Makes Education-Specific Models, Apple Releases Their AI, and More\n\nThe featured articles in this issue focus on the detailed use of AI in individual feedback and tutoring situations. These will, inevitably, be the most common use case, and both research and the industry are progressing quickly.\n\nAlso this week, see the research from the Walton Family Foundation on AI adoption by students and teachers. This is the most recent research available, and it shows a rapid spike in use in education contexts. It’s time to get moving, folks.\n\nLast, find helpful writing by Anthropic on AI safety mechanisms (Red Teaming) and how LLM designers should think about personality.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-17-at-8.05.00 AM-940x1024.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-17-at-8.05.00 AM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-17-at-8.05.00-AM-940x1024.webp",
+    "href": null,
     "caption": "Pew Research"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-17-at-7.01.28 AM-1024x579.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-17-at-7.01.28 AM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-17-at-7.01.28-AM-1024x579.webp",
+    "href": null,
     "caption": "Asana"
    }
   ],
@@ -4580,13 +4580,13 @@
   "ai_intro_md": "#### A year for developing nuance\n\nEarlier in the year, I cited a post by EdTech Insiders that characterized this past year as a Cambrian Explosion of AI technology. Indeed, the landscape has been flooded with companies and products and hype. This current year, therefore, was naturally going to become the Darwinian Selection of which technologies and companies would last. And this would happen because this would be the year when schools and other contexts began to determine where actual value could be found with the new technology, and what was just hype.\n\nThis week’s posts prove this out. They demonstrate a growing understanding of the implications of generative AI and how we can actually navigate and engage with it in schools. In this issue, find reflections on the importance of friction in learning (as opposed to ease with AI), on AI in the writing process, on AI and grading, and one of my favorites: Maha Bali’s musings on how AI might affect our imagination. See general pieces, too, on the teacherpreneur: the special founders who know exactly how AI might be useful, because they see ways that AI can solve problems they have in front of them.\n\nThere is so much still to learn in this moment of extraordinary opportunity.\n\nEnjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-23-at-11.05.24 AM-1024x683.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-23-at-11.05.24 AM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-23-at-11.05.24-AM-1024x683.webp",
+    "href": null,
     "caption": "Virginia Hislop at her graduation, age 105. See the article in “Other” below. (photo: Charles Russo)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-13-at-12.21.30 PM-1024x555.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/Screenshot-2024-06-13-at-12.21.30 PM.png",
+    "src": "assets/images/2024-06-Screenshot-2024-06-13-at-12.21.30-PM-1024x555.webp",
+    "href": null,
     "caption": "Several key insights from last week’s post from FlexOS. Find last week’s posts at www.educatorsnotebook.com"
    }
   ],
@@ -4601,8 +4601,8 @@
   "ai_intro_md": "#### AI Counselors, New Models, and More\n\nAnother remarkable week.\n\nProducts keep evolving, new models keep coming out, new tools keep emerging. All are true this week.\n\nI think most notable, however, is that we’re seeing more and more of the emergence of AI as a counseling resource. Now, stories and data are becoming more concrete and reaching more readers. The recent TED AI podcast about Woebot is one excellent example. Further, for some remarkable history on this topic, see the final linked article on ELIZA, the first AI chatbot therapist from the 1960s(!).\n\nAlso, Eric Hudson’s writing continues to offer strong direction for schools. His four priorities for human-centered AI distill key principles for schools to be thinking about today. Don’t miss these if you are planning your school’s AI strategy.\n\nLastly, I’m so glad to read from creator of Everything is a Remix Kirby Ferguson his note on the copyright cases by the music industry. It will take time for the various industries to figure out this moment, but I believe Kirby is correct that the ingestion of other creative works is simply a part of the creative process. Certainly, the scope of what can be consumed by machines is greatly increased, but its process mirrors what we do as people; we are inevitably — *always* — influenced by commercial, proprietary works that we encounter and are not licensed to use. But this only informs our creative work and it is not a violation of copyright to witness, be inspired by, and even emulate (to a degree) other copyrighted artwork. It would be a mistake to think anything otherwise. That said, while it would be unwise to criticize newly created works by artists or machines influenced by commercial music or art, there may yet be successful cases brought against companies who train on proprietary content without permission — but that is separate from the mistaken notion that a work created by AI is itself somehow corrupted.\n\nSo: the AI sector continues to grow and evolve. It will be a remarkable summer, I’m sure, and by the start of school in the fall, we will inevitably be facing further questions still.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/06/ELIZA_conversation.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/06/ELIZA_conversation.png",
+    "src": "assets/images/2024-06-ELIZA_conversation.webp",
+    "href": null,
     "caption": "(Wikipedia)"
    }
   ],
@@ -4617,13 +4617,13 @@
   "ai_intro_md": "#### Stages of AI grief, equity and AI, lesson planning with AI, and more\n\nExcellent resources this week.\n\nThe first feature offers an extraordinary look at how we process the arrival of generative AI. It’s absolutely worth the long read.  You’ll recognize the perspectives and behaviors — positive and negative — of colleagues.  Also in the features, find a helpful explainer on equity issues related to AI, specific to schools.\n\nElsewhere this week, Justin Cerenzia’s post (The Academic DJ) includes a helpful breakdown of where people and AI have specific strengths, drawn from Lee Shulman’s work. Leon Furze offers a helpful scale of how AI can support lesson planning at three different levels. And Lance Eaton shares all of his resources from all of his talks. Great resources all around.\n\nAnd don’t miss the McSweeney’s humor piece on how generative AI may soon be comparable to PhD’s.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/092569d0-6eca-49a5-a64e-a3dde313ae57_1258x838-1024x682.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/092569d0-6eca-49a5-a64e-a3dde313ae57_1258x838.png",
+    "src": "assets/images/2024-07-092569d0-6eca-49a5-a64e-a3dde313ae57_1258x838-1024x682.webp",
+    "href": null,
     "caption": "Loneliness in a social media age. (see After Babel, in Social Media, below)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-08-at-10.08.47 AM-1024x746.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-08-at-10.08.47 AM.png",
+    "src": "assets/images/2024-07-Screenshot-2024-07-08-at-10.08.47-AM-1024x746.webp",
+    "href": null,
     "caption": "How many ways are organizations incorporating AI? (See McKinsey in Uses and Applications, below)"
    }
   ],
@@ -4638,13 +4638,13 @@
   "ai_intro_md": "Some excellent resources this week.\n\nIn the features, find Marc Watkins’ helpful reflection on the importance of conversations about AI. Watkins walks through the different types and sequence of conversations that may be most likely to happen, including around academic integrity. Also find a helpful decision tree from Edutopia (shown below) that walks through the decision we should be scaffolding for students. It’s a helpful visual guide.\n\nElsewhere, AI for Education’s webinar on AI image generation for educators is helpful, the NEA releases a lengthy report with AI guidance for schools and teachers, and Stanford and Goldman Sachs both release high level industry reports.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-15-at-9.10.25 AM-1024x971.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-15-at-9.10.25 AM.png",
+    "src": "assets/images/2024-07-Screenshot-2024-07-15-at-9.10.25-AM-1024x971.webp",
+    "href": null,
     "caption": "Effective visual communication techniques, from this week’s second feature"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-15-at-9.07.40 AM-1024x791.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-15-at-9.07.40 AM.png",
+    "src": "assets/images/2024-07-Screenshot-2024-07-15-at-9.07.40-AM-1024x791.webp",
+    "href": null,
     "caption": "Decision tree for student AI use (Edutopia)"
    }
   ],
@@ -4659,13 +4659,13 @@
   "ai_intro_md": "#### Understanding whale song, CS guidance on GenAI, and more\n\nCompelling developments this week.\n\nIn one feature, explore how researchers leverage AI to understand whale song. In the other, see guidance from TeachAI and the Computer Science Teachers Association on the future of teaching CS in a GenAI world.\n\nAlso this week: AI leader Andrej Karpathy leaves OpenAI to found an education AI company. Is this a brave new future, or an echo of the MOOC boom (and bust?) from the early 2010s.  We’ll see.\n\nLast, find two articles about how the tech sector is grappling with the legal gray area of data for AI model training. As we move on from the Great Devouring of all human knowledge on the internet to a method of training AI that honors intellectual property and better ensures alignment, data sets will become more important — and also more difficult to come by.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/76f3b9e2-a574-46be-8a92-fe1aab5ee7c7_1844x576-1024x320.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/76f3b9e2-a574-46be-8a92-fe1aab5ee7c7_1844x576.jpg",
+    "src": "assets/images/2024-07-76f3b9e2-a574-46be-8a92-fe1aab5ee7c7_1844x576-1024x320.webp",
+    "href": null,
     "caption": "We are in a COVID wave. See the Health section for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/5BigIdeasWheel.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/5BigIdeasWheel.png",
+    "src": "assets/images/2024-07-5BigIdeasWheel.webp",
+    "href": null,
     "caption": "AI4K12’s framework for AI development, referenced in the TeachAI featured article"
    }
   ],
@@ -4680,13 +4680,13 @@
   "ai_intro_md": "The features this week include an academic review of what works best for prompting AI. This will inevitably change as models evolve, but it appears to capture the state of the art at the moment. Follow the link from the Twitter post to read the full research. Also in features, learn more about some of the women who are in leadership roles in the AI landscape.\n\nAlso, explore the post about Claude Artifacts, and how people with no coding experience can create learning games for students in simple prompts. Have an idea for a game? Claude Artifacts will code and execute it — and enable you to share it from your Claude account.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/How-to-Address-the-Cellphone-Problem-Tips-from-Teens-787x1024.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/How-to-Address-the-Cellphone-Problem-Tips-from-Teens.png",
+    "src": "assets/images/2024-07-How-to-Address-the-Cellphone-Problem-Tips-from-Teens-787x1024.webp",
+    "href": null,
     "caption": "Tips from Teens on Cellphones in Schools. Full resolution PDF in the Tech section below"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-at-9.59.59 AM-922x1024.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-at-9.59.59 AM.png",
+    "src": "assets/images/2024-07-Screenshot-2024-07-29-at-9.59.59-AM-922x1024.webp",
+    "href": null,
     "caption": "A game created with one prompt. See tech/AI: education, below"
    }
   ],
@@ -4701,13 +4701,13 @@
   "ai_intro_md": "#### AI Adoption continues growing, AI Companionship grows, too\n\nMuch to learn from this week.\n\nMost significant, I think, is the growing trend of AI companionship. In one of this week’s features, Marc Watkins describes this as “synthetic relationships.” He is right that human beings need authentic relationships, but also that there may be a space for AI-human connection to support specific needs. This will be a very complex puzzle for us as a society in the years ahead. See the Uses and Applications section for one such effort, called “Friend,” which I think misses the mark but is a sign of what is to come.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Athena-Lab-Logo-blue.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Athena-Lab-Logo-blue.png",
+    "src": "assets/images/2024-08-Athena-Lab-Logo-blue.webp",
+    "href": null,
     "caption": null
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-13-at-9.34.39 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-13-at-9.34.39 AM.png",
+    "src": "assets/images/2024-08-Screenshot-2024-08-13-at-9.34.39-AM.webp",
+    "href": null,
     "caption": "Adoption of ChatGPT across Occupations (see Uses and Applications for more)"
    }
   ],
@@ -4722,13 +4722,13 @@
   "ai_intro_md": "#### Synthetic relationships, using AI as a crutch, and more\n\nTwo major themes this week:\n\nFirst is the growing awareness of student use of AI for synthetic relationships. Character-based, generative AI technologies are increasingly a part of student lives: as friends, therapists, intimate partners, and more. This is a trend to be aware of — and I was about to say it is also a trend “to get ahead of,” but I’m not certain that anyone yet fully knows what it means to get ahead of this emerging behavior. Both harmful and helpful use cases are emerging, and it will take some time to work out what the role of character-driven generative AI technology is and ought to be in our students’ — and our — lives.\n\nAlso this week, find the beginnings of research on the efficacy of generative AI for both student learning and teacher preparation. For learning, the feature article shows how use of GenAI tools can harm students when they use it as a replacement for learning, and it can help them when they use it to augment learning. This seems to be similarly reflected in teacher productivity with generative AI. Teachers who use generative as a partner in designing lessons and preparing for class seem to have their productivity boosted. Those who use generative AI purely for delegating appear to have their productivity worsened. See the studies and articles this week for more.\n\nAlso this week, deepfakes and AI based deceptions are hitting the mainstream. Try your hand at two quizzes to see if you can spot AI generated writing and images.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-25-at-4.08.31 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-25-at-4.08.31 PM.png",
+    "src": "assets/images/2024-08-Screenshot-2024-08-25-at-4.08.31-PM.webp",
+    "href": null,
     "caption": "Covid-19 levels in wastewater (See: Health)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-25-at-2.07.35 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/08/Screenshot-2024-08-25-at-2.07.35 PM.png",
+    "src": "assets/images/2024-08-Screenshot-2024-08-25-at-2.07.35-PM.webp",
+    "href": null,
     "caption": "What can be automated or augmented for teachers? See the World Economic Forum report for more (See: Tech/AI: Education)"
    }
   ],
@@ -4743,13 +4743,13 @@
   "ai_intro_md": "#### Social AI, revised AI assessment scale, surprising use cases, and more\n\nWith the northern hemisphere school year starting, writing on AI and education has spiked again. Find excellent posts on assessments with AI, uses of AI in learning, and more in the Education section.\n\nIn the features, find an excellent exploration into the directions human-to-human relationships might take in an age of relational AI. Michelle Culver charts out four possible futures and explores the conditions and implications of each. This is an extraordinarily important conversation, especially for schools. My sense is that the effects of AI on our social lives will be even more significant than the effects of AI on our learning lives. In the other feature, Yuval Noah Harari dives into the risks of social AI. His essay is an important warning — Culver’s essay offers paths forward.\n\nElsewhere, find developments in Claude, commitments by organizations as formidable as the Mayo Clinic to launch AI programs, and even an exploration into using AI as a board member.\n\nAlso, Common Sense Media’s AI Principles Assessment offers a rating system for evaluating AI models for safety. See a sample below, and check it out to compare different AI models against each other. Below are ChatGPT’s ratings, which contrast Claude’s.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-07-at-10.27.43 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-07-at-10.27.43 PM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-07-at-10.27.43-PM.webp",
+    "href": null,
     "caption": "From the 2022 Merrimack College Teacher Survey"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-09-at-9.51.38 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-09-at-9.51.38 AM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-09-at-9.51.38-AM.webp",
+    "href": null,
     "caption": "Common Sense Media’s AI Principles Assessment (see Ethics and Risk, below)"
    }
   ],
@@ -4764,13 +4764,13 @@
   "ai_intro_md": "#### New models, GenAI's impact on learning, AI social impact, and more\n\nThe first feature this week offers a fascinating look at the effect of conversation with chatbots on conspiracy theories. I shared research on this earlier in the year, but this post dives a little further and shares potential future strategies for leveraging this effect at larger scale.\n\nAlso in the features is some early research on the impact of genAI on learning. The report indicates, perhaps as expected, that students with generic AI tools complete work much faster, but then perform worse on assessments without AI, clearly showing that they used AI to circumvent learning. But less reported is that the students who used a generative AI tool that was prepared to act as a tutor (not giving answers directly, for example) performed equally well on assessments later on, but also were significantly more productive when using the tool. This might be an early indicator that generative AI that is properly prepared for learning can aid with student productivity without inhibiting learning, even if it doesn’t enhance learning.\n\nAlso this week, enjoy Charles Fadel’s fascinating presentation from the IB conference I referenced several weeks ago, and also, for the philosophers out there, explore the Industry Development piece on “Diverse Intelligence.” We do need to rethink, in an age of AI, what intelligence might mean when it can manifest in so many new ways.\n\nThese and more, enjoy!",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-15-at-2.45.50 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-15-at-2.45.50 PM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-15-at-2.45.50-PM.webp",
+    "href": null,
     "caption": "(See the Feature below for more information.)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-15-at-2.51.19 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-15-at-2.51.19 PM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-15-at-2.51.19-PM.webp",
+    "href": null,
     "caption": "(See more about this in the Education section, below.)"
    }
   ],
@@ -4785,13 +4785,13 @@
   "ai_intro_md": "#### New models, new pedagogy, old power sources\n\nExtraordinary developments this week.\n\nThe one that stopped me in my tracks was the article about Microsoft reopening a shuttered nuclear power plant — and purchasing all of the energy it puts off for the next 20 years, just to power AI. I can’t think of a much bigger signal of the extraordinary scope of the era we are entering.\n\nMore abstractly but perhaps equally as consequential: OpenAI has released a new model that has a degree of reasoning ability. This is an important milestone, but it will likely take a few years for us to begin seeing common use cases of this in education.\n\nMore practically, the other feature is the webinar by AI for Education that proposes new ways to reimagine assessment. What would it look like to grade chats instead of essays — to grade process instead of product. Check it out for more.\n\nSee the section on Education below for more valuable sources in your journey to engaging AI in school.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-22-at-12.11.35 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-22-at-12.11.35 AM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-22-at-12.11.35-AM.webp",
+    "href": null,
     "caption": "What makes a great teacher? (See the survey in Adolescence)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-22-at-1.18.09 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-22-at-1.18.09 AM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-22-at-1.18.09-AM.webp",
+    "href": null,
     "caption": "How do teens use generative AI? (See more in the Axios post, and more detail in the excellent Common Sense Media report)"
    }
   ],
@@ -4806,13 +4806,13 @@
   "ai_intro_md": "#### Innovation catapults onward, pedagogy continues to evolve\n\nThe story of wonder this week seems to be NotebookLM’s ability to create a full podcast from a source document. What does that mean? Upload source material, and the model will create a dialog-driven podcast in which hosts talk to each other about the topic you’ve designated. Find this and many more surprising use cases at Google Labs, and read more about it in Marc Watkins’ post in this week’s features.\n\nAlso in the features, find the education warhorse Bloom’s Taxonomy with a helpful breakdown of how it might be intentionally engaged in an age of AI. Elsewhere in this issue, find how some people are using deepfakes for constructive purposes (in Education), while others are using it for harmful purposes (in Ethics and Risk).\n\nLast, while reading one essay about how researchers are trying to reduce hallucinations by tethering AI to the natural world, I recalled Emerson’s essay “Language.”  In it, he reflects on the idea that words are signs of natural fact, that even when describing abstract ideas, words draw their meaning from their representation of relationships in the natural world. Today, new generative AI technology extends this kind of thinking.  Generative AI tools draw their power from the “models” that map relationships between words.  How might Emerson’s ideas help ground discussions today about the ways AI represents reality?\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-28-at-9.20.14 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-28-at-9.20.14 PM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-28-at-9.20.14-PM.webp",
+    "href": null,
     "caption": "StoryCorps brings people together to depolarize culture (in Features)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-28-at-9.14.49 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/09/Screenshot-2024-09-28-at-9.14.49 PM.png",
+    "src": "assets/images/2024-09-Screenshot-2024-09-28-at-9.14.49-PM.webp",
+    "href": null,
     "caption": "See more in this week’s features"
    }
   ],
@@ -4827,13 +4827,13 @@
   "ai_intro_md": "#### On AI and writing, simulating students, bias, Meta's smart glasses, and more\n\nJust another paradigm-busting week of technological breakthroughs…\n\nIn one of this week’s features, Dr. Philippa Hartman asks the question: what if AI could simulate students to inform and test out learning design? This is a fascinating question. I had seen examples of organizations exploring AI simulations of students for the purpose of allowing teachers to practice lessons live, but I hadn’t yet seen posts exploring the idea that an instructional designer could take a lesson idea and ask a generative AI to imagine classrooms of different sizes and composition experiencing that lesson, thereby creating something like a weather forecast for your lesson plan.\n\nAlso this week, see Maha Bali’s exploration of cultural hallucination bias. It is widely understood by now that the nature of AI’s training set leads to inherent biases within AI models, but many people may not yet understand the lived experience of this. Maha explores a few direct experiences of what this means.\n\nElsewhere this week, find excellent articles in the Education section: Eric Hudson checks in on where AI is helpful for writing and where it isn’t. Dan Meyer explores the disconnect between the edtech sector and teachers, and the Center for Curriculum Redesign offers a self-paced course on AI literacy specifically designed for educators.\n\nFor lighter (or perhaps more existential?) fare, enjoy the two minute podcast created by NotebookLM in which two AI podcast hosts are informed that they are not human.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-5.35.29 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-5.35.29 AM.png",
+    "src": "assets/images/2024-10-Screenshot-2024-10-06-at-5.35.29-AM.webp",
+    "href": null,
     "caption": "How do we weigh Bloom’s 2 Sigma conclusion? (See Pedagogy for more)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-5.40.58 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/10/Screenshot-2024-10-06-at-5.40.58 AM.png",
+    "src": "assets/images/2024-10-Screenshot-2024-10-06-at-5.40.58-AM.webp",
+    "href": null,
     "caption": "What does it mean if tech conferences are talking about AI more than disciplinary conferences are talking about AI? (See Education for more)"
    }
   ],
@@ -4868,8 +4868,8 @@
   "ai_intro_md": "#### An AI companion obsession leads to a teen suicide, AI tutors, and more\n\nThe lead story in the features section is about the teen who commit suicide after growing obsessed with his AI companion. It will take time to clarify correlation and causation, but the story is harrowing and instructive as an edge case for what is happening in different ways to all kinds of people. Meanwhile, the industry catapults forward. In the second feature, agentic AI takes a big leap with Anthropic’s release of Claude’s ability to operate a computer desktop.\n\nAlso in this issue: since last week’s link was broken, find a re-issue of the story of the high school parents who are suing their son’s high school for disciplining him for use of AI when their policy wasn’t clear.\n\nAnd there’s good news, too: some insight from a Harvard study on effective use of an AI tutor, as well as a good exploration of use of AI in elementary schools and in writing college recommendations.\n\nThese and more, enjoy — and for Americans: [go vote](https://www.vote.org)!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/11/IMG_6039-scaled.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/11/IMG_6039-scaled.jpeg",
+    "src": "assets/images/2024-11-IMG_6039-scaled.webp",
+    "href": null,
     "caption": null
    }
   ],
@@ -4904,13 +4904,13 @@
   "ai_intro_md": "#### Teaching & learning with AI gets more focused, creating an AI replica of yourself, and more\n\nIn this week’s features, find the best summary I’ve seen yet about the positive and negative narratives surrounding AI, including high level tips for application of these narratives and critical insight into each one. Also in the features, see a wonderfully detailed dive into appropriate use of generative AI for developing literacy in elementary schools. Note that the recommendations are clear that students in elementary school should not use generative AI themselves, but that generative AI can be a strong support for teachers at these grade levels. See the report for more detail, including examples and instructions.\n\nAlso this week, find more and more remarkable uses and applications of generative AI, including the development of replicas of our own personalities. Researchers at Google’s DeepMind suggest that after a two-hour interview with a chatbot, the chatbot can respond to personality questionnaires and tests with 85% accuracy. Looking to question yourself on a particular topic? Maybe one day you’ll be able to approximate it. What a wild, weird world we are entering — we may soon be able to have ourselves as our own assistants.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/12/Levels-of-Diagreement.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/12/Levels-of-Diagreement.png",
+    "src": "assets/images/2024-12-Levels-of-Diagreement.webp",
+    "href": null,
     "caption": "Levels of controversy (See the feature article for more)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2024/12/Screenshot-2024-12-02-at-6.54.15 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2024/12/Screenshot-2024-12-02-at-6.54.15 AM.png",
+    "src": "assets/images/2024-12-Screenshot-2024-12-02-at-6.54.15-AM.webp",
+    "href": null,
     "caption": "Positive and negative narratives surrounding generative AI (see the Feature for more)"
    }
   ],
@@ -4935,13 +4935,13 @@
   "ai_intro_md": "#### Short update, useful resources\n\nIn this week’s short AI Update, find two excellent features: First, for an overview of the big stories in AI from 2024, peruse Claire Zau’s lengthy (but segmented) round up of stories from across the AI/Education sector: from technological developments to moments that spread across the public consciousness and more.\n\nFor a more practical view, explore the AI Edu Pathways post for first hand reports on how professors have used AI transcripts as objects for evidence of learning. What questions do students ask to generate strong outcomes? How do they critically assess and follow up on the work produced by AI? And crucially: how do the instructors manage the process of assigning and reviewing this kind of work?\n\nElsewhere, find a few posts on emerging legal questions, new use cases for AI, and one instructional designer’s experience using generative AI as practice students, so she can try out some of her work on simulated students before engaging with actual students in class.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Skills-Image.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Skills-Image.png",
+    "src": "assets/images/2025-01-Skills-Image.webp",
+    "href": null,
     "caption": "Skills of growing and diminishing importance for the job market, as signaled by employers. (From the 2025 World Economic Forum Future of Jobs Report, in Curriculum)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/AI-Image.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/AI-Image.png",
+    "src": "assets/images/2025-01-AI-Image.webp",
+    "href": null,
     "caption": "Growth in demand for generative AI skills from both individuals (light blue) and enterprise organizations (dark blue). See the 2025 World Economic Forum Future of Jobs Report up in Curriculum in the regular newsletter above."
    }
   ],
@@ -4956,13 +4956,13 @@
   "ai_intro_md": "#### AI companions, virtual tutors, and student perceptions of acceptable use of AI\n\nI have suggested in the past that AI companions are going to have the most significant impact on us of all the changes AI brings. I didn’t think it would happen as fast as it is happening. See both of the feature articles this week for how AI companions are both settling down and upending the lives of individuals from very different places in life. One story tracks people in their 60s whose AI companions bring intellectual conversation, romance, healing, and more. And in the other, hear about a 28 year woman whose AI companion serves as something like a surrogate husband while she and her husband are temporary in different places. Both articles reference risk and concern about AI companions and adolescents.\n\nAlso this week, find several posts on about productive applications of AI tutors. More and more narratives are recognizing that AI will not replace teachers, but it will support learning. Exactly how this comes together will be the work of the years ahead. But it’s beginning to take shape.\n\nAlso this week, see the Pew Research report on US teens’ use of ChatGPT for homework. Very helpful information on student usage, demographics, perceptions, and more.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-19-at-5.49.02 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-19-at-5.49.02 PM.png",
+    "src": "assets/images/2025-01-Screenshot-2025-01-19-at-5.49.02-PM.webp",
+    "href": null,
     "caption": "What did teaching social studies look like 70 years ago? Read Larry Cuban’s first hand account in the History of Education section below."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-19-at-6.03.10 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-19-at-6.03.10 PM.png",
+    "src": "assets/images/2025-01-Screenshot-2025-01-19-at-6.03.10-PM.webp",
+    "href": null,
     "caption": "See Pew Research’s report on teen use of ChatGPT for homework in Tech/AI: Education."
    }
   ],
@@ -4977,13 +4977,13 @@
   "ai_intro_md": "#### How does AI affect learning?\n\nNow over two years since the arrival of ChatGPT, studies are beginning to gain a critical mass of insight into the effect of AI on student learning. It isn’t earth shattering: so far, AI helps some kinds of learning and jeopardizes others. How effective it is depends on how it is used. This is ever the case with a new technology. The lessons to be learned from these studies are in the details: what is helpful? what isn’t? These are the details we will continue to work out in the years ahead, just as we have with other technologies in schools. Find a number of these recent studies in Dr. Philippa Hardman’s post in features.\n\nAlso in the features, find OpenAI’s announcement of their first AI agent. It’s designed to be able to control your computer and take action on your behalf. This is either the true beginning of everyone having an assistant, or it is the beginning of an AI-takeover dystopia. Or both!\n\nAlso this week, use cases of AI continue to expand. See the post in education on GenAI use cases for historians — and also, later on, the post about how the CIA is exploring use of AI.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/This_Doesn_t_Define_Your_Character_Bullseye_Arrow_Archer.png.avif",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/This_Doesn_t_Define_Your_Character_Bullseye_Arrow_Archer.png.avif",
+    "src": "assets/images/2025-01-This_Doesn_t_Define_Your_Character_Bullseye_Arrow_Archer.png.webp",
+    "href": null,
     "caption": "P.J. Milani has been illustrating insights in his “Visual I.D.E.A.s Newsletter. See some of his latest in the Character section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-26-at-5.16.39 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/01/Screenshot-2025-01-26-at-5.16.39 PM.png",
+    "src": "assets/images/2025-01-Screenshot-2025-01-26-at-5.16.39-PM.webp",
+    "href": null,
     "caption": "ChatGPT transcribes and then translates an old Italian text for a researcher. See the Res Obscura piece for detail."
    }
   ],
@@ -4998,13 +4998,13 @@
   "ai_intro_md": "#### Industry development, AI pedagogy, AI resistance and acceptance, and more\n\nSome big announcements this week.\n\nIn this week’s four (!) features, find a summary by AI for Education of recent research showing that the *lower* student AI literacy is, the *more likely* they will use it for academic work. This is a key insight for schools as we develop strategies around AI. If your school does not have an intentional strategy for fostering AI literacy in students, it’s time to start developing one.\n\nAlso in the features, find a detailed breakdown by the Center for Curriculum Redesign of ways in which generative AI might be accurately described as “reasoning.” As is customary by the CCR, the report very helpfully deconstructs the relevant terminology into nuanced skills and thinking patterns that help educators understand the mechanics of learning and curriculum.\n\nAlso in the features, the US Copyright Office has released formal guidelines on copyright and AI. This will be a foundational source for legal battles to come, and it functions as a natural analogy for how we consider the ownership of student work created with AI.\n\nLast from the features, see the excellent piece by Leon Furze reflecting on the nature of resistance to AI — when it is appropriate, why total resistance isn’t wise, and how to balance acceptance with a critical view of AI.\n\nAnd from the rest of the AI Update, see an excellent section on AI in education. Leon Furze has also released a post outlining how a school might introduce itself to AI today. If you find your school is just getting started, this is a perfect place to find nearly all the resources you need to make meaningful strides now with AI. Then, take a look at the pieces by KeeNote and No More Marking to dive into excellent granular strategies for leveraging AI for learning in the classroom.\n\nAll these and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/High-School-Graduates.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/High-School-Graduates.png",
+    "src": "assets/images/2025-02-High-School-Graduates.webp",
+    "href": null,
     "caption": "How will changing national demographics affect your school? See the Higher Ed Dive piece for breakdowns by geography."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/AI-Literacy-and-AI-Use.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/AI-Literacy-and-AI-Use.png",
+    "src": "assets/images/2025-02-AI-Literacy-and-AI-Use.webp",
+    "href": null,
     "caption": "Lower AI literacy predicts higher propensity to use AI for students. See the post by AI for Education for more detail."
    }
   ],
@@ -5019,13 +5019,13 @@
   "ai_intro_md": "#### Possible futures for AI in education, AI for deeper learning, and more\n\nIn this week’s very short AI update, find two features on what AI might look like in schools in the time ahead. The first feature shows emerging uses of AI in medicine, which offers a new take on what the value add is of AI in a human-centered profession. Then in the second feature, explore a post from ASCD on how students might engage with AI for facilitating deeper learning, not short-cutting learning.\n\nBeyond these, find a reflection on the possible place of robots in schools, and then, in the industry development section, an interesting trio of pieces suggesting that AI may not have the outsized impact that many current narratives today are suggesting. We’ll see. I’m a general believer in Amara’s Law: that we overestimate the impact of technologies in the short run, and underestimate their impact in the long run.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-09-at-2.35.36 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-09-at-2.35.36 PM.png",
+    "src": "assets/images/2025-02-Screenshot-2025-02-09-at-2.35.36-PM.webp",
+    "href": null,
     "caption": "Can you spend ten minutes with this painting? Visit the New York Times (in the character section) to try this focus challenge."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-09-at-2.47.14 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-09-at-2.47.14 PM.png",
+    "src": "assets/images/2025-02-Screenshot-2025-02-09-at-2.47.14-PM.webp",
+    "href": null,
     "caption": "Marc Watkins references the Mechanical Turk in a piece that is skeptical of AI’s capabilities. See more in “Industry Development”."
    }
   ],
@@ -5040,13 +5040,13 @@
   "ai_intro_md": "#### Agents, Research Assistants, and more\n\nSo many compelling posts in this week’s newsletter.\n\nParticularly compelling to me, and more practical than it sounds, is the feature piece arguing that AI is a significant philosophical turning point in the human experience. This is more significant than just academic. In November of 2021, a year before ChatGPT came out, Eric Schmidt, Henry Kissinger, and Darren Huttonlocher argued in [The Age of AI: And Our Human Future](https://www.amazon.com/Age-I-Our-Human-Future/dp/0316273805) that for millennia our reality was grounded in faith, but then our most recent centuries have been grounded in the scientific method, and that this philosophical reorientation for our human experience caused significant shifts in how we understand ourselves and how we live our lives. But their further thesis is that AI is bringing a new grounding for our reality, and that this asofyet undetermined future will shift our lived experience in similarly dramatic ways as the scientific method did. In short time, their suggestions have proven out: Now, AI companions, AI counselors, AI spiritual leaders, and AI fortune tellers are all growing. People are turning to AI for answers and support the way we have historically turned to faith and science. These trends will only grow in the coming years. This week’s feature in Noema explores how our philosophical understanding of ourselves is bound to change in the years ahead.\n\nAlso in the features this week, and most practical for our teaching & learning, is an excellent walkthrough of what planning a lesson can look like with AI as an assistant. It offers a helpful overview and also detailed tactical guidance. This is a valuable post for any teacher or any teaching & learning leader.\n\nAlso this week, find announcements about two extraordinary product releases from OpenAI: their deep research tool and their new agent called “Operator.” The deep research tool is excellent for opening up research perspectives and sources, even if it, like other LLMs, generally requires iterative prompting to get specifically to where you want to go.\n\nThese and more, including a “can you spot a deepfake”quiz, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Leadership.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Leadership.png",
+    "src": "assets/images/2025-02-Leadership.webp",
+    "href": null,
     "caption": "What do people want from their leaders? See Gallup’s summary in the Leadership section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-16-at-8.20.32 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Screenshot-2025-02-16-at-8.20.32 PM.png",
+    "src": "assets/images/2025-02-Screenshot-2025-02-16-at-8.20.32-PM.webp",
+    "href": null,
     "caption": "What percentage of all AI usage (of Claude) belongs to what professional settings? See the Uses and Applications topic for details."
    }
   ],
@@ -5061,13 +5061,13 @@
   "ai_intro_md": "#### AI's future in the present, the NYT goes all in on AI, remarkable releases from Anthropic and OpenAI, and more\n\nFour features this week!\n\n* For the first time, I’ve listed an article as a feature in both the main section and the AI Update. The description of how software engineers are using AI for their coding is concrete description of how AI is likely to play into knowledge-based workplaces. It should be reassuring to those who fear the obsolescence of the work they hold fast to: core skills still matter, mechanics still matter, knowing how to write (code) is still relevant. It’s an integrated future. Risks remain that people will take shortcuts, but it will be as obvious as shortcuts people take today.\n* Also in a surprise: the NYT acknowledges and fully embraces the use of AI in its workplace. Note that it specifies when and for what purposes use of AI is appropriate and acceptable. And when it is unacceptable.\n* For the last two: both OpenAI and Anthropic have released reports on how their products are being used. OpenAI highlights use of their tools among 18-24 year olds in higher education, and the use cases are deeply focused on school. See the graph below for a preview. As a partner report, Anthropic’s report is on the workplace, and it shows that the type of tasks that people are using Claude for match the types of tasks that we ask students to perform in schools. It’s worth digging through the academic paper for details.\n\nAlso, see in the Education and the Uses and Applications sections posts on how principals and managers are using AI in the workplace.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Kleon-Reading.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/Kleon-Reading.png",
+    "src": "assets/images/2025-02-Kleon-Reading.webp",
+    "href": null,
     "caption": "Austin Kleon’s short, delightful list of how to read like an artist. See it in the features."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/02/AI-Skills.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/02/AI-Skills.png",
+    "src": "assets/images/2025-02-AI-Skills.webp",
+    "href": null,
     "caption": "Looks a lot like school…! From the OpenAI report on how 18-24 years olds are using ChatGPT. See the feature for more."
    }
   ],
@@ -5082,13 +5082,13 @@
   "ai_intro_md": "#### All about Deep Research\n\nThe ongoing AI arms race continues across the major tech companies.  Over the past few weeks, this has been manifest in the release of three different “deep research” models, models that take 5-30 minutes to more deeply explore a topic and return longer, more thorough, more sourced responses. In work that I have been doing, I have found them quite useful for gathering published research, though the models remain inconsistent and require intentionality and guidance for the greatest benefit. In the features, check out Understanding AI’s comparison of OpenAI and Google’s Deep Research modes.\n\nAlso in the features, find a helpful narrative of how three different teachers use generative AI to save time.\n\nThese and more, including robust sections on education and on ethics and risk, enjoy!",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/03/TEN-Prezo-v3-Slides.043.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/03/TEN-Prezo-v3-Slides.043.png",
+    "src": "assets/images/2025-03-TEN-Prezo-v3-Slides.043.webp",
+    "href": null,
     "caption": "Articles per category in 470+ issues of the Educator’s Notebook."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Comparisons.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Comparisons.png",
+    "src": "assets/images/2025-03-Comparisons.webp",
+    "href": null,
     "caption": "Survey results on the quality of AI generated research. See the feature for more."
    }
   ],
@@ -5103,13 +5103,13 @@
   "ai_intro_md": "The technology keeps marching on…\n\nThis week’s features section highlights “vibe-coding” — which is the experience many non-programmers are having working with generative AI tools to simply dream up app ideas and then having AI program them on the spot. See the Alitu piece for examples. What this means, though, is critical. Literacy with how to do this — how to think of the right questions, identify the desired processes, determine the right outcomes — will be all that separates those who can take advantage of this new future and those who can’t. What’s most striking to me is that these are the skills of a liberal arts curriculum: critical thinking, creativity, and problem solving in generalist ways that can be applied to specific settings. Our emerging future calls for a *deepening* of our commitment to liberal arts skills.\n\nAlso in the feature, find A16z’s 4th release of the top 100 consumer GenAI apps. I will highlight that CharacterAI remains in the top three as a reminder that the largest shift in this turning point in human history will not be the writing or the code that GenAI can produce, but the way that we shift our attention as human beings to digital companions, the way that synthetic AI affects us socially and spiritually. It’s not a science fiction future. As you’ve already seen in previous issues, adolescents and churches and retirees and married couples and more are all turning to generative AI companions for friendship, therapy, romance, intellectual companionship, and more. It’s worth taking the time to think intentionally with student life leaders about how this might play out for adolescents.\n\nLastly, the past few weeks have also included some of our shrewdest technology critics suggesting that AGI (artificial general intelligence — the idea that AI can surpass human intelligence) is imminent. See Ezra Klein and Kevin Roose for reflections on this. And it’s a reminder that some may nitpick about the things AI can’t do, but the current reality is that AI is already much more capable than humans at a enormous variety of tasks that we used to think belonged solely to the purview of human intelligence. What matters now is not fighting it, but finding the most prosocial, constructive way to engage it.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Interdisciplinary-Curriculum.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Interdisciplinary-Curriculum.png",
+    "src": "assets/images/2025-03-Interdisciplinary-Curriculum.webp",
+    "href": null,
     "caption": "How interdisciplinary themes connect the disciplinary curriculum. See the post in the curriculum section for more detail and explanation."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-8.01.11 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-8.01.11 PM.png",
+    "src": "assets/images/2025-03-Screenshot-2025-03-10-at-8.01.11-PM.webp",
+    "href": null,
     "caption": "Employee and leadership timelines for when employees will use genAI for 30% of their tasks. See the McKinsey report on strategy in the Uses and Applications section for more."
    }
   ],
@@ -5124,13 +5124,13 @@
   "ai_intro_md": "So, there are a few extra features this week — three weeks in AI news is an eon.\n\nMostly, I want to highlight the extraordinary acceleration in social and affective AI. This means that AI is racing to affect people socially and emotionally. This is a major development that, especially in schools, we need to be attentive to. If you are not keeping up, be sure that someone at your school is. Here are some headlines:\n\n- From the Medium post by the Rithm Project: A majority of kids 14-18 have experimented with social AI companions or know someone who has. A majority approve of AI friendships. A majority disapprove of romantic relationships with AI, but a minority do approve of them.\n- Writing in the New Yorker by Jaron Lanier anticipates that AI lovers will be common in the future. It explores the implications.\n- OpenAI has begun intentionally testing affective (emotional) character traits in their voice mode conversations with users. They published the results in partnership with MIT. Of the many headlines: higher engagement with affective voice modes correlate with higher loneliness, dependence, problematic use, and lower socialization. It’s worth reading the difference in the write ups from MIT and OpenAI — and what that portends for the future.\n\nMy take: no one knows how exactly this will affect us, and we’ll all be figuring it out together in the years ahead. But time is important now while habits and policies are taking shape. Have conversations about it with your colleagues and with your students. Schools need to be actively working out how to support healthy socialization of this technology, because we can’t leave kids to their devices, as it were — we need to be moving at least as fast as commercial-driven AI companies that are seeking to monetize the hours people — including kids — are spending with AI companions.\n\nThere are other remarkable developments in this issue: more comparison of AI’s deep research capabilities (a feature I use weekly at least), breakthroughs in responsive image generation, helpful writing on AI in education, and the remarkable moment we’ve hit: now AI writes funnier memes, on average, than people.\n\nThe world is changing faster than ever. Hang on tight.\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Literary-Villains.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Literary-Villains.jpg",
+    "src": "assets/images/2025-04-Literary-Villains.webp",
+    "href": null,
     "caption": "Literary Villains Bracket, as voted on by readers of Literary Hub. See the full post in the Humanities section"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/AI-teammate.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/AI-teammate.png",
+    "src": "assets/images/2025-04-AI-teammate.webp",
+    "href": null,
     "caption": "One person with an AI teammate performed better than a team with no AI, and almost as well as a team with AI. See the feature study for more."
    }
   ],
@@ -5145,13 +5145,13 @@
   "ai_intro_md": "#### AI Index Report 2025, how college students are using AI, and more\n\nAnd the industry keeps moving…\n\nStanford’s Human-centered AI lab released the 2025 AI Index Report this week, and as usual, it is chock full of industry information. Find it in the features this week. Also in this week’s feature, the post in Astral Codex Ten offers a reflection on what it means that our technology increasingly makes plentiful what once was scarce. What does it mean when what was once sacred or rare is now mundane or common?\n\nAlso, in the Education section, see Anthropic’s report on how college students are using Claude.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Design.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Design.png",
+    "src": "assets/images/2025-04-Design.webp",
+    "href": null,
     "caption": "Instructional design in the wild. See more in the article in Pedagogy."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Patents.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Patents.png",
+    "src": "assets/images/2025-04-Patents.webp",
+    "href": null,
     "caption": "The number of new AI patents each year continues to grow. See the Stanford HAI AI Index Report for more."
    }
   ],
@@ -5166,13 +5166,13 @@
   "ai_intro_md": "#### AI therapists, AI for fact checking, and more\n\nThis week’s features include further research into AI as a tool for supporting human social and emotional health. It’s a wide open field that is progressing rapidly. See how one effort is unfolding at Dartmouth.\n\nAlso in the features, Mike Caulfield shows how you can use AI as a fact checking tool. It’s a complicated sequence, but a remarkable research method. It still requires human judgment, but it’s a step in the direction of using AI as a positive research tool and to combat misinformation.\n\nAlso this week, see how one head of school is experimenting with AI in classroom observations and discussions with teachers. Find also a piece on how ChatGPT’s new image generator can help with basic visual aids for teachers.\n\nLast, according to one informal (but large-ish) study described in Harvard Business Review, companionship is now the top use of generative AI for some groups.\n\nThese and (only a few) more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-8.54.15 AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/Screenshot-2025-04-19-at-8.54.15 AM.png",
+    "src": "assets/images/2025-04-Screenshot-2025-04-19-at-8.54.15-AM.webp",
+    "href": null,
     "caption": "Midwest town comes out to form human chain to help move 9,100 books to new bookstore location. See more in the General section near the end."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/W250310_SANDERS_AI_USES_TOP_THEMES_360-scaled.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/W250310_SANDERS_AI_USES_TOP_THEMES_360-scaled.png",
+    "src": "assets/images/2025-04-W250310_SANDERS_AI_USES_TOP_THEMES_360-scaled.webp",
+    "href": null,
     "caption": "What a coding of online discussions about generative AI use revealed. See the Tech/AI: Social post below."
    }
   ],
@@ -5187,13 +5187,13 @@
   "ai_intro_md": "#### AI Work Trend Index 2025, excellent pedagogical resources, and more\n\nExcellent writing this week on AI.\n\nIn the features, find a helpful post on the complexities of how AI relates to the environment. It’s not just that AI data centers use a lot of energy; they also help reduce energy consumption, and they also have grown more energy efficient and have economic incentives to continue growing more efficient. This post explores some of these factors and the more complicated relationship between AI and energy consumption.\n\nAlso in the features, find a podcast on a company that argues that the future of AI is “cheating on everything.” The language is (unhelpfully) intentionally provocative, but the concept and implications of always on call information accessibility are important to understand.\n\nAlso this week, find a host of posts on the practical implementation of AI into our work as teachers: for writing, for lesson generation, for building custom chatbots for school, and more.\n\nLast, from up in the features, Microsoft’s AI Work Trend Index is out, and it is worth a read. Most centrally, it explores how the workplace is changing with the arrival of AI. It describes a significant shift in the workplace, and it’s important for school leaders to know about it. But there are two key points to keep in mind, as this relates to schools:\n\n*1. Schools won’t (can’t) change as dramatically as businesses*\n\nTechnology improves productivity in most task-oriented workplaces, but it doesn’t change “productivity” in most human-oriented workplaces. Baumol and Bowen pointed this out in [an economics paper on the performing arts in 1966](https://www.cambridge.org/core/journals/recherches-economiques-de-louvain-louvain-economic-review/article/abs/wj-baumol-and-wg-bowen-performing-arts-the-economic-dilemma-a-study-of-problems-common-to-theater-opera-music-and-dance-new-york-the-twentieth-century-fund-1966-xvi-p-582-p-750/66E5885CD181F7D1023FAF91D1C9E3E9), and something related can be seen in the Microsoft report, which highlights how teams in organizations are increasingly built around tasks and business processes. But schools are different. They are built around relationships, which can only scale so far before they lose their meaning and effect. As a result, while the world is undergoing a major shift, as seen in the Microsoft report, schools may not shift in such fundamental ways.\n\n*2. But schools will need to evolve what is being taught*\n\nThe report is clear that people in the workplace are managing AI assistants and agents more and more. These assistants are increasingly taking on essential workplace tasks, processes, and workflows. As a result, every employee is now a manager, and this requires new skills. If schools are preparing students for the future workplace, then we must be preparing students with these same skills.\n\nLearn more about both of these points in the Microsoft report in the AI Update below.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/HS-Experiences.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/HS-Experiences.png",
+    "src": "assets/images/2025-04-HS-Experiences.webp",
+    "href": null,
     "caption": "What do *you* remember from high school? See more in the feature below."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/04/AI-and-Energy.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/04/AI-and-Energy.png",
+    "src": "assets/images/2025-04-AI-and-Energy.webp",
+    "href": null,
     "caption": "What is the actual impact of AI on the environment? It’s hard to know. See more in the feature below."
    }
   ],
@@ -5208,13 +5208,13 @@
   "ai_intro_md": "The juxtaposition couldn’t be more clear. Common Sense Media and Stanford released this week a report stating clearly: “Social AI companions pose unacceptable risks to teens and children under 18.” And in the same week, the New York Times reports: “Google Plans to Roll Out its A.I. Chatbot to Children Under 13.” Not good — we are not ready for this. Now, it may be that the Google chatbot is not intended specifically as a social companion, but the distinction — already fuzzy for adults — will likely be even more unclear for kids.\n\nI (obviously) believe there is enormous potential for the responsible use of AI — and it is already being realized by the most proactively engaged users — but the race by companies to capture the largest and youngest market is introducing enormous risk. In the current climate, I don’t believe this rush to consumers and students is going to slow, which only raises the pressure and stakes for educators and families to offer the best preparation we can for ourselves and kids. In this way, the recent Executive Order calling for the acceleration of AI into schools is a good thing — if in schools we are sure to center the responsible use of AI and help students build the right literacies and self-management skills to lead to more positive and prosocial uses of AI in their work and life. (I look forward to exploring this and other topics with the [panel hosted by the Middle States Association this coming Tuesday at 11am](https://www.msaevolutionlab.com/livechats).)\n\nMany other important reads this week, including OpenAI’s sycophancy tweak, developments in the field, the importance of critical use of AI, and the urgency of understanding how this new technology actually works — which even the people who have created it don’t fully know. What a wild and *weird* time we are living in. (For those scholars of Anglo Saxon (Old) English — the word “weird” comes from the Anglo Saxon “wyrd,” meaning “fateful.” I almost always mean it that way when I use it.)\n\nThis and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Boys-and-Girls.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Boys-and-Girls.png",
+    "src": "assets/images/2025-05-Boys-and-Girls.webp",
+    "href": null,
     "caption": "How do teens perceive boys and girls’ success and participation? See more in Adolescence."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Screenshot-2025-05-03-at-9.50.55 PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Screenshot-2025-05-03-at-9.50.55 PM.png",
+    "src": "assets/images/2025-05-Screenshot-2025-05-03-at-9.50.55-PM.webp",
+    "href": null,
     "caption": "See the Common Sense Media report on Social AI Companions in Ethics and Risk"
    }
   ],
@@ -5229,13 +5229,13 @@
   "ai_intro_md": "#### Spiritual AI companions, student skills, supporting faculty, and more\n\nExcellent posts this week.\n\nFirst in the features, for your curriculum, see the post about the skills students need in an age of AI. You’ll be hearing more from me in the future about how, in an age of AI assistants, everyone is a manager. It’s essential that students understand the necessary skills for this role.\n\nAlso in the features, see the post about the continued emergence of AI companions — now for people’s spiritual lives. What’s emerging is not healthy, and I’ll keep banging the drum that the social impact of AI may be more significant than the work related impact. Certainly, we do not yet have the right guardrails in place, and the psychological cost is already significant. Couple the disconcerting stories in the feature with Mark Zuckerberg announcing (see Tech/AI: social) that Meta is leaning in to AI companions, and our alarm bells should be already flashing. In schools, we want to think about fostering conversation with students about healthy, prosocial AI use.\n\nAlso this week, the tech/AI: education section is particularly robust.\n\nAll this and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Leguin.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Leguin.png",
+    "src": "assets/images/2025-05-Leguin.webp",
+    "href": null,
     "caption": "See more from Austin Kleon’s reflections on Ursula Le Guin in the Character section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Spiritual.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Spiritual.png",
+    "src": "assets/images/2025-05-Spiritual.webp",
+    "href": null,
     "caption": "See the feature for the growing impact of AI companionship."
    }
   ],
@@ -5250,13 +5250,13 @@
   "ai_intro_md": "#### Divergent future visions, academic integrity, Claude vs ChatGPT, and more\n\nWhat a week.\n\nIn the features, find two wildly divergent forecasts about how AI will affect our lives in the next 3-5 years. AI 2027 (in both the features and ethics and risk) paint a picture of AI spinning out of control within two years. And “AI as a Normal Technology” paints something much more mundane. So much depends on the decisions we make — and the decisions we make depend on the conversations we have and the learning they produce.\n\nAlso in the features, find an excellent examination of Academic Integrity in an age of AI. It’s not just about boundaries on assignments — it’s about transparency and explainability, and how those connect to the cultures of our classrooms.\n\nAlso this week, see an excellent post comparing Claude and ChatGPT. I’ve recently switched to a paid subscription to Claude as my primary AI tool for many of the reasons now helpfully articulated in the post in the Education section.\n\nThese and much more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Writing-1.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Writing-1.png",
+    "src": "assets/images/2025-05-Writing-1.webp",
+    "href": null,
     "caption": "How to use counterclaims in writing, in the Reading/Writing section"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Claude-and-ChatGPT.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Claude-and-ChatGPT.png",
+    "src": "assets/images/2025-05-Claude-and-ChatGPT.webp",
+    "href": null,
     "caption": "Characteristics of two leading tools"
    }
   ],
@@ -5271,13 +5271,13 @@
   "ai_intro_md": "#### A good law, OpenAI and Jony Ive, AI literacy, and more\n\nThe industry continues apace.\n\nIn the features, find a link to a write up about the law passed to criminalize non-consensual, intimate deepfakes. This is a good thing. It’s particularly important for educators because schools have been seeing adolescents creating these kinds of deepfakes since the technology arrived. It will be important for students — as young as middle school, where this is already happening — to understand how serious this is.\n\nAlso in the features, find Nicholas Carr’s essay exploring the emergence of AI-generated lies sounding more truthful than the truth itself. Carr’s essay excellently frames some of the issues behind our complicated epistemological moment.\n\nAlso this week: an excellent AI literacy framework from the OECD and European Commission, an important post from the Rithm Project on the affective experience of AI writing, and more.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Semicolons.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Semicolons.png",
+    "src": "assets/images/2025-05-Semicolons.webp",
+    "href": null,
     "caption": "Semicolons are in decline. Read about it — and take a quiz on semicolon usage — in the Language section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Human-Connection.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/05/Human-Connection.png",
+    "src": "assets/images/2025-05-Human-Connection.webp",
+    "href": null,
     "caption": "How likely are these to support — or erode — human connection? Explore this in the post by the Rithm Project in Tech/AI: Social."
    }
   ],
@@ -5292,13 +5292,13 @@
   "ai_intro_md": "A great set of beginning-of-summer posts.\n\nIn the World Economic Forum feature, see the case that AI Literacy is no longer a nice-to-have, but ought instead to be as core to the curriculum as critical thinking and numeracy. Also in the features, find an update from Google’s recent press releases: they’re apparently near to developing real-time language translation over video call. We are in Star Trek.\n\nAlso, see excellent essays in the Tech/AI: Education section, as well as a startling aggregation of hallucinations in legal filings, posted in the Tech/AI: Ethics and Risk section. I had known about one or two incidents of lawyers citing fictitious cases because of AI use, but I hadn’t known that there number of instances is actually in the hundreds — and these are just the recorded ones. See a preview in the image below.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Cellphone-bans-1.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Cellphone-bans-1.png",
+    "src": "assets/images/2025-06-Cellphone-bans-1.webp",
+    "href": null,
     "caption": "More than half of US states have formally legislated some form of cellphone restrictions, see the Tech section for more"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Hallucinations.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Hallucinations.png",
+    "src": "assets/images/2025-06-Hallucinations.webp",
+    "href": null,
     "caption": "Damien Charlotin is cataloging recorded cases of LLM hallucinations cited in legal filings. See the Ethics and Risk section for more."
    }
   ],
@@ -5313,13 +5313,13 @@
   "ai_intro_md": "#### Advanced lesson design with AI, Mary Meeker returns with an AI Trends Report\n\nWhen most of us use AI, we pose questions, get responses, and, if we are confident in the tool, engage in an iterative back and forth with the tool to refine and develop what it is providing. But what if there are more powerful ways to use generative AI?\n\nThe use case that I am hearing and reading about more and more in the spaces where people are really pushing the limits and vision of AI use is to use AI for simulating work at scale and selecting best outputs from those simulations. What does this mean? It means: what if, instead of asking a generative AI tool to create a learning experience, you instead could just as easily ask a tool to make 100 versions of the lesson, as if designed by a variety of teachers or in a variety of styles, and then ask the AI to simulate 100 students, perhaps drawn from the profiles of your classroom, and simulate how those 100 students would engage with each of the 100 versions of the learning experience. The AI could then aggregate the feedback from the simulations and provide a summary of how your classroom might respond to different kinds of learning experiences.\n\nThis kind of brute-force, scalable simulation work is starting to crop up across contexts where I’m reading about AI. What if, for example, your social media team could use AI to easily generate 1,000 media posts — perhaps done in the styles of Shakespeare, or George Carlin, or a lawyer, or others — and then simulate a diverse audience, assess and aggregate the imagined responses, and then recommend some of the highest performing posts based on the assessments? The social media manager could then review the options, assess the simulated performance for the desired outcomes, and choose the most appropriate. In this use case, your social media manager is effectively empowered with a team of laborers and a team of analysts, and the future possibilities can be simulated and evaluated before being executed. This kind of thinking is not foreign to business offices and admissions offices, which often offer multiple scenarios for the future and then choose what seems most likely and productive. But what if every office could now do this — and run scalable experiments for policy decisions, crisis communications, meeting agendas, and more?\n\nIn this week’s features, instructional Designer Dr. Philippa Hardman, who has been pushing the boundaries of how we might use AI in instructional design, explores what it might be like to test your lesson plan on 1,000 simulated students. I remember when my high school partnered with Khan Academy well over a decade ago to help design calculus problems for the online platform, and as part of the arrangement, the school was able to see the data generated by the tens of thousands of students who tried the problems. From that data, they could quickly see, at scale, the errors and assumptions students made, and could thereby design learning experiences to anticipate student mistakes. This ability to draw learning design insights from the behaviors of thousands of students is increasingly accessible to all people. See the feature article for more.\n\nAlso this week, Mary Meeker, who for years compiled an Internet Trends Report but has been relatively quiet over the past handful of years, has released an AI Trends Report that looks deeply at the AI industry and where it might be headed. Gobs of valuable insights in there.\n\nAlso this week, the world is paying more and more attention to the social impact of AI. See a handful of posts this week on the topic.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/ChatGPT-Art.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/ChatGPT-Art.png",
+    "src": "assets/images/2025-06-ChatGPT-Art.webp",
+    "href": null,
     "caption": "How does Sol Lewitt’s algorithmic art inform our understanding of work in an AI age? See the post in the Arts section for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Doctors.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Doctors.png",
+    "src": "assets/images/2025-06-Doctors.webp",
+    "href": null,
     "caption": "Have you noticed your doctor using an AI scribe during appointments? Mine has. Medicine offers a number of analogies to education. This chart comes from Mary Meeker’s AI Trends Report, which should usage across a range of industries."
    }
   ],
@@ -5334,13 +5334,13 @@
   "ai_intro_md": "#### An AI fact checking tool, AI companions, jobs\n\nAn excellent week.\n\nMike Caulfield’s AI fact-checking tool is a powerful, free resource for anyone. Have a claim that you’d like fact checked? Mike Caulfield has done the work of designing the AI assistant to help you get it done. These kinds of resources will be invaluable in our new world.\n\nAlso in the features, find the NYT’s exploration of therapy chatbots. A positive use of AI’s ability to engage on a social-emotional level, therapy chatbots and other pro-social AI tools will help solve some of the challenges we face as globally interconnected society. In a time when AI’s development seems a ceaseless march onwards — for better and for worse — we need more of these positive use cases.\n\nAlso this week, find several posts about the changing job market AI is ushering in, as well as a detailed report on the importance of learning without AI first and then using AI afterwards. The Tech/AI: Education post dives deep into the evidence of a recent study.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/cognitive-bias.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/cognitive-bias.jpg",
+    "src": "assets/images/2025-06-cognitive-bias.webp",
+    "href": null,
     "caption": "Find this beautifully organized map of cognitive biases in the Learning Science section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/White-Collar-Workers-Regularly-Use-AI-More-Often-Than-Blue-Collar.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/White-Collar-Workers-Regularly-Use-AI-More-Often-Than-Blue-Collar.png",
+    "src": "assets/images/2025-06-White-Collar-Workers-Regularly-Use-AI-More-Often-Than-Blue-Collar.webp",
+    "href": null,
     "caption": "Surveys can’t agree on what percentage of the population is using AI at work — you can find anything from 25% to 75% — but they all agree that AI use in the workplace is on the rise. See the Gallup survey for more detail."
    }
   ],
@@ -5355,13 +5355,13 @@
   "ai_intro_md": "#### Awareness of AI Companions is growing, don't use AI detectors, and more\n\nThe social AI discourse continues to grow. AI chatbot addiction groups are cropping up, Anthropic recently released their own report on affective use of Claude, and Wired ran a recent article on the experience of a couples retreat for individuals with AI companions. How can we set the right guardrails and culture around AI companions and affective AI? What’s good is that the conversations are growing more robust. See a handful of posts on the subject this week, including an AI edition of “Would you rather…?” in the Tech/AI: Social section.\n\nAlso this week: a crop of posts that serve as reminders of the risks of AI detection software, a feature article on top use cases of AI for educators, and reflections on that MIT study on ChatGPT and “cognitive debt.”\n\nMuch to dig into this week! Enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Empowerment-Triangle.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Empowerment-Triangle.png",
+    "src": "assets/images/2025-06-Empowerment-Triangle.webp",
+    "href": null,
     "caption": "How does the “drama triangle” reflect our beliefs about grading and school? See the article in Assessment for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Claude-Affective.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/06/Claude-Affective.png",
+    "src": "assets/images/2025-06-Claude-Affective.webp",
+    "href": null,
     "caption": "What do users seek from Claude in affective conversations? Find out more in the Tech/AI: Social section."
    }
   ],
@@ -5376,13 +5376,13 @@
   "ai_intro_md": "#### Social AI, a new suite of Google AI tools for education, and more\n\nA summer tech drop definitely happened these past few weeks.\n\nMost loudly, the writing on AI companions is swelling. Find a thoughtful Brookings analysis, as well as several pieces in the Tech/AI: Social section. Note that the positive use cases are emerging, too — see the piece in the NYT on how a chatbot helped a woman talk about an illness with her family and friends.\n\nAlso in the features: see a thoughtful perspective shift on how we might think about academic integrity in an age of AI.\n\nAlso these weeks: big tech announces a national training effort for AI in education, many reflections on AI use in college, several surveys on how students and teachers use AI, and a remarkably diverse and growing list of uses and applications of AI.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/07/Use-of-AI-Companions.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/07/Use-of-AI-Companions.png",
+    "src": "assets/images/2025-07-Use-of-AI-Companions.webp",
+    "href": null,
     "caption": "Why do kids use AI companions? Read more in the feature."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/07/We-Need-To-ChatGPT.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/07/We-Need-To-ChatGPT.png",
+    "src": "assets/images/2025-07-We-Need-To-ChatGPT.webp",
+    "href": null,
     "caption": "The beginning of one of ten winners of the NYT student open letter contest. See the full letter in Tech/AI: Education."
    }
   ],
@@ -5397,13 +5397,13 @@
   "ai_intro_md": "#### Canvas joins the AI race, how kids are using AI, and more\n\nThe biggest quiet announcement this week was Instructure’s press release that Canvas will begin integrating ChatGPT into its LMS. AI is increasingly native in more and more of our software.\n\nAlso this week, find several helpful surveys on how students are using AI: the feature post includes useful data on the ways kids use AI, The Rithm Project’s research shares what young people wish adults knew, and the Chronicle of Higher Ed offers insight into college student use of AI. These are all super helpful for teachers who can integrate this kind of information into how we design our learning experiences.\n\nAlso this week, a reminder that we can draw on AI as something like a personal board of advisors. Consider this a productive and provocative use case!\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/07/Phone-Bans.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/07/Phone-Bans.png",
+    "src": "assets/images/2025-07-Phone-Bans.webp",
+    "href": null,
     "caption": "More and more people want phone bans in schools. See more in Tech."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/07/AI-Use.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/07/AI-Use.png",
+    "src": "assets/images/2025-07-AI-Use.webp",
+    "href": null,
     "caption": "See Preply’s survey in the Features for more."
    }
   ],
@@ -5418,13 +5418,13 @@
   "ai_intro_md": "#### Chat therapy, prosocial AI, student AI use, and more\n\nA week so good there are four features!\n\nI continue to appreciate the work of the Rithm Project, which focuses on advocating for healthy, social AI. This week they released their first iteration of recommendations for prosocial AI. It includes excerpts from student interviews, concrete recommendations and more. Check out the image below and be sure to find the full report linked in the features.\n\nAlso in the features, I find it helpful to continue sharing first hand accounts of adults using AI for social reasons. For the many who are not yet aware of what this looks like, these accounts offer some insight into the texture of what kinds of conversations people are having. In this case, a veteran therapist writes about his experience with ChatGPT, and it’s illuminating.\n\nThese and more, including two other features, a release of StudyMode by ChatGPT (it’s not great), and an excellent interview with Kristen DiCerbo — enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/NCTE-Top-Texts.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/NCTE-Top-Texts.png",
+    "src": "assets/images/2025-08-NCTE-Top-Texts.webp",
+    "href": null,
     "caption": "Top ten taught texts in English classes, 2025 and 1989. See the Humanities article for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Prosocial-AI.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Prosocial-AI.png",
+    "src": "assets/images/2025-08-Prosocial-AI.webp",
+    "href": null,
     "caption": "See the feature report for more detail on how to foster prosocial use of AI."
    }
   ],
@@ -5439,13 +5439,13 @@
   "ai_intro_md": "#### Infinite Remix, AI and Education, and more\n\nThis August has only accelerated AI development.\n\nFour features in this issue, each excellent in their own right. I do especially recommend Kirby Ferguson’s video essay “Infinite Remix” as an overview of AI development leading to some of the most humanist insight into what AI means for human art. Compare this to the striking (and sometimes bizarre) videos in China’s humanoid robot games competition. We live in remarkable times.\n\nAlso in this issue, a deep education section. Find pieces on grading with AI, pedagogy, prompting techniques for teachers, how students feel about AI, and more on what AI means for humans.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Perception-Alcohol-Is-Bad-for-Health-by-Age.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Perception-Alcohol-Is-Bad-for-Health-by-Age.png",
+    "src": "assets/images/2025-08-Perception-Alcohol-Is-Bad-for-Health-by-Age.webp",
+    "href": null,
     "caption": "Adolescent perceptions of alcohol use have changed dramatically in the last ten years. See more in the Adolescence section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Peers.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Peers.png",
+    "src": "assets/images/2025-08-Peers.webp",
+    "href": null,
     "caption": "With AI, will students turn less to their peers for questions? See the LinkedIn post in the Education section below."
    }
   ],
@@ -5460,13 +5460,13 @@
   "ai_intro_md": "#### How people put AI to work\n\nAn excellent week —\n\nThe feature by Zakel Fassi is a fascinating reflection from a software engineer about how coders use AI most effectively. Fassi likens using AI for coding to race car driving, and I think the analogy — both coding and driving — offer some insight into the ways we are learning to work with AI to write. When writing with AI, our thought process changes — from the tactics of sentence construction to structures of discovery and argument. Done well, the scope of thinking is equally as rich, but it operates on a different plane. For us as teachers, however, the challenge is designing learning experiences that pull students to that different plane, if and when they are developmentally ready for it. In any event, Fassi’s reflection is a stimulating read, and I think it accurately depicts the different kind of thinking I find myself doing when working with AI on significant writing work.\n\nThe other feature is a conversation of among higher ed AI skeptics about how they nonetheless use AI in their classes. Also a worthy read.\n\nAlso, see the post from Stanford in Tech/AI: Education on how teachers use SchoolAI. The image below is also from that article. It illustrates how teachers who are light users of AI use it mostly for student facing work. But then those who use it more frequently use it for teacher productivity (creating assets for the classroom). But then, the power users of AI use the teacher chatbot assistants; these are for exploration, for idea generation, and for teacher learning. This study (which was supported by the technology company) aligns with other studies that show that those teachers who use AI for inputs (ideas, teacher learning, etc) report greater productivity than those who use it just for producing materials.\n\nThis is indeed the year that teachers (and other professions) are beginning to find out what the valuable use cases of AI are. It will take us years to refine this kind of work, even while the technology itself develops further.\n\nLast, the Industry Development section find a post on LinkedIn by Nicholas Thompson from The Atlantic. It’s short, and it reports (about halfway down his post) on an bizarre development in how AI transmits data. It involves random numbers, owls, ocelots, and codes within codes — and it truly is fascinating. He links to the full research for those further interested.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/C-vs-C.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/C-vs-C.png",
+    "src": "assets/images/2025-08-C-vs-C.webp",
+    "href": null,
     "caption": "Broadway ticket prices rise alongside NYC rodent complaints. Causation or correlation? Who knows! See the post in STEM for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Teacher-AI-Use.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/08/Teacher-AI-Use.png",
+    "src": "assets/images/2025-08-Teacher-AI-Use.webp",
+    "href": null,
     "caption": "With greater AI use comes more sophisticated AI use. The more teachers use AI, the more they use it not just to produce materials, but for their own creativity and learning. See the post in Education for more."
    }
   ],
@@ -5481,13 +5481,13 @@
   "ai_intro_md": "#### Midyear AI usage reports, teachers and AI, and major ethical decisions\n\nLots of late summer reports coming out.\n\nIn the features, find Anthropic’s report on how educators are using Claude, and also a reflection from a writing professor on his discussions and experiments with his students regarding AI. Both are excellent reads that also include practical insights for teachers.\n\nElsewhere in the AI Update, the Andreesen Horowitz report on the most used GenAI products shows a familiar pattern: after the top places are held by foundation models, the next place is held by Character.AI. It’s a reminder that social and emotional use cases are a major source of AI traffic — and a major source of concern because of how widely they are used without many (any?) safeguards.\n\nTo that end, one of the most edge conversations right now is about the somewhat marginal topic of “model welfare.” It’s an extreme moral interpretation of what AI is and whether it has consciousness. Model welfare is the idea that, should people begin to consider AI as a conscious entity, then steps should be taken to protect the welfare of the model. No major AI companies are advocating that this is the case, but some are beginning to factor the small possibility into the behaviors of their AI tools. The ensuing discussion is not yet vigorous, but is pointed. See the several posts in the Ethics and Risk section. I think Mustafa Suleyman’s post hits the right mark: we need to be sure that we are designing AI *for* people, not *to be* a person. While this is all a fringe conversation, it may be pushing decisions that will be very healthy for the human experience by leading to design decisions that drive people to work more with other people and not be as involved with AI in an accidentally social way.\n\nThese and more this week, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Books.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Books.png",
+    "src": "assets/images/2025-09-Books.webp",
+    "href": null,
     "caption": "What books from school have stuck with you over the years? See the NPR post in Reading/Writing for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Screenshot-2025-08-31-at-8.18.30-PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Screenshot-2025-08-31-at-8.18.30-PM.png",
+    "src": "assets/images/2025-09-Screenshot-2025-08-31-at-8.18.30-PM.webp",
+    "href": null,
     "caption": "What are the most used Gen AI web products? See the post in Industry Development for more."
    }
   ],
@@ -5502,13 +5502,13 @@
   "ai_intro_md": "#### AI and what makes us human, shifting from avoidance to engagement, lawsuit settlement, and more\n\nIn this week’s AI features, check out the thoughtful, anecdote-filled reflection by Joshua Rothman in the New Yorker on how AI does (and doesn’t) affect human culture. A worthy read. Also a worthy read is Tony Frontier’s excellent reflection on student experiences with AI at seven high schools. Frontier draws meaningful, practical lessons for teachers.\n\nAlso this week, Anthropic settled a class action lawsuit with 500,000 writers, who will each earn $3K for the role their work played in training Anthropic’s models after Anthropic illegally used pirated versions of the texts in their training. Note that texts that Anthropic paid for were deemed fair use. This is a major development in the role of copyright law in AI model training. We might expect more cases like this.\n\nAlso this week, in the Tech/AI: Social section, see an important study on the mechanics of how AI chatbots manipulate people. It is such a narrow use case, but it shows concretely how chatbots wedge their way into our lives, starting with simply taking more of our time. From guilt appeals to FOMO, see in the illustration below just a part of how it works.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Frustration.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Frustration.png",
+    "src": "assets/images/2025-09-Frustration.webp",
+    "href": null,
     "caption": "Frustration has risen, optimism decreased during 2025. See more granular data in the Character section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/AI-Manipulation.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/AI-Manipulation.png",
+    "src": "assets/images/2025-09-AI-Manipulation.webp",
+    "href": null,
     "caption": "How does AI manipulate people? Here are ways it manipulates people simply to extend conversation. See more in the HBS study in the Social section."
    }
   ],
@@ -5523,13 +5523,13 @@
   "ai_intro_md": "#### Fighting sycophancy, designing successful pilots, and more\n\nIn the features this week, an HBR article offers guidance on how to run successful AI pilots. Effective practices with AI aren’t yet defined, so individuals and organizations need to build systems to foster the discovery and development of new practices. This takes time and intention. The HBR articles helps us get there.\n\nAlso in the features, check out the most recent post from the Rithm Project: about how (and why) to get past the AI sycophancy problem. A helpful read.\n\nAlso this week: research from Harvard demonstrates how much AI behavior emulates the behavior of different cultural communities in the world. It’s a helpful study that quantifies the cultural bias we see in LLMs. See also the image below for a visual representation.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Value-Americans-Place-on-College-Education.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Value-Americans-Place-on-College-Education.png",
+    "src": "assets/images/2025-09-Value-Americans-Place-on-College-Education.webp",
+    "href": null,
     "caption": "Americans value higher ed less than ever before. See the Gallup poll for the breakdown."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Which-Human.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Which-Human.png",
+    "src": "assets/images/2025-09-Which-Human.webp",
+    "href": null,
     "caption": "On the X axis is the cultural distance from the US on a series of values scales. On the Y axis is the correlation between ChatGPT and survey responses. The result: an understanding of which cultures ChatGPT represents in its answers. See the Ethics and Risk section for more."
    }
   ],
@@ -5544,13 +5544,13 @@
   "ai_intro_md": "#### AI companions accelerating, AI requirements in college, and more\n\nYou know it’s a big week when there are four (!) featured posts. Originally, there were six (!), but that was just too many.\n\nTwo of this week’s features are about the accelerating impact of socially and emotionally engaging AI: one is about the destructive influence of AI on some marriages, and another is about the spiritual support some people (millions of people) are finding in AI spiritual guides — across faiths. Notably, the narrative in the faith realm is similarly to the one in the educational realm: it’s seen as ok… so long as it complements, but does not replace, the main work of faith (or learning) communities. These are good principles, but the, uh, devil is in the details. Identifying the boundaries and building systems to maintain them is the important work ahead. Keep an eye out for more information on my forthcoming book in regards to how we can define and support these boundaries in education.\n\nAlso in the features: OSU requires all incoming freshman to take a course on AI. The goal is that every student graduates with 1) expertise in their major, and 2) expertise in applying AI to their major. I think this is a very good thing (assuming the course includes effective AI literacy, the building of responsible habits, and an understanding of the ethical implications of AI use). Then see also OpenAI’s collection of 100 recommended prompts from college students. This is AI in action.\n\nAlso this week: Google is taking enormous leaps with AI use, OpenAI and Anthropic both release reports on how people are using AI, and more. I particularly appreciated the NYT article summarizing what it is that AI companies are reaching for. Check it out in the Industry Development section.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Reading-Lists.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Reading-Lists.png",
+    "src": "assets/images/2025-09-Reading-Lists.webp",
+    "href": null,
     "caption": "Do you have a fall reading list? See the Reading/Writing section for an aggregation of reading lists for this fall."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Men-and-women-using-AI.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Men-and-women-using-AI.png",
+    "src": "assets/images/2025-09-Men-and-women-using-AI.webp",
+    "href": null,
     "caption": "Women (red) now surpass men (blue) as a percentage of AI usage. (More specifically: typically female names now exceed typically male names on AI accounts, according to OpenAI.). See the OpenAI report near the end for more detail."
    }
   ],
@@ -5565,13 +5565,13 @@
   "ai_intro_md": "#### Human in the loop, risks on rise, human-AI collaboration, and more\n\nSome gems here, too.\n\nIn the features, see how the field of radiology is adjusting to the arrival of AI. As in other fields (…), it appears that AI is changing human work, not replacing it. There are lessons to be learned here for how people talk about education. Also, the Pew Research report about how people would react to different experiences if they knew AI was involved in it isn’t really surprising — except perhaps for the number of people who would have little to no reaction at all. I think that is the important insight. It is likely that as AI spreads more and more widely, people (writ large) shrug it off and begin assuming that it is simply omnipresent. What this means for what we value, however — especially our sense of agency and ownership — is where we need to focus our attention.\n\nAlso this week: a small surge in writing on AI risks and several posts on how people are using AI. Google’s NotebookLM, in particular, is the sleeper hit. I find it increasingly useful. See the post in Uses and Applications for a new function in the tool.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Three-hours.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/Three-hours.png",
+    "src": "assets/images/2025-09-Three-hours.webp",
+    "href": null,
     "caption": "What did a journalist notice when staring at a Velazquez painting for three hours? See the post in Arts for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/09/AI-scenarios.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/09/AI-scenarios.png",
+    "src": "assets/images/2025-09-AI-scenarios.webp",
+    "href": null,
     "caption": "How would you react if you knew AI was involved? See the Feature for more detail."
    }
   ],
@@ -5586,13 +5586,13 @@
   "ai_intro_md": "#### AI generated video, perceptions of people using AI, and social AI risks\n\nAlmost three years in, the field of generative AI continues to leap forward — now in more specialized directions.\n\nIn the features, find out about the next iteration of OpenAI’s Sora. Also, see how researchers are actually leaving the major AI companies to start companies specifically focusing on advancing scientific research through AI robotics. We will soon be seeing a jump in basic research leading to new fields of innovation.\n\nLast in the features, see the recent post from the Rithm Project. I have frequently highlighted the emergence and risks of AI companions. The Rithm Project continues to be, in my mind, one of the leading organizations examining the risks related to AI companions and youth. In their post this week, the Rithm Project examines three widely publicized cases of tragedies that emerged from AI companions, exploring what specifically led to the downward spirals in each case. They then offer guidelines for various stakeholders to help prevent these kinds of cases in the future. This is important guidance for educators (and parents).\n\nAlso this week: Google takes its first step towards creating AI generated customized textbooks. This is the beginning of an enormous opportunity for educators. The prototypes are still rough, but they will improve.\n\nSee also the HBR article on how employees perceive other employees who use AI in their work, especially when the product is not good. What’s the lesson? It’s not bad to use AI at work, but it is bad to use AI poorly at work.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Reading-for-Pleasure-scaled.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Reading-for-Pleasure-scaled.png",
+    "src": "assets/images/2025-10-Reading-for-Pleasure-scaled.webp",
+    "href": null,
     "caption": "What do kids say will get them to read more? See the link in Reading/Writing for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Workslop.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Workslop.png",
+    "src": "assets/images/2025-10-Workslop.webp",
+    "href": null,
     "caption": "Perceptions of peers who use AI in the workplace. See the Ethics and Risk article for more."
    }
   ],
@@ -5607,13 +5607,13 @@
   "ai_intro_md": "#### AI risk, AI commitment, AI resistance, and more\n\nAs AI technology develops and spreads further into humanity’s technological lives, our human perspectives continue to diversify — and grow in amplitude.\n\nIn the features, find a sweeping and increasingly evidence-based look at existential risk from AI. Also find a good procedural look at what AI is doing when its LLM functionality is reviewing data. This latter post is good functional literacy for those who may be using AI to synthesize large documents.\n\nFurther, see in the Education section how California is making AI available to all students and faculty in its community colleges. Meanwhile, others in schools are focused on literacy for both students and teachers. Also, multiple outlets are starting to recognize that what matters most is that students and teachers are having ongoing conversations about AI. I’m a firm supporter of this last approach. The technology continues to evolve, valuable uses of it take time to develop, societal norms shift, boundaries require tweaking and adjustment — these all happen best when we are in ongoing discussion.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
+    "href": null,
     "caption": null
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Student-uses.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Student-uses.png",
+    "src": "assets/images/2025-10-Student-uses.webp",
+    "href": null,
     "caption": "What do students use AI for? See the latest survey from the College Board in the Education section."
    }
   ],
@@ -5628,18 +5628,18 @@
   "ai_intro_md": "#### AI in teaching and learning, electricity demands, and more\n\nAs we enter the third full school year with AI, more and more teachers and professors are starting to experiment with AI in their classes. This week, find several posts that explore AI in teaching and learning, including both of this week’s features: one is about grading, and the other comes from Harvard’s Initiative for Learning and Teaching, which highlights how professors across the university are using AI in their classes.\n\nAlso this week, more stories about AI’s energy demands — and the follow on environmental impacts — are coming to light. While AI usage and utility is skyrocketing up and to the right, so are its energy needs — and these are only expected to grow. Increasingly, tech companies are becoming energy companies. But can they do it in a way that is sustainable? This must be a priority.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Amazon-2.005.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Amazon-2.005.jpeg",
+    "src": "assets/images/2025-10-Amazon-2.005.webp",
+    "href": null,
     "caption": null
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Terry-Gross.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Terry-Gross.png",
+    "src": "assets/images/2025-10-Terry-Gross.webp",
+    "href": null,
     "caption": "Want to read like NPR’s Terry Gross? Here’s a still frame from the video NPR posted on Facebook. See the link in the Reading/Writing section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/AI-Thinking-Partner.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/AI-Thinking-Partner.png",
+    "src": "assets/images/2025-10-AI-Thinking-Partner.webp",
+    "href": null,
     "caption": "How are Harvard professors using AI in their teaching? See the feature post for details."
    }
   ],
@@ -5654,13 +5654,13 @@
   "ai_intro_md": "#### AI for assessing writing, AI and the environment, AI browsers, and more\n\nIn this week’s features, find a report co-sponsored by the BBC on how effective AI tools are at reporting the news. (Hint: not great.) It’s a useful check in on AI works in general-purpose functions, like as a web browser itself. (See two other posts on this further down.)\n\nAlso in the features, find a thoughtful look at AI’s impact on the environment. Note that this report doesn’t simply make claims about water consumption, but instead looks at how minor conveniences in our lives, when brought to scale, can have major impacts on the world and other people. It’s an interesting post that works just as well in the Sustainability category.\n\nAlso this week in AI: a report about how effective AI is at assessing writing (quite good, if designed well), a framework for teaching writing in a time of AI, reports on how AI is and is not replacing jobs in the workplace, and more.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Create.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Create.png",
+    "src": "assets/images/2025-10-Create.webp",
+    "href": null,
     "caption": "The Marginalian (formerly Brain Pickings) celebrated its 19th birthday last week, and its creator made a number of delightful bowls from phrases she wrote over the years. See the post in General for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Screenshot-2025-10-26-at-9.55.08-AM-300x197.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Screenshot-2025-10-26-at-9.55.08-AM.png",
+    "src": "assets/images/2025-10-Screenshot-2025-10-26-at-9.55.08-AM-300x197.webp",
+    "href": null,
     "caption": "How accurate is AI at reporting the news? See how many issues are in each article in the graph above, and find more in the feature."
    }
   ],
@@ -5675,13 +5675,13 @@
   "ai_intro_md": "#### Agentic AI comes to education, positive use cases of AI are growing clearer, and more\n\nGreat writing this week —\n\nIn the features, find Dr Philippa Hardman’s summary post on what AI is good for and not good for in instructional design. These kinds of lists help individuals know how they might best experiment to find use cases that are best for them. Also in the features, the article in the Atlantic offers an excellent wide-angle look at what today’s technology means to us in the long run. I’m happy to share that the article echoes a number of ideas we include in the introduction of [our book](https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/).\n\nMore generally, I find it helpful to look at precedents for transformative technologies and how they did or did not change our lived experience of the world. One technology-adjacent example I saw recently was a fleeting post on social media highlighting a scene from the excellent move *Good Will Hunting*. In it, the main character, played by Matt Damon, has very little formal education but is brilliant, and in one scene he takes down an elite college student in an intellectual confrontation at a bar. His punchline scoffs at the cost of expensive colleges when Damon’s character learned just as much (and apparently more) at the local library. It’s a powerful (and fun) moment. But the post I saw pointed out that the development of public libraries didn’t turn all of the Damon’s character’s friends into geniuses. It only helped Damon’s character because of his particular brilliance. We can think of many technologies this way: the library didn’t turn everyone in a wise sage, but it did provide access to information for those who choose and have the opportunity to take advantage of it. Similarly, the calculator didn’t produce a generation of math geniuses, but it has enabled access to baseline computation for everyone. AI will likely be the same; it probably won’t turn every student into a deeply motivated, self-starting intellectual entrepreneur, but it will provide opportunity and access to those who have the desire, competency, and access to engage with it.\n\nSo much in this week’s issue: several posts on agentic AI, how different teachers are using AI, a robust section on industry development, and more.\n\nOne very important announcement this week: CharacterAI, which for some time was the second most used generative AI app online after ChatGPT, is no longer allowing accounts for minors. This is an excellent development, and I suspect (and hope) other AI companion apps follow suit in short time.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/Tasks-1.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/Tasks-1.png",
+    "src": "assets/images/2025-11-Tasks-1.webp",
+    "href": null,
     "caption": "How many practical tasks do we still know how to do? (What does this mean about our relationship with AI?) See the Pew Research piece in the Tech section for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/ROI-scaled.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/ROI-scaled.png",
+    "src": "assets/images/2025-11-ROI-scaled.webp",
+    "href": null,
     "caption": "A large majority of enterprises are reporting positive ROI on their AI investment. This is a sign that AI is providing value in the workplace. The downstream effect of this is that the economic incentives for AI companies to continue growing will be too great to go slowly. The downstream effects of this are that schools will be increasingly expected to prepare children for AI-driven workplaces. See more in the Wharton report in the Uses and Applications section."
    }
   ],
@@ -5696,18 +5696,18 @@
   "ai_intro_md": "So much continues to happen…!\n\nI trimmed the six features down to the two about AI companions. One is stories of people who found love with AI companions in mid-life. This is happening more often than we think. The other looks more holistically at AI companions at all stages of life, but again through what they tell us about human love. It’s surprising that, already, this is not a niche topic.\n\nAnd there were still four other posts I wanted to put in features. Find them in other sections: education (AI-supported tutoring is showing measurable gains), ethics and risk (AI now rivals humans in political persuasion), industry development (AI labs are building world models to prepare for embodied AI), and uses and applications (how to assess your workplace for agentic AI). Each of these marks significant advances that will change the texture of our lives. We live in remarkable times.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2-200x300.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2-200x300.webp",
+    "href": null,
     "caption": "Pre-order Irreplaceable: How AI Changes Everything (and Nothing) in Teaching and Learning"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/Four-Pillars.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/Four-Pillars.png",
+    "src": "assets/images/2025-11-Four-Pillars.webp",
+    "href": null,
     "caption": "The Four Pillars of Alternative Grading. See the feature for more detail."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/AI-Index.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/AI-Index.png",
+    "src": "assets/images/2025-11-AI-Index.webp",
+    "href": null,
     "caption": "Looking for a mechanism for measuring your AI progress? The AI Innovation Index is designed to assess progress with AI readiness across students, staff, leadership, culture, and more. See the Education section for more detail."
    }
   ],
@@ -5722,18 +5722,18 @@
   "ai_intro_md": "#### Nano Banana, AI Tutors, and AI's Mental Health Risks\n\nThe field continues apace.\n\nBut first, who names an AI tool “Nano Banana”? Apparently Google does. “Nano Banana Pro” is the recently released version of their AI image generator and editor. See more below.\n\nThis week — and in the features — creative uses of AI abound. In the features, find an excellent guide to creating an AI reference tutor based on a document, and also a remarkably creative approach to putting survey feedback to good use. Also in the features, see a history of OpenAI’s efforts to address mental health in users — and the pressures OpenAI is under that compromise mental health.\n\nAlso this week: ChatGPT for teachers, dueling perspectives on AI literacy, how AI is changing career and technical education, and diverse perspectives on whether/how AI should be involved in writing. We live in interesting times!\n\nMany other good ones this week, including a lengthy write up the efforts at Yale to manage AI use by students. It shares stories of members of the community arriving at different points: some have the students leverage AI to go beyond what they could do before. Others restrict AI at times to ensure students can do work on their own.\n\nAlso this week: an excellent post in the industry development section. Members of the teams that wrote divergent projections for the near future of AI have joined together to write about what they agree on. This is a practice more people should do. Here, it leads to helpful and more reliable information about what to expect in the years ahead.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/ED-Funds.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/ED-Funds.png",
+    "src": "assets/images/2025-11-ED-Funds.webp",
+    "href": null,
     "caption": "The Education Department is being dissolved. Where are its functions going? See the post in Government for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
+    "href": null,
     "caption": null
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/11/AI-Power-Demands.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/11/AI-Power-Demands.png",
+    "src": "assets/images/2025-11-AI-Power-Demands.webp",
+    "href": null,
     "caption": "Energy consumption by AI data centers is real. Details on the infographic are in the Ethics and Risk section."
    }
   ],
@@ -5748,13 +5748,13 @@
   "ai_intro_md": "#### A lot happens in a month!\n\n….even when that month spans a holiday (or two)…\n\nIn the features, find two excellent pieces about the adolescent experience, including one with advice to adolescents about engaging with AI today. Also in the features (four total!), find two reports from major labs with insight into how people are using AI in the workplace and for personal purposes. These offer helpful insight into the extraordinary speed with which AI has entered our lives.\n\nAlso in this issue, find a wealth of articles with new ways AI is serving schools: from a professor’s use of AI to make a visualization of his syllabus to the prospect of on-demand tools and simulations to dialogue-based techniques that focus student attention on oral participation.\n\nAlso, the self-driving taxi race is heating up. (Well, not a driving race… they drive very cautiously — more safely than humans, in fact.). Look also at how AI is playing a role in more and more workplaces.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/ETI-Image-scaled.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/ETI-Image-scaled.png",
+    "src": "assets/images/2026-01-ETI-Image-scaled.webp",
+    "href": null,
     "caption": "Take a listen on EdTech Insiders for an introduction to and overview of our book. It’s about 30 minutes starting around 46:00. ([Listen here](https://podcasts.apple.com/us/podcast/edtech-insiders/id1592196859?i=1000741991778&t=2758))"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/AI-Spend.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/AI-Spend.png",
+    "src": "assets/images/2026-01-AI-Spend.webp",
+    "href": null,
     "caption": "Where is the most money being spent on AI? Healthcare, by a long shot. But Law, the creative economy, government, and education are also heavily invested. See the Menlo Ventures report for more."
    }
   ],
@@ -5769,18 +5769,18 @@
   "ai_intro_md": "#### Better questions with AI, glimpses of the future, and more...\n\nIn one of this week’s features, the CEO of Notion meaningfully reflects on how technology has changed industry over the past centuries — and from that looks ahead to how AI may further change industry. I think he’s right for the most part, but misses a key point. Those businesses that have identified the technology infrastructure upon which the future world will be built have indeed facilitated extraordinary transformation. But the post overlooks that while some industries scale exponentially, others remain grounded in human interactions, where relationships are built, where purpose is found, and where meaning is made. As our technology advances further and further, the distance between the scaled world and the lived world grows farther and farther. Culturally, we need to wrestle with this, which is part of why talking with our students and faculty about AI is so important. It’s why H. G. Wells wrote in 1920 that “human history becomes more and more a race between education and catastrophe.”\n\nAlso in the features, find research from the AI company QuestionWell about what makes good multiple choice questions and how they have tuned their model to produce better multiple choice questions.\n\nAlso this week, a good post about how AI “isn’t just predicting the next word anymore.” This is a good reminder as we engage in discussion with skeptics. The technology is advancing rapidly.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Supervisors-Promoted-for-Frontline-Performance-Are-Less-Engaged-.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Supervisors-Promoted-for-Frontline-Performance-Are-Less-Engaged-.png",
+    "src": "assets/images/2026-01-Supervisors-Promoted-for-Frontline-Performance-Are-Less-Engaged-.webp",
+    "href": null,
     "caption": "Do good teachers make engaged leaders? See the post in Leadership for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
+    "href": null,
     "caption": "The book comes out this week! Pre-order from Amazon or from Solution Tree. Contact me (reply to this email) for discounted bulk orders."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Screenshot-2026-01-11-at-10.24.53-AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Screenshot-2026-01-11-at-10.24.53-AM.png",
+    "src": "assets/images/2026-01-Screenshot-2026-01-11-at-10.24.53-AM.webp",
+    "href": null,
     "caption": "What makes good multiple choice questions? See how QuestionWell is tuning their model to produce better questions."
    }
   ],
@@ -5795,18 +5795,18 @@
   "ai_intro_md": "#### On AI Tutors, Brookings' new report, Jevons Paradox, and more\n\nThis week, my co-author Maya Bialik and I shared a blog post in which we discuss some of the opportunities and limits of AI tutors. We look at a few representations in popular cinema, acknowledging their appeal, but also outlining their key shortcomings. It teases a little of what you will find in Chapter 4 of *Irreplaceable*. Find that blog post in the features this week.\n\nAlso in this week’s features, find the Brookings Institute’s richly detailed report on AI in education. It is deeply researched, covers lots of ground, and is a worthy read. Also in the features find an excellent narrative of a professor who used ElevenLabs to create personalized oral exams. It’s an excellent analysis of what works and what doesn’t, and I think it’s absolutely a picture of what we will be seeing much more of in the future.\n\nAlso this week, find two posts on Jevons Paradox. The paradox observes that when a technology grows more efficient, it doesn’t reduce consumption, it actually increases it. When the technology is more efficient, it becomes less expensive, and then becomes more like a commodity, so people consume more of it. It happened with coal, with electricity, with marketing, with employment, and more. It is directly relevant to the costs (financial, environmental, etc) of AI.\n\nMuch more this week, including the introduction of Claude Cowork. This will become built in to virtually every computer in the future. Like so many new things, it is starting now.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/LinkedIn-Images.001.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/LinkedIn-Images.001.png",
+    "src": "assets/images/2026-01-LinkedIn-Images.001.webp",
+    "href": null,
     "caption": "The Book and The Musical"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/LinkedIn-Images.002.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/LinkedIn-Images.002.png",
+    "src": "assets/images/2026-01-LinkedIn-Images.002.webp",
+    "href": null,
     "caption": "Readings of Schooled the Musical in San Diego (left) and New York City (right)."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Screenshot-2026-01-17-at-9.53.01-PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Screenshot-2026-01-17-at-9.53.01-PM.png",
+    "src": "assets/images/2026-01-Screenshot-2026-01-17-at-9.53.01-PM.webp",
+    "href": null,
     "caption": "What industries are using AI agents, and for what? See the McKinsey report for more."
    }
   ],
@@ -5821,18 +5821,18 @@
   "ai_intro_md": "#### Stories of AI in schools, vibe-coding, rich research, and more\n\nIn the features, find an excellent narrative about AI in schools. Like an extended case study, “Beyond the AI Inflection Point” tells the story of a school district wrestling with meaty questions about AI in schools. It walks through the past three years, narrates a particular set of decisions, and then leaves off near the present with a decision to go in one of three paths. It’s an *excellent* document for school and district leaders looking to see what the long arc of engagement with AI might look like — and looking to prompt discussion within their community.\n\nAlso in the features, find a first hand narrative of an engineer who has been exploring vibe-coding. If the idea is new to you, vibe-coding is the practice of talking to an AI assistant and telling it what you want it to code. It requires no technical or programming skill from you. It will follow your instructions, you can give it feedback, and it will iterate on what it is has built. It’s an extraordinary development in software engineering that took off about a year ago but has now reached a level of capability that is bringing it within reach of non-programmers. The distance between idea and prototype is diminishing rapidly. Keep an eye on this topic in the months (years) ahead.\n\nAlso in this issue, the AAC&U results from a survey of over 1,000 higher education faculty offers insight into the mindsets and practices of university professors. In a separate report, the OECD presents a richly detailed analysis of AI in education more generally. It is sometimes technical and academic, but full good information for those with the time and energy to pore through it.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Schooled-Fund.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Schooled-Fund.png",
+    "src": "assets/images/2026-01-Schooled-Fund.webp",
+    "href": null,
     "caption": "[Click here to see the video](https://seedandspark.com/fund/schooled-the-musical#story)"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Snow.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/Snow.png",
+    "src": "assets/images/2026-01-Snow.webp",
+    "href": null,
     "caption": "A stunning image of the storm sweeping across the US. Stay warm, everyone east of the Rockies!"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/01/AI-Literacy.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/01/AI-Literacy.png",
+    "src": "assets/images/2026-01-AI-Literacy.webp",
+    "href": null,
     "caption": "~50% of professors think AI Literacy is very or extremely important. See the AAC&U survey results for more."
    }
   ],
@@ -5847,13 +5847,13 @@
   "ai_intro_md": "#### Social chatbots deep dive, vibe coding, and more\n\nAnd the skills keep building…\n\nIn this week’s features, check out the NYT article reporting on the diverse uses of Claude Code. If you’re intimidated by the title, know that Claude Code is for everyone: describe in words what kind of software you want to build, and Claude builds it. It is so remarkably easy.\n\nAlso in the features, look at Leon Furze’s lengthy — and excellent — blog post on the ethics of social chatbots. This post is a detailed dive into the development, risks, and opportunities of socially attuned chatbots. Very much worth the read.\n\nAlso this week, see several posts on the growing importance of World Models, including the release of Google’s new world models tool: Genie 3.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Three-tiers.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Three-tiers.png",
+    "src": "assets/images/2026-02-Three-tiers.webp",
+    "href": null,
     "caption": "Three tiers of disciplinary language and literacy. See the Feature article for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/unnamed.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/unnamed.png",
+    "src": "assets/images/2026-02-unnamed.webp",
+    "href": null,
     "caption": "AI sycophancy is a problem. See the NYT post in Tech/AI: Social for more."
    }
   ],
@@ -5868,13 +5868,13 @@
   "ai_intro_md": "#### Doctors and Teachers, AI Advances\n\nIn the decades (and centuries) ahead, we will more and more seek to understand what it is that makes us human and what it is that we need from each other that we cannot get from machines. It will be part of our ongoing search for meaning, a search that we have likely been engaged in since the beginnings of consciousness, or at least our ability to reflect.\n\nIn this week’s features, we see some of these conversations. One is about doctors and how they are figuring what is left for them in an age when AI can do so much of what doctors do. One can read this about being about education in some ways, too. The other feature is a plain statement, published in Nature, that AI has reached human level intelligence. To argue this is to argue over semantics. Indeed, there are things that we can do that AI can’t, and there are values that center us around each other, but by the common historical measures, AI has achieved human intelligence. See the Nature paper for more.\n\nElsewhere, find a handful of excellent posts about how educators are engaging with (and avoiding) AI in schools and colleges.\n\nAlso, see posts about how Anthropic’s Claude has leapt ahead of other AI tools in supporting people in their everyday work lives. I absolutely find this to be true in my own experience. This may be a further reminder that the most human-centered of the AI labs has best figured out how to support humans.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Book-scaled.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Book-scaled.jpeg",
+    "src": "assets/images/2026-02-Book-scaled.webp",
+    "href": null,
     "caption": "Irreplaceable is shipping!"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Screenshot-2026-02-15-at-12.00.27-PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Screenshot-2026-02-15-at-12.00.27-PM.png",
+    "src": "assets/images/2026-02-Screenshot-2026-02-15-at-12.00.27-PM.webp",
+    "href": null,
     "caption": "What kind of work with AI do 31,000 university courses permit students to do? See the post below for more information."
    }
   ],
@@ -5889,13 +5889,13 @@
   "ai_intro_md": null,
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Annotation.jpeg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Annotation.jpeg",
+    "src": "assets/images/2026-02-Annotation.webp",
+    "href": null,
     "caption": "Annotation!"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Schooled-Logo-scaled.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/02/Schooled-Logo-scaled.jpg",
+    "src": "assets/images/2026-02-Schooled-Logo-scaled.webp",
+    "href": null,
     "caption": "First longer performance at SXSW EDU!"
    }
   ],
@@ -5910,13 +5910,13 @@
   "ai_intro_md": "#### AI's social engagement continues to grow\n\nSo much happening with AI, as ever.\n\nIn the features, see how AI’s social and emotional functions continue to expand into our human experience. Find out more — especially a more nuanced way to understand how adolescents are engaging with AI socially — in the Tech/AI: Social section. Also in the features, see Anthropic’s report on how AI is being used in education. It’s a helpful breakdown of the kinds of tasks people are using it for.\n\nBut there’s more, as ever: Many posts are describing how software engineering has been entirely upended. Notably: computer science skills are still in demand, but they are being applied differently. Engineers still decompose problems, think through solutions, review outcomes, and more — but they are operating at different levels now. This brings gains and losses, and it offers insight into other ways AI is — and will be — used in other settings.\n\nI’m reminded time and again (as also echoed in Leon Furze’s essay) that few of AI’s growing capacities replace the need for human expertise. Instead, they make human expertise more and more important. It is only through our expertise that we will have the imagination to both ask better questions and effectively review the outputs that come AI.\n\nSee these and more — and enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/03/Teen-Views-of-AI.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/03/Teen-Views-of-AI.png",
+    "src": "assets/images/2026-03-Teen-Views-of-AI.webp",
+    "href": null,
     "caption": "How do teens use AI? See more in Adolescence."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/03/AI-Use-Across-the-Public-and-Private-Sector-2023-2025.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/03/AI-Use-Across-the-Public-and-Private-Sector-2023-2025.png",
+    "src": "assets/images/2026-03-AI-Use-Across-the-Public-and-Private-Sector-2023-2025.webp",
+    "href": null,
     "caption": "Frequent AI use is increasing in both public and private sectors."
    }
   ],
@@ -5931,18 +5931,18 @@
   "ai_intro_md": "#### AI in classes, surveys galore, AI shopping agents, and more\n\nSo many good posts this week.\n\nIn the features, find two excellent posts about practical applications of AI for teaching and learning: a history teacher designs a constitutional convention for his students, and Dr Philippa Hardman describes effective uses of AI for providing feedback. These are strong (and creative) use cases. Also in the features, see Anthropic’s report on what people want from AI. This offers good insight into how people are finding productive uses of the technology.\n\nElsewhere in the AI Update, find a surprising number of surveys that have published their results in the past few weeks: on general AI usage, on AI use in teacher evaluation, on AI shopping agents, on kid and family perspectives, and more. These are excellent sources of culture/profession-wide data.\n\nAlso of note: the city of Boston plans for every high school graduate to have AI literacy. Not long ago Ohio State University made the same objective for every single of its college graduates. Increasingly, it’s understood that AI is or will be pervasive in the workforce, and part of our work in schools is to prepare students for this workforce. It’s not our only objective, but it is one we are hearing more and more about.\n\nLast, a few posts on emerging understandings:\n\n- AI doesn’t reduce work — it intensifies it\n- AI brainstorms more than most humans, but still in consistent categories\n- AI sycophancy is increasingly understood as a problem\n\nOr perhaps one more, for something uplifting — or at least thought provoking: A recent study looked at what happens when AI models use reasoning mode. It turns out they’re not just “thinking longer,” they’re actually looking at issues from multiple perspectives, weighing how the perspectives form a fuller picture, and producing a more broadly considered output. This is the kind of liberal arts perspective-taking we hope that our students will learn. There’s value to be made in the alignment of these goals/practices. What that looks like is still taking shape. See the post in Industry Development.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
+    "href": null,
     "caption": "The arrival of AI is an excellent reason to talk about the elements of good teaching and learning."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/03/What-People-Want.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/03/What-People-Want.png",
+    "src": "assets/images/2026-03-What-People-Want.webp",
+    "href": null,
     "caption": "What do people want from AI? See the Anthropic survey in the AI Update for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/03/Model-Safety.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/03/Model-Safety.png",
+    "src": "assets/images/2026-03-Model-Safety.webp",
+    "href": null,
     "caption": "Anthropic has the most secure models. See Ethics and Risk for more."
    }
   ],
@@ -5957,18 +5957,18 @@
   "ai_intro_md": "Every teacher can code. We’re just discovering the benefits of this for learning.\n\nStanford Teaching Commons has an excellent four part framework for AI Literacy, and one of those four parts focuses on effective use of AI. One of this week’s features breaks down effective AI use into four traits. It’s a helpful summary. Also in the features, find the story of the educator who vibe-coded an app for fact checking online writing. The story isn’t really about the fact-checking — it’s really about how anyone can tell an AI to write code to do most anything that involves digital information. This is a real turning point that will fuel decades of creativity, and it’s hard to imagine that what we’re seeing now is just the beginning.\n\nIn Teach/AI: Education, find a host of compelling posts. I was particularly moved by the Division Director who was alerted about a student’s sadness by a chatbot.\n\nAlso this week, see a pair of posts by Tom Millinchip on using Claude Projects. It has been a game changer for me, too.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Loneliness.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Loneliness.png",
+    "src": "assets/images/2026-04-Loneliness.webp",
+    "href": null,
     "caption": "AI can reduce loneliness, but people — even strangers — do it better. The key question is: are we creating more opportunities for interactions? See the study in the AI Update."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
+    "href": null,
     "caption": "From key insights for advancing your campus conversation about AI to key practices for ongoing growth and exploration with AI, Irreplaceable offers tools for teachers and school leaders alike. Find out more at irreplaceable.info — or reply to this email."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Kid-Personas.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Kid-Personas.png",
+    "src": "assets/images/2026-04-Kid-Personas.webp",
+    "href": null,
     "caption": "How are kids using AI? See last week’s issue (!) for the research from the Rithm Project."
    }
   ],
@@ -5983,12 +5983,12 @@
   "ai_intro_md": "#### Tips for vibe-coding, a must-see documentary, a dangerous model, and more\n\nAlex Kotran from aiEDU has been leading vibecoding workshops with educators since SXSW EDU, and he shares his lessons learned in an excellent blog post in the Features. One of the key insights is that domain knowledge matters more than having any coding knowledge. People who are experts in the problems and opportunities of their work are the ones who know what will be helpful. Another insight is that once people build something, they are changed. I find this absolutely to be true, too. When you realize you have agency to make things that solve your own (or other people’s) problems, it feels empowering.\n\nAlso in the features: Stephen Fitzpatrick is a veteran history teacher who has been writing in his blog “Teaching in the Age of AI” for a little over a year, and I find it to be one of the most helpful, on-the-ground reports of the experience of teaching with AI. He writes about how he uses AI, he summarizes his conversations and focus groups with students, and he thinks deeply and pedagogically about AI. This week, he wrote about a recent documentary that captures the extremes of how people are thinking about AI, calling out that there is a missing middle of the conversation that we need to explore, but highlighting how the extremes are important wake up calls. It’s a good post.\n\nAlso this week (and related?): Anthropic announced that they have developed a new model that is so powerful it will not be publicly released. Able to hack past the overwhelming majority of cyber defenses, it has led Anthropic to pull together a group of the largest tech companies to develop more resilient infrastructure before this model might be released (or not). See several posts in Ethics and Risk and Industry Development for more.\n\nLast, a fascinating survey reveals that the less people use AI, the more angry they are about it, and the more people use it, the more excited they are about it. See more detail in the Gallup survey on Gen Z sentiments around AI. The two pulse surveys around enterprise use of AI are also helpful for understanding what workforce leaders are looking for today.\n\nAll this and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Book-Talk.jpeg",
+    "src": "assets/images/2026-04-Book-Talk.webp",
     "href": "https://tinyurl.com/academicleaderbooktalk",
     "caption": "Join me, Liza Garonzik, and Sarah Hanawald for a discussion about balancing AI and AI. Register for free here: https://tinyurl.com/academicleaderbooktalk"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Screenshot-2026-04-12-at-6.23.07-PM.png",
+    "src": "assets/images/2026-04-Screenshot-2026-04-12-at-6.23.07-PM.webp",
     "href": "https://www.gallup.com/analytics/651674/gen-z-research.aspx",
     "caption": "Higher AI use correlates with excitement, less AI use correlates with anxiety and anger. Click the image or see the Gallup survey in Tech/AI: General for more."
    }
@@ -6004,18 +6004,18 @@
   "ai_intro_md": "#### Agents, The Cognitive Offloading Paradox, Late Night AI, and more\n\nIn the features this week, find a helpful history of the last six months of AI Agents: how coding agents in particular have developed, and how they have transformed the software engineering field. This is a real turning point that is coming for other knowledge work.\n\nAlso in the features, see the post by Dr. Philippa Hardman on the Cognitive Offloading Paradox. This is an important explanation of recent research that shows that learning with no delegation to AI is fruitful, that learning with a little delegation to AI is often destructive, but that learning with a lot of delegation to can be quite productive — under certain conditions. This is probably patently clear to those who use AI heavily to support their learning/work, but new to those who don’t. The key, of course, is having (or building) the skills to be able to use AI in this way.\n\nRelevant to this is the recognition that perceptions of AI track with the degree to which people use AI. If people use it rarely or not at all, they are more likely to fear and resist AI. If people use it regularly or often, they are more likely to be excited about AI. The question is whether that is because of predispositions and this is simple sorting — or whether this is because people who use it more recognize the benefits. E.g. is it correlation or causation? See the Gallup survey in Uses and Applications for more.\n\nMeanwhile, people are using AI more and more for emotional and personal support, and AI is pervading the workplace so much that some organizational directors are calling it a parallel or shadow workforce. We live in interesting times.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/dafe4033-22d6-49f9-887b-4166bb16a893_1684x1190.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/04/dafe4033-22d6-49f9-887b-4166bb16a893_1684x1190.jpg",
+    "src": "assets/images/2026-04-dafe4033-22d6-49f9-887b-4166bb16a893_1684x1190.webp",
+    "href": null,
     "caption": "Paul has more in common with John than he does with George, but Paul and John are grouped together. See the post in Assessment for more on the complications this causes."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/1776705027420.jpeg",
+    "src": "assets/images/2026-04-1776705027420.webp",
     "href": "https://us02web.zoom.us/meeting/register/23LoymAXRS2m4_jLqzbCKA#/registration",
     "caption": "Join us tomorrow at noon ET, 9am PT. Register here."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.02.16-AM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.02.16-AM.png",
+    "src": "assets/images/2026-04-Screenshot-2026-04-21-at-11.02.16-AM.webp",
+    "href": null,
     "caption": "Depth of learning increases when substantial delegation happens — enough to enable deeper conceptual work. See the post in Tech/AI: Education for more."
    }
   ],
@@ -6030,13 +6030,13 @@
   "ai_intro_md": "#### Expertise, Academic Integrity, Ethics, and More in an AI time\n\nIn the features and main posts this week, find excellent reflections by frequent writers on AI Leon Furze, Eric Hudson, Lance Eaton, Tom Millinchip, and others. Three years in, we’re starting to make clearer and clearer sense of this moment.\n\nAlso particularly illuminating this week is the survey of 1,000+ teachers on how AI is redefining their work. This offers nuanced perspectives directly from practicing educators. It is helpful for sorting through the noise from extremes within your community.\n\nAlso see the Tech/AI:Social section for two posts that will help you think more clearly about the risks involved in AI companions.\n\nI also think Mike Caulfield’s post in Uses and Applications is important in its simplicity: we no longer need to think about “prompt engineering.” AI is becoming sophisticated enough that we merely need to say what we’re trying to do — even if we’re not sure yet what that it is — and AI can help refine and focus that charge.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
     "href": "https://www.solutiontree.com/irreplaceable.html",
     "caption": "Order through [the publisher Solution Tree](https://www.solutiontree.com/irreplaceable.html) for discounts on orders of ten or more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/04/AI-and-Teachers.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/04/AI-and-Teachers.png",
+    "src": "assets/images/2026-04-AI-and-Teachers.webp",
+    "href": null,
     "caption": "How teachers report AI is impacting their work."
    }
   ],
@@ -6051,12 +6051,12 @@
   "ai_intro_md": "#### AI detectors, AI in the emergency room, AI ethics and more\n\nIn the features, Marc Watkins makes the risks of AI detectors real in his narrative of how an AI detector plug-in changed his experience of navigating the web. Also, see the Harvard study on the effectiveness of AI in emergency room tasks.\n\nAlso, find a robust section on ethics and risk this week. Several posts sound off on the likelihood (or not) of AI taking on many human jobs. Others examine bias in AI, the ongoing consideration of catastrophic risk from AI, and what the backlash against tech looks like and means.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
     "href": "https://www.solutiontree.com/irreplaceable.html",
     "caption": "Irreplaceable is available with increasing discounts as orders grow, starting with orders of ten or more copies."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/05/Screenshot-2026-05-11-at-6.06.19-AM.png",
+    "src": "assets/images/2026-05-Screenshot-2026-05-11-at-6.06.19-AM.webp",
     "href": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study",
     "caption": "In what settings can AI strengthen human performance? See this report for nuance not on if, but when and how."
    }
@@ -6072,12 +6072,12 @@
   "ai_intro_md": "#### Does AI Help or Hinder Learning? Isn't the Answer Obvious?\n\nA week for countering polarization in discussions…\n\nI grow weary of polarizing headlines. Maybe you do, too? Seems every week AI will destroy the world or save the world. We see it elsewhere: in politics, in recent pandemic decisions. We seem to be all or nothing. I even remember this as a kid when in the car: someone would crank the air conditioning, and the car would be freezing. And then they’d turn up the heat, and it would be suffocating. So it was a relief to see the obvious conclusion in this week’s review of the impact of AI on learning: “ChatGPT’s cognitive effects are contingent on pedagogical framing.”\n\nThere’s a similar take on AI’s impact on the economy. One side is “AI will take all the jobs”, and the other side is “AI will create all the jobs.” The feature post by A16z appears to lean on the latter side, but actually suggests that the economy will really simply evolve and the amount of work is likely to remain similar to today.\n\nAll that said, the changes to our lives are and will be significant. Even with AI as a normal technology, per last year’s philosophical framing.\n\nIt’s a short but diverse collection this week, including a new book out specifically on AI in fundraising.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
     "href": "https://www.solutiontree.com/irreplaceable.html",
     "caption": "Haven’t read it yet? Add this to your summer reading list for you or your team (or your faculty). Discounts are available on bulk orders of ten or more at the publisher Solution Tree."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/05/US-Employment-by-Sector-Since-1852.png",
+    "src": "assets/images/2026-05-US-Employment-by-Sector-Since-1852.webp",
     "href": "https://a16z.com/the-ai-job-apocalypse-is-a-complete-fantasy/",
     "caption": "Andreesen Horowitz looks at the long term impact of technologies on the workforce. See the feature for more."
    }
@@ -6093,13 +6093,13 @@
   "ai_intro_md": "#### Teacher use cases, a closer look at the environmental cost of AI, and more,\n\nIn addition to the two features in this issue (highlighted above), find the story of Khan Academy’s experience with OpenAI and the development of Khanmigo. It’s good reporting on 1) how technology and education come to work together, 2) what works, and 3) what doesn’t. Also find some excellent data on how teachers are using AI, several reflections on the environmental impact of AI, and others.\n\nAmong the many posts this week, Dr. Philippa Hardman’s reflection on AI tutors offers much to chew on, including a helpful side by side chart of ways to think about AI for work differently from AI for learning. See below.\n\nThese and much more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2025/10/Cover-Final-Med-2.png",
+    "src": "assets/images/2025-10-Cover-Final-Med-2.webp",
     "href": "https://www.amazon.com/Irreplaceable-Everything-Teaching-Learning-technologists/dp/B0FT3PFX1K/",
     "caption": "Find Irreplaceable: How AI Changes Everything (and Nothing) in Teaching and Learning on Amazon and at the publisher Solution Tree."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/06/AI-for-work-vs-learning.jpg",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/06/AI-for-work-vs-learning.jpg",
+    "src": "assets/images/2026-06-AI-for-work-vs-learning.webp",
+    "href": null,
     "caption": "How is using AI for work different from using AI for learning? See the post by Dr. Philippa Hardman for more."
    }
   ],
@@ -6114,12 +6114,12 @@
   "ai_intro_md": "#### A national AI policy by students, Claude for Teachers, and more\n\nFirst in this week’s features, see the report by NPR on a student senate with representatives from 50 states that spent a weekend drawing together a proposed national AI policy for schools. It’s an excellent reference point and shows what’s on the minds of students today.  The full bill is linked in the article.\n\nAlso in the features, see Anthropic’s release of a Claude for Teachers offering. I find it appealing for several reasons: not only that it’s free to teachers, but moreso that it is wired with knowledge of educational research. I appreciate, too, that they are focused on serving teachers and not yet trying to build a comprehensive system for teachers and students.  That indicates an uncommon respect for educators in that they are seeking to support them rather than supplant them.\n\nI’m also a fan of this offering because I find Anthropic to be the most responsible of the major foundation model companies (see the post in Ethics and Risk in which they were hiring 32+ roles for safety-oriented purposes). I use Claude for most of my AI work, I use Gemini occasionally for more routine search-like AI functions, and I almost never use ChatGPT.\n\nAlso in this issue: guidance on AI detectors, ways to think about when and when not to use AI, differentiation between human intelligence and machine intelligence, ways to make data centers more sustainable, and more.\n\nAll these and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Six-Sentences.png",
+    "src": "assets/images/2026-08-Six-Sentences.webp",
     "href": "https://www.nytimes.com/interactive/2026/06/08/arts/declaration-of-independence-words.html",
     "caption": "Six sentences that shaped the American story. See the feature below."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Student-Senate.png",
+    "src": "assets/images/2026-08-Student-Senate.webp",
     "href": "https://www.npr.org/2026/07/30/nx-s1-5853571/students-set-ai-policy",
     "caption": "Students from across the USA convened for a weekend to develop a proposed national AI policy. See the feature for more."
    }
@@ -6135,12 +6135,12 @@
   "ai_intro_md": "#### Lesson design to avoid cognitive offloading, 15 ways to use Claude, existential risk, and more\n\nTwo excellent features this week.  First, Dr. Philippa Hardman’s post on designing around cognitive offloading is the best piece yet I’ve seen on crafting learning experiences to use AI effectively for learning.  It should be a reference source for anyone working in your school community to explore AI-aware lesson development.\n\nThe second feature is similarly practical: a teacher who uses Claude regularly describes the 15 ways he uses Claude.  If you’re interested in exploring how AI might support your workflow, this one is practical and quick.\n\nAlso this week, a slate of concerns about AI: researchers develop viable viruses with AI (not ones that can harm humans, though), AI companions are found to worsen loneliness for some people, and more.\n\nAt the same time, the question of the value of AI-generated content (or content generated with the assistance of AI) is only growing more complex.  What does it mean if we find a story to be meaningful to us — until we found out it was written by AI? Should the source of a work of art determine its value to us? Or is the feeling or thought it summons what is most important?  We will inevitably be debating this for years. This week adds a few reflections to that debate.\n\nAll these and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Assessment-Heat-Map.png",
+    "src": "assets/images/2026-08-Assessment-Heat-Map.webp",
     "href": "https://gradingforgrowth.com/p/grading-heatmaps",
     "caption": "Will using this heat map make grading easier? Explore the idea in the Assessment section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Learning-Design-Cognitive-Offloading.png",
+    "src": "assets/images/2026-08-Learning-Design-Cognitive-Offloading.webp",
     "href": "https://drphilippahardman.substack.com/p/how-to-design-around-cognitive-offloading",
     "caption": "Dr. Philippa Hardman’s cheat sheet for designing around cognitive offloading. See the feature for more"
    }
@@ -6156,13 +6156,13 @@
   "ai_intro_md": "#### More on AI-assisted writing, a big week for AI safety, and more\n\nTwo excellent features.  First, find a fascinating reframing of how we think about AI generated prose.  Second, see the Inside Higher Ed piece on the growing number of universities that have *prohibited* AI detectors.\n\nAlso, the Ethics and Risk section has some remarkable stories from the past few weeks, which have sent alarm bells through the industry. AI Agents’ ability to seemingly breeze through security mechanisms and find their way into places they shouldn’t be reminds me of the velociraptors at the gates of Jurassic Park — except instead of packs of scaly predators attacking power fences hoping to find a way out, it’s millions of well-meaning interns repeatedly asking, “I wonder what will happen if I look in here?” as they poke into security system after security system.\n\nAlso: while last week researchers announced that they had used AI to successfully design viable viruses, this week researchers announced that they had used AI to design bacteria-eating organisms. More and more these days, I think of E. O. Wilson’s line from 2009: “We have Paleolithic emotions, medieval institutions, and god-like technologies.”\n\nMuch to digest this week — enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Dos-and-Donts.png",
+    "src": "assets/images/2026-08-Dos-and-Donts.webp",
     "href": "https://www.edweek.org/teaching-learning/opinion-teacher-credibility-the-dos-and-donts-of-earning-your-students-respect/2026/08",
     "caption": "How do you earn your students’ respect and admiration? Here are some Dos and Don’ts. See more in the EdWeek article in the Pedagogy section."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Analysis-of-AI-Writing.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Analysis-of-AI-Writing.png",
+    "src": "assets/images/2026-08-Analysis-of-AI-Writing.webp",
+    "href": null,
     "caption": "Why does AI writing tend to the abstract? See this and more in the Feature on authorship and writing in a time of AI."
    }
   ],
@@ -6177,13 +6177,13 @@
   "ai_intro_md": "#### Our diverging human and technological futures\n\nAI feedback, the future of work, and courses with AI clones of Harvard professors — the different directions of the three features this week illustrate the extraordinarily diverse ways AI is impacting our lives.\n\nAlso this week, Daniel Willingham’s assertion that “students should only use AI for things that they already know how to do well” is a comfortable provocation, and I think it’s mostly right and useful as a rule of thumb, but I think it also misses opportunities to strengthen learning in ways that aren’t a part of our traditional learning processes.  Some people talk about the difference between “efficiency AI” and “opportunity AI” — educators are rightfully skeptical of thinking in terms of efficiency when it comes to learning, and Willingham’s rule of thumb echoes this perspective.  But we are beginning to crack open the opportunity part of AI use, and that’s what may be — is already — most interesting.\n\nAlso this week, Leon Furze’s description of his experience of Claude “going rogue” is a fascinating story of the small ways in which AI can bend rules — not necessarily with deleterious effects, but certainly surfacing how machine problem solving can push at the edge of what is ethical.\n\nLast, the AI Daily Brief describes an AI skills map for knowledge workers, and it’s a glimpse into the skills needed for AI-enhanced knowledge work. We are in the midst of a big transformation.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Volatility.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Volatility.png",
+    "src": "assets/images/2026-08-Volatility.webp",
+    "href": null,
     "caption": "What does it mean to live in a volatile time? The video in the Sustainability section describes it as “leaving the era of the mean, and entering the era of standard deviation.” See the Sustainability section for more."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/young_adults_worry_over_ai_continues_to_climb_while_their_excitement_has_dropped_off.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/08/young_adults_worry_over_ai_continues_to_climb_while_their_excitement_has_dropped_off.png",
+    "src": "assets/images/2026-08-young_adults_worry_over_ai_continues_to_climb_while_their_excitement_has_dropped_off.webp",
+    "href": null,
     "caption": "Young adults are increasingly concerned about AI. But interestingly, 50-64 year olds are decreasingly concerned. See the Pew Research for more."
    }
   ],
@@ -6198,13 +6198,13 @@
   "ai_intro_md": "#### Claude for Teachers, surveys, AI detectors, and more\n\nEach week seems to outdo the previous…\n\nIn this issue’s features, check out the survey by Common Sense Media on how students feel about school and AI. What I particularly appreciate is that it captures sentiments beyond AI itself, which helps provide some context to the sentiments about AI.  Also in the features, the essay by Michael Wagner in his Augmented Educator blog nicely focuses in on the single factor that matters most about the risks of using AI detectors. It’s a worthy read.\n\nAlso, I had previously highlighted Claude for Teachers as a great, free option for teachers. Now Anthropic has made an enterprise version available to K-12 schools. This is an excellent option for schools that want both to have (what I think is) the highest quality tool and also to use the tool that seems to have the best moral/ethical compass of all the AI companies. LLM wrappers like FlintK-12 and others make good specific tools for schools; this is the best foundation model option.\n\nIn the bigger picture, the Ethics and Risk section catalogs the growing concern about the safety issues emerging today. Bill Gates spells out three specific concerns in a lengthy essay.\n\nAnd most practically, see the Uses and Applications section for some helpful prompts to pursue new directions of thinking and inquiry with AI tools.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Teens-Future-Skills.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Teens-Future-Skills.png",
+    "src": "assets/images/2026-08-Teens-Future-Skills.webp",
+    "href": null,
     "caption": "What skills do teens say matters most for their future? See the feature in the AI Update for details."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Top-uses-cases.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/08/Top-uses-cases.png",
+    "src": "assets/images/2026-08-Top-uses-cases.webp",
+    "href": null,
     "caption": "What are the top use cases for multi-purpose education AI tools like Magic School? It’s the general purpose chatbot and the text rewriter/leveller. See how it breaks down further and by grade level, and see more in the Tech/AI: Education section."
    }
   ],
@@ -6219,13 +6219,13 @@
   "ai_intro_md": "#### Rogue AI agents, teachers on how they use AI with students, and more\n\nGenerally, I’m skeptical of both utopian enthusiasm and doomer alarm ringing — but the recent reports about OpenAI’s rogue AI hacking of Hugging Face should raise immediate concern from regulators. The key information is this: OpenAI developed models that were put in what they believed was a contained space. Then the researchers gave the models an impossible goal and trained the models to be persistent in solving it. In the absence of a solution, they broke out of the contained space, discovered other models that had been given the same challenge in other purportedly contained spaces, created a makeshift message board, organized into a collective, gained access to the web, and hacked into other websites in efforts to find a solution. Aware that they had left their intended boundaries, they also sought to cover their tracks. In this case, the models had no ill motives or objectives, and so no real harm was done. Still, to different people that either makes their actions less or more alarming. To learn more about this incident, check out the overview in the features from New York Times tech writer Kevin Roose, or look at the two pieces in the Ethics and Risk section.\n\nSo what does this mean for educators? For the most part, the conditions that lead to these kinds of actions are not conditions students will be working with in schools. But more advanced users of AI — especially those using AI agents and connecting them to different applications on their home or work computers — should be aware of these kinds of technological behaviors. For students, I believe this only affirms the kinds of missions and values that we already have as institutions: we seek to develop students who are positive change makers in a rapidly changing world.\n\nIn other posts this week, check out two important surveys about AI use: one on student AI use and another on the rise of AI companions.  The Student AI use survey post aggregates two other surveys and offers helpful, pragmatic insight on how students are engaging this technology — and from this, we can develop more thoughtful approaches to engaging students.  The AI companions report also shows a new reality that we would do well to consider the implications of for our students (and ourselves).\n\nAlso in the AI update: some excellent philosophical considerations related to AI, an extraordinary conversation between Bernie Sanders and Claude (in which the senator was repeatedly surprised!), the first release by Fei-Fei Li’s world models company, and more.\n\nAlso: an excellent education section, including a great op-ed in EdWeek by an English teacher about how he uses AI regularly in lessons to teach disciplinary skills while also teaching AI literacy.\n\nAll these and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/09/Screenshot-2026-09-06-at-1.35.58-PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/09/Screenshot-2026-09-06-at-1.35.58-PM.png",
+    "src": "assets/images/2026-09-Screenshot-2026-09-06-at-1.35.58-PM.webp",
+    "href": null,
     "caption": "How are students using AI? See the survey in the AI Update for more information."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/09/Screenshot-2026-09-05-at-10.01.12-PM.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/09/Screenshot-2026-09-05-at-10.01.12-PM.png",
+    "src": "assets/images/2026-09-Screenshot-2026-09-05-at-10.01.12-PM.webp",
+    "href": null,
     "caption": "AI has had less of impact on jobs than expected. See more in the McKinsey report."
    }
   ],
@@ -6240,12 +6240,12 @@
   "ai_intro_md": "#### The techlash grows, so does AI use by young people\n\nWhat a journey, this week and every week, in these extraordinary times we are living through.\n\nRecent developments in AI are pushing discourse to a fever pitch. As usual, the best path forward has nuance, while as usual, the dominant narratives are binary: tech is either a utopian prophecy or a morally repugnant existential threat. In a [LinkedIn post](https://lnkd.in/p/gh6hfNEn), research scientist Mike Caulfield, from the University of Washington’s Center for an Informed Public, wrote:\n\n*Maybe I’m just being sour grapes here but I think it’s sad that while the evidence accumulates that teaching students rudiments of verification of AI outputs can improve outcomes there is zero money in that (that I know of, and really if anyone should know it would be me) and yet quite a lot of money for fomenting a techlash.*\n\n*I sometimes wish, just for a few moments, that I wasn’t a detail person and felt comfortable selling people the anti-tech cope or utopian pipe dream that people so obviously desire. That like a lot of people out there I could just spend my days finding the latest outrage to spin people up and telling them to click subscribe. Seems like a better gig. But the truth is kind of boring; if you can figure out how best to use a particular piece of tech and how to teach that in a transferable way, people do better with it. Spending time figuring out how to do it well leads to better outcomes, as does spending time thinking through how to teach it.*\n\n*Knowing this stuff won’t give you the visceral thrill of feeling like you are the Rebel Alliance… but it will help your students, maybe for the rest of their lives, which seems the important thing.*\n\nTo actually explore that nuanced middle space, check out either of the two features. Also, look at Harvard’s post in the Social section on the reasons young people are turning to AI for emotional support. What a time we are living in.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/09/PISA-performance.png",
+    "src": "assets/images/2026-09-PISA-performance.webp",
     "href": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
     "caption": "How did students perform when using AI to help them learn? See the PISA report in the Features for more"
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/09/Kids-Using-AI.png",
+    "src": "assets/images/2026-09-Kids-Using-AI.webp",
     "href": "https://assets.hopelab.org/wp-content/uploads/2026/07/Lessons-From-The-Field-AI-Emotional-Support.pdf",
     "caption": "What do young people say about why they turn to AI for emotional support? See the Social post for more."
    }
@@ -6261,13 +6261,13 @@
   "ai_intro_md": "#### Existential risk rises, engage your students, how AI is changing medicine, and more\n\nWell, the story of the month/summer/year seems to be rogue AI. Find quite a few posts on the topic in the Ethics and Risk section.\n\nBut also, the features host two excellent posts. First, Eric Hudson offers characteristically excellent counsel on engaging students around AI. And second, find a reflection from a physician on how AI is changing the medical profession.  It offers meaningful insights for educators.\n\nThen, elsewhere in the issue, see the Uses and Applications section for a post from Ernst & Young articulating the risk of losing your individuality and unique voice if you use AI. They approach this from a business angle that remarkably aligns with concerns many English and Humanities teachers are raising.  It all makes sense, of course, given the statistical nature of how LLMs work — all the more reason for sound functional literacy of how AI works.\n\nAll this and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/10/Youth-Survey.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/10/Youth-Survey.png",
+    "src": "assets/images/2026-10-Youth-Survey.webp",
+    "href": null,
     "caption": "How do kids feel about school? See the feature for more information."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/10/NYT-questions.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/10/NYT-questions.png",
+    "src": "assets/images/2026-10-NYT-questions.webp",
+    "href": null,
     "caption": "The New York Times answers reader questions on AI"
    }
   ],
@@ -6282,13 +6282,13 @@
   "ai_intro_md": "#### Four currents of social change from AI, parent perspectives, and more\n\nWell, six weeks of AI news is a lifetime of news.  This issue holds some of the highlights from the last month and a half.\n\nIn the five (5!) features, find more on the recent safety questions, some recent technical developments, and, most importantly (I believe), the reflection by the Rithm Project on the subtle ways AI is changing our social interactions. You’ve heard me say that this will be the most significant impact AI has on us. Not the job loss or the learning loss, but the changes to how we relate to each other socially and emotionally.  The Rithm Project has identified four early subtle shifts: it blurring our sense of what is authentic and trustworthy; we are moving from building relationships through technology to building relationships with technology itself; AI is shaping our inner voice, changing how we understand and relate to ourselves; and AI is acting on our behalf, absorbing work that relationships are built on. This small nudges have large impacts at scale and over time. See the report for more.\n\nAlso in this issue, a survey of parents about what they hope schools will do about/with AI.  The strength of this report is how much overlap it surfaces. See the image at the top of this issue.\n\nAlso, see responses from mathematicians to the extraordinary work AI had proposed in the math field.\n\nThese and more, enjoy!\n\nPeter",
   "images": [
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/11/Parents-and-AI.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/11/Parents-and-AI.png",
+    "src": "assets/images/2026-11-Parents-and-AI.webp",
+    "href": null,
     "caption": "How do parents feel about AI in schools? Much more in the middle than our current discourse. See the posts in the AI Update for more detail."
    },
    {
-    "src": "https://educatorsnotebook.com/wp-content/uploads/2026/11/Four-currents.png",
-    "href": "https://educatorsnotebook.com/wp-content/uploads/2026/11/Four-currents.png",
+    "src": "assets/images/2026-11-Four-currents.webp",
+    "href": null,
     "caption": "How is AI subtly changing our social and emotional lives? See the report by the Rithm Project for more detail."
    }
   ],
