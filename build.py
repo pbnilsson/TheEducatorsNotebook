@@ -273,6 +273,10 @@ def build():
     if os.path.exists(summary):
         shutil.copy(summary, os.path.join(OUT, "stats", "summary.json"))
     open(os.path.join(OUT, ".nojekyll"), "w").close()
+    # Custom domain for GitHub Pages. The build wipes docs/, so it must write
+    # this every time or the site falls back to pbnilsson.github.io.
+    with open(os.path.join(OUT, "CNAME"), "w") as f:
+        f.write("educatorsnotebook.com\n")
 
     # issue pages
     for d in issue_dates:
@@ -391,12 +395,14 @@ def build():
     write("subscribe/index.html", page("../", f"Subscribe — {SITE_TITLE}", """
 <h1>Subscribe</h1>
 <p>Get the Educator&rsquo;s Notebook in your inbox each week &mdash; a curated collection of education-related news from around the web.</p>
-<!-- SUBSCRIBE-FORM: replace with EmailOctopus embed during email migration -->
-<form method="post" action="#" class="subscribe-form" onsubmit="alert('Form will be connected during the email-platform migration.'); return false;">
-  <label>Email Address *<input type="email" name="email" required></label>
-  <label>First Name<input type="text" name="fname"></label>
-  <label>Last Name<input type="text" name="lname"></label>
-  <label>School or organization<input type="text" name="org"></label>
+<!-- SUBSCRIBE-FORM: posts to the existing Mailchimp audience (same form as the
+     WordPress site). Swap for the EmailOctopus embed during the email migration. -->
+<form method="post" action="https://educatorsnotebook.us3.list-manage.com/subscribe/post?u=8085c8118723c33464ed7647e&amp;id=a646033074&amp;f_id=00995ce2f0" class="subscribe-form" target="_blank">
+  <label>Email Address *<input type="email" name="EMAIL" required></label>
+  <label>First Name<input type="text" name="FNAME"></label>
+  <label>Last Name<input type="text" name="LNAME"></label>
+  <label>School or organization<input type="text" name="MMERGE3"></label>
+  <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="b_8085c8118723c33464ed7647e_a646033074" tabindex="-1" value=""></div>
   <button type="submit">Subscribe</button>
 </form>
 <p class="meta">&ndash; <a href="http://www.peternilsson.us/">Peter Nilsson</a></p>"""))
