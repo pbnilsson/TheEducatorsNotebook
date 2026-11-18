@@ -58,6 +58,12 @@ categories = json.load(open(os.path.join(DATA, "categories.json")))
 by_issue = {}
 for a in articles:
     by_issue.setdefault(a["issue"], []).append(a)
+# Within each section, articles keep their spreadsheet order (articles.json
+# preserves it), except that articles with a pull quote move to the front.
+# The sort is stable, so quoted and unquoted articles each stay in spreadsheet
+# order. Used by both the issue pages and the Mailchimp email HTML.
+for lst in by_issue.values():
+    lst.sort(key=lambda a: not (a.get("quote") or "").strip())
 issue_dates = sorted(issues.keys())
 
 def fmt_date(d, fmt="%B %-d, %Y"):
