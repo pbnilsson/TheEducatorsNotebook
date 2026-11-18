@@ -71,7 +71,7 @@ def fmt_pubdate(d):
         return d
 
 # ---------------------------------------------------------------- layout
-def page(rel, title, body, desc=None):
+def page(rel, title, body, desc=None, issue=None):
     """rel = path prefix back to root ('' or '../' etc.)"""
     desc = html.escape(desc or TAGLINE, quote=True)
     return f"""<!DOCTYPE html>
@@ -82,8 +82,9 @@ def page(rel, title, body, desc=None):
 <title>{html.escape(title)}</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="{rel}assets/style.css">
+<script src="{rel}assets/notes.js" defer></script>
 </head>
-<body>
+<body{f' data-issue="{issue}"' if issue else ''}>
 <header class="masthead">
   <a class="site-title" href="{rel}index.html">{SITE_TITLE}</a>
   <p class="tagline">{TAGLINE}</p>
@@ -257,7 +258,15 @@ def build():
     if os.path.exists(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
-    shutil.copytree(STATIC, os.path.join(OUT, "assets"))
+    shutil.copytree(STATIC, os.path.join(OUT, "assets"),
+                    ignore=shutil.ignore_patterns("stats.html"))
+    # Private stats page (not linked, noindex). Its data, visits/summary.json,
+    # is refreshed twice a day by .github/workflows/visit-notes.yml.
+    os.makedirs(os.path.join(OUT, "stats"))
+    shutil.copy(os.path.join(STATIC, "stats.html"), os.path.join(OUT, "stats", "index.html"))
+    summary = os.path.join(HERE, "visits", "summary.json")
+    if os.path.exists(summary):
+        shutil.copy(summary, os.path.join(OUT, "stats", "summary.json"))
     open(os.path.join(OUT, ".nojekyll"), "w").close()
 
     # issue pages
@@ -266,12 +275,13 @@ def build():
         write(f"issues/{d}/index.html",
               page("../../", f"Educator's Notebook #{n} ({fmt_date(d)})",
                    issue_body(d, "../../"),
-                   desc=f"Issue #{n} of the Educator's Notebook, {fmt_date(d)}."))
+                   desc=f"Issue #{n} of the Educator's Notebook, {fmt_date(d)}.",
+                   issue=d))
 
     # home = latest issue
     latest = issue_dates[-1]
     write("index.html", page("", f"{SITE_TITLE} — #{issues[latest]['number']}",
-                             issue_body(latest, "")))
+                             issue_body(latest, ""), issue=latest))
 
     # issues index, grouped by year desc
     rows = []

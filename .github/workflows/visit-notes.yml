@@ -1,0 +1,60 @@
+name: Visit notes
+
+# Pulls the last few days of visit data off the collector and commits it into
+# this repo, so the record lives here and not on someone else's server.
+# Same shape as the peternilsson.us, Schooled and Childhood Recovery workflows.
+#
+# Collector: Cloudflare Worker "ednotebook-notes" (code in collector/).
+# Needs the repo secret EDNOTEBOOK_NOTES_KEY (same value as the Worker secret
+# EXPORT_KEY). Until that secret exists, the fetch step skips quietly.
+#
+# Writes visits/days/*.json and visits/summary.json, and copies the summary to
+# docs/stats/summary.json so the live stats page updates without a full build.
+
+on:
+  schedule:
+    - cron: "40 8 * * *"    # 08:40 UTC — 4am Eastern in summer, 3am in winter
+    - cron: "40 20 * * *"   # 20:40 UTC — 4pm Eastern in summer, 3pm in winter
+  workflow_dispatch:          # ...or whenever you press the button
+
+permissions:
+  contents: write
+
+env:
+  COLLECTOR: "https://ednotebook-notes.pbnilsson.workers.dev"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch rows from the collector
+        env:
+          KEY: ${{ secrets.EDNOTEBOOK_NOTES_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "No EDNOTEBOOK_NOTES_KEY secret yet — nothing to fetch."
+            exit 0
+          fi
+          mkdir -p visits/days
+          SINCE=$(date -u -d '3 days ago' +%F)
+          curl -sS --fail-with-body \
+            "$COLLECTOR/export?key=$KEY&since=$SINCE&prune=1" \
+            -o /tmp/rows.json
+          node scripts/visits/split-days.js /tmp/rows.json
+
+      - name: Rebuild the summary
+        run: |
+          node scripts/visits/build-summary.js
+          mkdir -p docs/stats
+          cp visits/summary.json docs/stats/summary.json
+
+      - name: Commit anything new
+        run: |
+          git config user.name "Peter Nilsson"
+          git config user.email "pbnilsson@gmail.com"
+          git add visits docs/stats/summary.json
+          git diff --staged --quiet || git commit -m "Visit notes: sync $(date -u +'%F %H:%M')"
+          git pull --rebase --quiet
+          git push

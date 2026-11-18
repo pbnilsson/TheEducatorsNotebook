@@ -1,0 +1,424 @@
+// Reads every day file and writes one small visits/summary.json that the
+// stats page can load in a single request. (build.py, and the twice-daily
+// sync, copy it to docs/stats/summary.json.)
+//
+// Besides the site-wide windows below, it writes an all-time "issues" block:
+// for every issue anyone has opened — how many people visited it, how many
+// of them clicked at least one link, and every article's clicks, most first.
+//
+// The file holds five pre-computed windows — last 24 hours, week, month,
+// year, and all time — because the page never sees individual rows. The
+// windows close at build time, not at page-load time; that costs nothing,
+// since the underlying data only moves when the sync runs.
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = path.join(__dirname, "..", "..");
+const dir = path.join(ROOT, "visits", "days");
+const files = fs.existsSync(dir)
+  ? fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort()
+  : [];
+
+const allRows = [];
+for (const f of files) {
+  const parsed = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+  if (Array.isArray(parsed)) allRows.push(...parsed);
+}
+
+// "/issues/x/" and "/issues/x/index.html" are the same page, and the
+// github.io address adds a /TheEducatorsNotebook prefix. Count each page once.
+// (The tracker already does this; older or odd rows get it here too.)
+for (const r of allRows) {
+  let p = String(r.path || "/")
+    .replace(/^\/TheEducatorsNotebook(?=\/|$)/i, "")
+    .replace(/index\.html?$/i, "");
+  if (!p) p = "/";
+  r.path = p;
+}
+
+const now = new Date();
+const nowMs = now.getTime();
+const HOUR = 3600000;
+const DAY = 86400000;
+
+function ms(r) {
+  const t = Date.parse(r.ts);
+  return Number.isFinite(t) ? t : null;
+}
+
+// ---- helpers ---------------------------------------------------------------
+
+function tally(list, pick, limit) {
+  const m = new Map();
+  for (const r of list) {
+    const k = pick(r);
+    if (!k) continue;
+    m.set(k, (m.get(k) || 0) + 1);
+  }
+  const out = [...m.entries()]
+    .map(([key, n]) => ({ key, n }))
+    .sort((a, b) => b.n - a.n);
+  return limit ? out.slice(0, limit) : out;
+}
+
+// Distinct tab-sessions, our closest honest stand-in for "people"
+function visitors(list) {
+  return new Set(list.map((r) => r.visit).filter(Boolean)).size;
+}
+
+// Median, not mean — one tab left open overnight would wreck an average
+function median(nums) {
+  const a = nums.filter((n) => Number.isFinite(n)).sort((x, y) => x - y);
+  if (!a.length) return null;
+  const mid = Math.floor(a.length / 2);
+  return a.length % 2 ? a[mid] : Math.round((a[mid - 1] + a[mid]) / 2);
+}
+
+function groupBy(list, pick) {
+  const m = new Map();
+  for (const r of list) {
+    const k = pick(r);
+    if (!k) continue;
+    if (!m.has(k)) m.set(k, []);
+    m.get(k).push(r);
+  }
+  return m;
+}
+
+// ---- what counts as leaving the site ---------------------------------------
+// Page-to-page moves (menu, previous/next issue, topic links) are navigation.
+// Everything else — an article, an intro link, a file — is a link followed.
+const OUR_SITE = /^https?:\/\/((www\.)?educatorsnotebook\.com|pbnilsson\.github\.io\/TheEducatorsNotebook)/i;
+
+function isNav(target) {
+  const t = String(target || "");
+  if (!t) return true;
+  if (!OUR_SITE.test(t)) return false;
+  const p = t.replace(OUR_SITE, "").split(/[?#]/)[0];
+  if (p === "" || p === "/") return true;
+  return /\.html?$/i.test(p) || !/\.[a-z0-9]{2,5}$/i.test(p);
+}
+
+// ---- one window ------------------------------------------------------------
+
+function summarize(rows, granularity) {
+  const views = rows.filter((r) => r.kind === "view");
+  const clicks = rows.filter((r) => r.kind === "click");
+  const ends = rows.filter((r) => r.kind === "end");
+  const signups = rows.filter((r) => r.kind === "signup");
+
+  // ---- the pulse -----------------------------------------------------------
+  // Day buckets stay on UTC calendar days, as they always have. Hour buckets
+  // carry a full timestamp so the page can label them in Eastern without the
+  // data itself having to pick a timezone.
+  const series = [];
+  if (views.length && granularity === "hour") {
+    const end = Math.floor(nowMs / HOUR) * HOUR;
+    const byHour = groupBy(views, (r) => {
+      const t = ms(r);
+      return t === null ? null : String(Math.floor(t / HOUR) * HOUR);
+    });
+    for (let k = 23; k >= 0; k--) {
+      const bucket = end - k * HOUR;
+      const list = byHour.get(String(bucket)) || [];
+      series.push({
+        t: new Date(bucket).toISOString(),
+        views: list.length,
+        visitors: visitors(list),
+      });
+    }
+  } else if (views.length) {
+    const days = views.map((r) => r.ts.slice(0, 10)).sort();
+    const first = new Date(days[0] + "T00:00:00Z");
+    const last = new Date(days[days.length - 1] + "T00:00:00Z");
+    const byDay = groupBy(views, (r) => r.ts.slice(0, 10));
+    for (let t = first; t <= last; t = new Date(t.getTime() + DAY)) {
+      const d = t.toISOString().slice(0, 10);
+      const list = byDay.get(d) || [];
+      series.push({ d, views: list.length, visitors: visitors(list) });
+    }
+  }
+
+  // ---- pages, with how far people got and how long they stayed -------------
+
+  const endsByPage = groupBy(ends, (r) => r.path);
+  const pages = [...groupBy(views, (r) => r.path || "/").entries()]
+    .map(([key, list]) => {
+      const e = endsByPage.get(key) || [];
+      return {
+        key,
+        n: list.length,
+        visitors: visitors(list),
+        depth: median(e.map((r) => r.depth)),
+        secs: median(e.map((r) => r.secs)),
+        measured: e.length,
+      };
+    })
+    .sort((a, b) => b.n - a.n);
+
+  // ---- journeys ------------------------------------------------------------
+
+  const byVisit = groupBy(views, (r) => r.visit);
+  const trails = [];
+  for (const [, list] of byVisit) {
+    list.sort((a, b) => String(a.ts).localeCompare(String(b.ts)));
+    const seq = [];
+    for (const r of list) {
+      if (seq[seq.length - 1] !== r.path) seq.push(r.path); // collapse reloads
+    }
+    if (seq.length) trails.push(seq);
+  }
+
+  const journeys = tally(
+    trails.filter((t) => t.length > 1).map((t) => ({ s: t.join(" → ") })),
+    (r) => r.s,
+    15
+  );
+  const entries = tally(trails.map((t) => ({ p: t[0] })), (r) => r.p, 10);
+  const exits = tally(
+    trails.map((t) => ({ p: t[t.length - 1] })),
+    (r) => r.p,
+    10
+  );
+  const trailLengths = trails.map((t) => t.length);
+
+  // ---- signups -------------------------------------------------------------
+
+  // A signup's real source is the source of the visit it belongs to, not the
+  // referrer at the moment of clicking — so look it up by visit id.
+  const visitSource = new Map();
+  const visitEntry = new Map();
+  for (const [visit, list] of byVisit) {
+    const firstView = list[0];
+    if (!firstView) continue;
+    visitSource.set(visit, firstView.campaign || firstView.source || "direct");
+    visitEntry.set(visit, firstView.path);
+  }
+
+  const signupDetail = signups.map((r) => ({
+    page: r.path,
+    source: visitSource.get(r.visit) || "unknown",
+    entry: visitEntry.get(r.visit) || r.path,
+  }));
+
+  // ---- clicks --------------------------------------------------------------
+
+  const followed = clicks.filter((r) => r.target && !isNav(r.target));
+  const navigated = clicks.filter((r) => r.target && isNav(r.target));
+
+  // ---- assemble ------------------------------------------------------------
+
+  const dayCount = granularity === "hour"
+    ? new Set(views.map((r) => r.ts.slice(0, 10))).size
+    : series.length;
+
+  return {
+    granularity,
+    totals: {
+      views: views.length,
+      clicks: clicks.length,
+      links: followed.length,
+      visitors: visitors(views),
+      signups: signups.length,
+      days: dayCount,
+      medianPagesPerVisit: median(trailLengths),
+      medianDepth: median(ends.map((r) => r.depth)),
+      medianSecs: median(ends.map((r) => r.secs)),
+    },
+    series,
+    pages,
+    journeys,
+    entries,
+    exits,
+    sources: tally(views, (r) => r.source),
+    referrers: tally(views, (r) => r.ref, 20),
+    campaigns: tally(views, (r) => r.campaign, 20),
+    countries: tally(views, (r) => r.country, 20),
+    cities: tally(
+      views,
+      (r) => (r.city ? r.city + (r.region ? ", " + r.region : "") : null),
+      20
+    ),
+    devices: tally(views, (r) => r.device),
+    browsers: tally(views, (r) => r.browser, 10),
+    systems: tally(views, (r) => r.os, 10),
+    signupsBySource: tally(signupDetail, (r) => r.source, 10),
+    signupsByPage: tally(signupDetail, (r) => r.page, 10),
+    links: tally(followed, (r) => r.target, 25),
+    internalLinks: tally(navigated, (r) => r.target, 25),
+  };
+}
+
+// ---- the five windows ------------------------------------------------------
+
+const RANGES = [
+  { key: "24h", label: "Last 24 hours", short: "24h", days: 1, granularity: "hour" },
+  { key: "week", label: "Last week", short: "Week", days: 7, granularity: "day" },
+  { key: "month", label: "Last month", short: "Month", days: 30, granularity: "day" },
+  { key: "year", label: "Last year", short: "Year", days: 365, granularity: "day" },
+  { key: "all", label: "All time", short: "All", days: null, granularity: "day" },
+];
+
+const stamps = allRows.map(ms).filter((t) => t !== null).sort((a, b) => a - b);
+const firstTs = stamps.length ? stamps[0] : null;
+const spanDays = firstTs === null ? 0 : (nowMs - firstTs) / DAY;
+
+const ranges = {};
+for (const r of RANGES) {
+  const from = r.days === null ? null : nowMs - r.days * DAY;
+  const rows = from === null
+    ? allRows
+    : allRows.filter((row) => {
+        const t = ms(row);
+        return t !== null && t >= from;
+      });
+
+  // A fixed window longer than the data we hold would just be "all time"
+  // wearing a different name. Mark it so the page can gray the pill out.
+  const available = r.days === null || r.key === "24h" ? true : spanDays > r.days;
+
+  ranges[r.key] = Object.assign(
+    {
+      key: r.key,
+      label: r.label,
+      short: r.short,
+      from:
+        from === null
+          ? firstTs === null
+            ? null
+            : new Date(firstTs).toISOString()
+          : new Date(from).toISOString(),
+      to: now.toISOString(),
+      available,
+    },
+    summarize(rows, r.granularity)
+  );
+}
+
+// ---- issues ----------------------------------------------------------------
+// All time, not windowed: an issue's count keeps growing week after week.
+// "Visitors" are distinct browser sessions that opened the issue's page
+// (the home page counts for whichever issue was current at the time).
+// "Clickers" are those sessions that followed at least one link out of it.
+
+function readJSON(rel) {
+  try { return JSON.parse(fs.readFileSync(path.join(ROOT, rel), "utf8")); }
+  catch (e) { return null; }
+}
+
+const ISSUES = readJSON("data/issues.json") || {};
+const ARTICLES = readJSON("data/articles.json") || [];
+const CATS = readJSON("data/categories.json") || {};
+
+function fmtDate(d) {
+  const [y, m, day] = d.split("-").map(Number);
+  const M = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return M[m - 1] + " " + day + ", " + y;
+}
+
+// Same URL however the browser spelled it: no #fragment, trailing slash kept.
+function normUrl(u) {
+  try { const x = new URL(String(u)); x.hash = ""; return x.href; }
+  catch (e) { return String(u || ""); }
+}
+
+// Friendly names for issue pages in the site-wide panels.
+function pageNames() {
+  const names = {};
+  const seen = new Set(allRows.map((r) => r.path));
+  for (const p of seen) {
+    const m = /^\/issues\/(\d{4}-\d{2}-\d{2})\/$/.exec(p);
+    if (m && ISSUES[m[1]]) names[p] = "#" + ISSUES[m[1]].number + " · " + fmtDate(m[1]);
+  }
+  return names;
+}
+
+function issueStats() {
+  const artsByIssue = groupBy(ARTICLES, (a) => a.issue);
+  const rowsByIssue = groupBy(
+    allRows.filter((r) => r.issue && ISSUES[r.issue]),
+    (r) => r.issue
+  );
+  const out = [];
+  for (const [d, list] of rowsByIssue) {
+    const views = list.filter((r) => r.kind === "view");
+    const outbound = list.filter((r) => r.kind === "click" && r.target && !isNav(r.target));
+    const viewers = new Set(views.map((r) => r.visit).filter(Boolean));
+    const clickers = new Set(outbound.map((r) => r.visit).filter(Boolean));
+
+    // Each article in the issue, in its printed order, ready to be counted.
+    const arts = (artsByIssue.get(d) || []).map((a, i) => ({
+      h: a.headline,
+      p: a.publication || "",
+      c: (CATS[a.category] && CATS[a.category].display) || "",
+      u: a.link,
+      o: i,
+      clicks: 0,
+      people: new Set(),
+    }));
+    const byUrl = new Map();
+    for (const a of arts) if (!byUrl.has(normUrl(a.u))) byUrl.set(normUrl(a.u), a);
+
+    const other = new Map();
+    for (const r of outbound) {
+      const a = byUrl.get(normUrl(r.target));
+      if (a) {
+        a.clicks++;
+        if (r.visit) a.people.add(r.visit);
+      } else {
+        other.set(r.target, (other.get(r.target) || 0) + 1);
+      }
+    }
+
+    const byDay = groupBy(views, (r) => r.ts.slice(0, 10));
+    const days = [...byDay.keys()].sort().map((day) => ({
+      d: day,
+      views: byDay.get(day).length,
+      visitors: visitors(byDay.get(day)),
+    }));
+
+    out.push({
+      d,
+      n: Number(ISSUES[d].number),
+      teaser: ISSUES[d].teaser || "",
+      views: views.length,
+      visitors: viewers.size,
+      clickers: clickers.size,
+      clicks: outbound.length,
+      days,
+      articles: arts
+        .sort((a, b) => b.clicks - a.clicks || a.o - b.o)
+        .map((a) => ({ h: a.h, p: a.p, c: a.c, u: a.u, clicks: a.clicks, people: a.people.size })),
+      other: [...other.entries()]
+        .map(([key, n]) => ({ key, n }))
+        .sort((a, b) => b.n - a.n)
+        .slice(0, 20),
+    });
+  }
+  return out.sort((a, b) => (a.d < b.d ? 1 : -1));
+}
+
+const summary = {
+  generated: now.toISOString(),
+  defaultRange: "all",
+  order: RANGES.map((r) => r.key),
+  span: {
+    first: firstTs === null ? null : new Date(firstTs).toISOString(),
+    days: Math.max(1, Math.ceil(spanDays)),
+  },
+  ranges,
+  pageNames: pageNames(),
+  issues: issueStats(),
+};
+
+fs.mkdirSync(path.join(ROOT, "visits"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "visits", "summary.json"), JSON.stringify(summary) + "\n");
+console.log(
+  RANGES.map((r) => {
+    const t = ranges[r.key].totals;
+    return (
+      r.key + ": " + t.views + "v/" + t.visitors + "p" +
+      (ranges[r.key].available ? "" : " (grayed)")
+    );
+  }).join("  ")
+);

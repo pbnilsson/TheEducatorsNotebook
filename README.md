@@ -65,3 +65,23 @@ All WordPress-era URLs are preserved:
 2. At the DNS host, point the domain at GitHub Pages (A records
    185.199.108.153 / .109. / .110. / .111. and CNAME `www` → `<user>.github.io`).
 3. Keep WordPress alive but unlinked for a cycle or two as fallback.
+
+## Visit notes (stats)
+
+Private stats page at `/stats/` (noindex, not linked), same design as the
+peternilsson.us, Schooled and Childhood Recovery stats pages, plus an
+**Issues** section: for each issue, all-time visitors, how many of them clicked
+at least one link, and every article's clicks, most clicked first.
+
+- `static/notes.js` — the tracker, loaded by every page (copied to `docs/assets/`).
+  Reports views, link clicks, signups, and how far people read. Issue pages and
+  the home page carry `<body data-issue="YYYY-MM-DD">`, so every view and click
+  is tagged with its issue. No cookies, no personal data.
+- `collector/` — the Cloudflare Worker (`ednotebook-notes`) and its D1 table.
+- `.github/workflows/visit-notes.yml` — pulls rows from the collector twice a day.
+  Skips quietly until the repo secret `EDNOTEBOOK_NOTES_KEY` exists.
+- `scripts/visits/split-days.js` → `visits/days/*.json`;
+  `scripts/visits/build-summary.js` → `visits/summary.json`. The workflow copies it to
+  `docs/stats/summary.json`; `build.py` does the same on every build.
+- The stats page source is `static/stats.html` (build writes it to `docs/stats/index.html`).
+- Silence your own browsers by loading any page once with `?notrack=1` (Chrome, Safari, phone).
