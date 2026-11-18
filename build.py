@@ -25,7 +25,7 @@ EM_RE = re.compile(r"(?<!\*)\*([^*\n]+)\*(?!\*)")
 
 def md_inline(s):
     s = html.escape(s, quote=False)
-    s = LINK_RE.sub(r'<a href="\2">\1</a>', s)
+    s = LINK_RE.sub(r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
     s = BOLD_RE.sub(r"<strong>\1</strong>", s)
     s = EM_RE.sub(r"<em>\1</em>", s)
     return s
@@ -125,7 +125,7 @@ def article_entry(a, issue_ref=""):
     q = f'\n  <blockquote>{html.escape(a["quote"], quote=False)}</blockquote>' if a["quote"] else ""
     pub = html.escape(a["publication"], quote=False)
     return f"""<div class="entry">
-  <h4><a href="{html.escape(a["link"], quote=True)}">{html.escape(a["headline"], quote=False)}</a></h4>
+  <h4><a href="{html.escape(a["link"], quote=True)}" target="_blank" rel="noopener">{html.escape(a["headline"], quote=False)}</a></h4>
   <p class="meta">{pub} &middot; {fmt_pubdate(a["pub_date"])}{issue_ref}</p>{q}
 </div>"""
 

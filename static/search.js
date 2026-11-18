@@ -32,7 +32,7 @@
     var out = ["<p class='meta'>" + hits.length + (hits.length === 200 ? "+" : "") + " results</p>"];
     for (var j = 0; j < hits.length; j++) {
       var a = hits[j];
-      out.push("<div class='entry'><h4><a href='" + esc(a.l) + "'>" + esc(a.h) + "</a></h4>" +
+      out.push("<div class='entry'><h4><a href='" + esc(a.l) + "' target='_blank' rel='noopener'>" + esc(a.h) + "</a></h4>" +
         "<p class='hit-meta'>" + esc(a.p) + " &middot; <a href='../topics/" + esc(a.s) + "/index.html'>" + esc(a.c) + "</a>" +
         " &middot; <a href='../issues/" + esc(a.d) + "/index.html'>#" + a.n + "</a></p></div>");
     }
