@@ -243,7 +243,7 @@ def issue_body(d, rel):
 
     parts = [f"<h1>Educator&rsquo;s Notebook #{n} ({fmt_date(d)})</h1>", nav]
     if meta.get("intro_md"):
-        parts.append("<section class='intro'><h2 class='ai-part intro-label'>Introduction</h2>")
+        parts.append("<section class='intro'>")
         parts.append(md_block(meta["intro_md"]))
         parts.append(issue_images_html(intro_imgs, rel))
         parts.append("</section>")
