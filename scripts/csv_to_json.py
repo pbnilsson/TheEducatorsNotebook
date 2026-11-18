@@ -19,6 +19,22 @@ DATA = os.path.join(REPO, "data")
 
 CAT_ALIASES = {"other": "z-other"}
 
+# Pub dates that are typos in the master spreadsheet, corrected by hand
+# (2026-11-18). Keyed by link; applied after parsing so a re-export keeps them.
+PUB_DATE_FIXES = {
+    "https://www.nytimes.com/2022/07/11/well/family/check-in-text-friendship.html": "2022-07-11",
+    "https://www.theguardian.com/sport/2023/jun/21/wimbledon-introduce-ai-powered-commentary-to-coverage-this-year": "2023-06-21",
+    "https://hbr.org/2008/04/can-you-say-what-your-strategy-is": "2008-04-01",
+    "https://drive.google.com/file/d/1npb3gVTykW6LyieGTsx9NI4caJ1SB80d/view": "2023-08-01",
+    "https://hedcoinstitute.uoregon.edu/reports/four-day-school-week-research-database": "2024-06-01",
+    "https://news.stanford.edu/stories/2024/06/habitat-ceo-stanford-gsb-graduates-values-are-foundation": "2024-06-19",
+    "https://sloanreview.mit.edu/article/ai-explainability-how-to-avoid-rubber-stamping-recommendations/": "2025-06-12",
+    "https://www.nytimes.com/2025/10/20/technology/ai-data-center-backlash-mexico-ireland.html?smid=nytcore-ios-share&referringSource=articleShare": "2025-10-20",
+    # Undated pages: Peter's convention is to use the issue date (the day he visited).
+    "https://nationalhumanitiescenter.org/education-programs/webinars/": "2020-12-06",
+    "http://www.pz.harvard.edu/thinking-routines": "2022-08-07"
+}
+
 def parse_date(s):
     s = (s or "").strip()
     for f in ("%d-%m-%Y", "%d/%m/%Y", "%m/%d/%y", "%d-%m-%y"):
@@ -58,6 +74,8 @@ def main():
             "tags": [t.strip() for t in (r["Category Tags"] or "").split(",") if t.strip()],
             "quote": (r["Quote"] or "").strip(),
         }
+        if art["link"] in PUB_DATE_FIXES:
+            art["pub_date"] = PUB_DATE_FIXES[art["link"]]
         key = (art["issue"], art["link"])
         if key in seen and art["link"]:
             if len(art["quote"]) > len(articles[seen[key]]["quote"]):
