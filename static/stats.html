@@ -23,7 +23,12 @@
   h2{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
      color:var(--muted);margin:0 0 6px;}
   .note{font-size:14.5px;color:var(--text-muted);margin:0 0 16px;}
-  #app section,#issues{margin-bottom:3rem;}
+  #app section,#macro section,#issues{margin-bottom:3rem;}
+  /* the page's three parts: Visitors, Issues, Traffic patterns */
+  h2.part{font-family:var(--serif);font-size:23px;font-weight:700;letter-spacing:0;text-transform:none;
+          color:var(--ink);border-top:3px solid var(--ink);padding-top:14px;margin:56px 0 6px;}
+  h2.part.first{margin-top:8px;}
+  .stamp{margin-bottom:1.75rem;}
 
   .legend{display:flex;gap:18px;margin:0 0 10px;font-size:13.5px;color:var(--text-muted);}
   .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle;}
@@ -99,12 +104,21 @@
   <p class="sub">Who’s been reading the Educator’s Notebook on the web, and which articles they followed.</p>
   <p class="stamp" id="stamp">Loading…</p>
 
-  <section id="issues" hidden></section>
+  <h2 class="part first">Visitors</h2>
+  <p class="note">Everyone who came to the website. The buttons set the time range for this section and for Traffic patterns below.</p>
 
   <div class="rangebar" id="rangebar" hidden>
     <div class="pills" id="pills" role="group" aria-label="Time range"></div>
     <span class="rangelab" id="rangelab"></span>
   </div>
+
+  <!-- Site-wide visitors first, then issues, then the detail panels. -->
+  <div id="macro"></div>
+
+  <section id="issues" hidden></section>
+
+  <h2 class="part" id="patterns-head">Traffic patterns</h2>
+  <p class="note">Which pages people read, how far they got, how they arrived, what they clicked, and where they read from — for the range picked above.</p>
 
   <div id="app"></div>
 
@@ -118,6 +132,7 @@
 (function () {
   var S1 = "#1b4a7a", S2 = "#c4822f";
   var app = document.getElementById("app");
+  var macro = document.getElementById("macro");
   var stamp = document.getElementById("stamp");
   var rangebar = document.getElementById("rangebar");
   var pills = document.getElementById("pills");
@@ -411,7 +426,7 @@
     var tipLabel = s.granularity === "hour"
       ? function (p) { return hourTip(p.t); }
       : function (p) { return dayLabel(p.d); };
-    var svg = document.querySelector("#app svg");
+    var svg = document.querySelector("#macro svg");
     if (!svg) return;
     var hit = svg.querySelector("#hit");
     var cross = svg.querySelector("#cross");
@@ -454,7 +469,8 @@
     stamp.textContent = "Last synced " + easternStamp((DATA && DATA.generated) || s.generated);
 
     if (!s.totals.views) {
-      app.innerHTML = '<div class="empty">' +
+      app.innerHTML = "";
+      macro.innerHTML = '<div class="empty">' +
         (DATA && DATA.order.length > 1 && s.key !== "all"
           ? "No visits in this window. The collector is live and listening — " +
             'try <a href="#all" >All time</a>.'
@@ -489,6 +505,11 @@
         ? "hour by hour, in Eastern Time."
         : "day by day.") + "</p>" +
       lineChart(s) + "</section>";
+
+    // Everything above is the site-wide picture at the top of the page; the
+    // issues section sits between it and the detail panels below.
+    macro.innerHTML = html;
+    html = "";
 
     html += "<section><h2>What people read</h2>" +
       '<p class="note">Every page, by how often it was opened. The second number is how many separate people saw it.</p>' +
@@ -639,13 +660,13 @@
     var list = DATA.issues || [];
     box.hidden = false;
     if (!list.length) {
-      box.innerHTML = "<h2>Issues</h2>" +
+      box.innerHTML = '<h2 class="part">Issues</h2>' +
         '<div class="empty">No issue visits recorded yet. Once readers open issue pages, ' +
         "each issue appears here with its visitors and article clicks.</div>";
       return;
     }
-    var html = "<h2>Issues</h2>" +
-      '<p class="note">All time — counts keep adding up week after week. Visitors are separate browser sessions that opened the issue (the home page counts for whichever issue was current). Click a row to see its articles.</p>' +
+    var html = '<h2 class="part">Issues</h2>' +
+      '<p class="note">All time, whatever range is picked above — counts keep adding up week after week. Visitors are separate browser sessions that opened the issue (the home page counts for whichever issue was current). Click a row to see its articles.</p>' +
       '<div class="ilist"><table><thead><tr><th>Issue</th><th class="n">Visitors</th>' +
       '<th class="n">Clicked a link</th><th class="n">Clicks</th></tr></thead><tbody>' +
       list.map(function (i) {
