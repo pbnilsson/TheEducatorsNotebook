@@ -119,14 +119,15 @@ def intro_block(md, imgs, footer_html=""):
         head = paras.pop(0).split(" ", 1)[1].strip()
     merged, i = [], 0
     while i < len(paras):
-        p = " ".join(l.strip() for l in paras[i].splitlines())
-        if EVENT_RE.match(p) and i + 1 < len(paras) and not EVENT_RE.match(paras[i + 1]) \
+        p = "<br>\n".join(inline(l.strip()) for l in paras[i].splitlines())
+        if EVENT_RE.match(paras[i]) and "\n" not in paras[i] and i + 1 < len(paras) \
+                and not EVENT_RE.match(paras[i + 1]) \
                 and not paras[i + 1].lower().lstrip("*").startswith("later events"):
-            nxt = " ".join(l.strip() for l in paras[i + 1].splitlines())
-            merged.append(inline(p) + "<br>\n" + inline(nxt))
+            nxt = "<br>\n".join(inline(l.strip()) for l in paras[i + 1].splitlines())
+            merged.append(p + "<br>\n" + nxt)
             i += 2
         else:
-            merged.append(inline(p))
+            merged.append(p)
             i += 1
     body = "\n".join(f'<p style="{P}">{p}</p>' for p in merged)
     body += ("\n" + figures(imgs)) if imgs else ""

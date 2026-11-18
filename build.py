@@ -33,7 +33,8 @@ def md_inline(s):
     return s
 
 def md_block(md):
-    """Paragraph-level markdown: #### headings, paragraphs, blank-line splits."""
+    """Paragraph-level markdown: #### headings, paragraphs.
+    Blank line = new paragraph (with space). Single line break = <br> (no space)."""
     if not md:
         return ""
     out = []
@@ -46,8 +47,8 @@ def md_block(md):
         elif p.startswith("### "):
             out.append(f"<h4 class='intro-head'>{md_inline(p[4:].strip())}</h4>")
         else:
-            p = " ".join(line.strip() for line in p.splitlines())
-            out.append(f"<p>{md_inline(p)}</p>")
+            p = "<br>\n".join(md_inline(line.strip()) for line in p.splitlines())
+            out.append(f"<p>{p}</p>")
     return "\n".join(out)
 
 # ---------------------------------------------------------------- data

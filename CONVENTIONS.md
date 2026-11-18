@@ -82,6 +82,10 @@ Three things to know:
    week!" across 48 intros. Normalised in `1e1f650`; don't reintroduce the bullet.
 2. **`md_block` is a deliberately tiny markdown subset** — `####`/`###` headings,
    blank-line paragraph splits, and inline links/bold/italic. Nothing else parses.
+   **Line breaks:** a blank line starts a new paragraph (with space above); a single
+   line break stays inside the paragraph as `<br>` (no space). Use the single break
+   to keep an event's date line tight against its description. Same rule in
+   `email_template.py`.
 3. **Issues before #441 (2024-03-24) have no header, by design.** The convention
    didn't exist yet; their first line is prose. Ten later A.I. Update intros also
    open with prose rather than a header — left alone rather than manufactured.
