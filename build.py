@@ -71,7 +71,7 @@ def fmt_pubdate(d):
         return d
 
 # ---------------------------------------------------------------- layout
-def page(rel, title, body, desc=None, issue=None):
+def page(rel, title, body, desc=None, issue=None, head_extra="", track=True, main_class=""):
     """rel = path prefix back to root ('' or '../' etc.)"""
     desc = html.escape(desc or TAGLINE, quote=True)
     return f"""<!DOCTYPE html>
@@ -82,7 +82,7 @@ def page(rel, title, body, desc=None, issue=None):
 <title>{html.escape(title)}</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="{rel}assets/style.css">
-<script src="{rel}assets/notes.js" defer></script>
+{f'<script src="{rel}assets/notes.js" defer></script>' if track else ''}{head_extra}
 </head>
 <body{f' data-issue="{issue}"' if issue else ''}>
 <header class="masthead">
@@ -96,7 +96,7 @@ def page(rel, title, body, desc=None, issue=None):
     <a href="{rel}subscribe/index.html">Subscribe</a>
   </nav>
 </header>
-<main>
+<main{f' class="{main_class}"' if main_class else ''}>
 {body}
 </main>
 <footer>
@@ -262,8 +262,13 @@ def build():
                     ignore=shutil.ignore_patterns("stats.html"))
     # Private stats page (not linked, noindex). Its data, visits/summary.json,
     # is refreshed twice a day by .github/workflows/visit-notes.yml.
-    os.makedirs(os.path.join(OUT, "stats"))
-    shutil.copy(os.path.join(STATIC, "stats.html"), os.path.join(OUT, "stats", "index.html"))
+    with open(os.path.join(STATIC, "stats.html"), encoding="utf-8") as f:
+        frag = f.read()
+    css = frag[frag.index("<style>"):frag.index("</style>") + len("</style>")]
+    write("stats/index.html", page("../", f"Visit Notes — {SITE_TITLE}",
+                                   frag.replace(css, "").strip(),
+                                   head_extra='\n<meta name="robots" content="noindex">\n' + css,
+                                   track=False, main_class="wide"))
     summary = os.path.join(HERE, "visits", "summary.json")
     if os.path.exists(summary):
         shutil.copy(summary, os.path.join(OUT, "stats", "summary.json"))
