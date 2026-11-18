@@ -403,7 +403,9 @@ def build():
     # search page + index
     idx = [{"h": a["headline"], "p": a["publication"], "c": categories[a["category"]]["display"],
             "s": categories[a["category"]]["slug"], "d": a["issue"], "l": a["link"],
-            "n": issues[a["issue"]]["number"]} for a in articles]
+            "n": issues[a["issue"]]["number"],
+            "t": fmt_pubdate(a["pub_date"]) if re.fullmatch(r"\d{4}-\d\d-\d\d", a["pub_date"] or "") else ""}
+           for a in articles]
     write("search/search-index.json", json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
     search_body = """<h1>Search</h1>
 <p class="meta">Search %d curated articles from %d issues, 2013&ndash;present.</p>
