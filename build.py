@@ -8,6 +8,7 @@ Usage: python3 build.py
 No third-party dependencies.
 """
 import json, os, re, html, shutil
+import email_template
 from datetime import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -16,6 +17,7 @@ OUT = os.path.join(HERE, "docs")   # GitHub Pages serves this folder from main
 STATIC = os.path.join(HERE, "static")
 
 SITE_TITLE = "The Educator's Notebook"
+EMAIL_ISSUES = 12   # recent issues that get Mailchimp email HTML pages
 TAGLINE = "A weekly collection of education-related news from around the web."
 
 # ---------------------------------------------------------------- tiny markdown
@@ -286,6 +288,18 @@ def build():
                    issue_body(d, "../../"),
                    desc=f"Issue #{n} of the Educator's Notebook, {fmt_date(d)}.",
                    issue=d))
+
+    # Mailchimp email HTML per issue (replaces WordPress's /email/raw):
+    #   issues/<date>/email/          the email itself, as a preview
+    #   issues/<date>/email/raw/      the code with a Copy button
+    # Only the most recent issues get these: ~60 KB per copy, and only the
+    # newest issue is ever pasted into Mailchimp.
+    for d in issue_dates[-EMAIL_ISSUES:]:
+        n = issues[d]["number"]
+        code = email_template.render(d, issues[d], by_issue.get(d, []), categories,
+                                     order_categories, fmt_date, len(articles))
+        write(f"issues/{d}/email/index.html", code)
+        write(f"issues/{d}/email/raw/index.html", email_template.raw_page(d, n, code, fmt_date))
 
     # home = latest issue
     latest = issue_dates[-1]

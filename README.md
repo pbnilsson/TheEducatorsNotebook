@@ -54,6 +54,17 @@ Full-size originals are archived outside the repo, in
 to its issue. For a new issue: save the image as WebP (≤1400px) into
 `static/images/` named `YYYY-MM-<name>.webp`, and reference it as above.
 
+## Email HTML for Mailchimp
+
+Replaces WordPress's `/issues/<date>/email/raw`. For the 12 most recent issues
+(`EMAIL_ISSUES` in `build.py`) the build writes:
+
+- `/issues/<date>/email/raw/` — the email's HTML in a box with a **Copy HTML** button. Paste into Mailchimp (Code your own).
+- `/issues/<date>/email/` — the same HTML rendered, to preview the email.
+
+Markup and inline styles come from `email_template.py`, copied from the email
+actually sent for #533. Images and links use absolute https://educatorsnotebook.com URLs.
+
 ## URL compatibility
 
 All WordPress-era URLs are preserved:
