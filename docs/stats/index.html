@@ -48,6 +48,9 @@
   .tip .r i{width:8px;height:8px;border-radius:2px;display:inline-block;}
 
   .bars{display:flex;flex-direction:column;gap:2px;}
+  /* Traffic patterns: long lists show their top 10, the rest scrolls inside the box (like Issues) */
+  #app .bars.scroll{overflow-y:auto;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:2px 14px;}
+  #app .more{font-size:13px;color:var(--text-dim);margin:6px 0 0;}
   .bar{display:grid;grid-template-columns:minmax(90px,230px) 1fr auto;gap:14px;align-items:center;padding:5px 0;}
   .bars.wide .bar{grid-template-columns:minmax(160px,1fr) 120px auto;}
   .bars.wide .bar-l{white-space:normal;}
@@ -364,9 +367,11 @@
       items.map(function (it) {
         return "<tr><td>" + esc(it.key) + "</td><td>" + it.n + "</td></tr>";
       }).join("") + "</tbody></table></details>";
+    var long = items.length > 10;
     return '<div class="bars' + (opts.wide ? " wide" : "") +
-      (opts.roomy ? " roomy" : "") + '">' + rows +
-      "</div>" + table;
+      (opts.roomy ? " roomy" : "") + (long ? " scroll" : "") + '">' + rows +
+      "</div>" + (long ? '<p class="more">Top 10 shown · scroll the box for ' +
+        (items.length - 10) + " more</p>" : "") + table;
   }
 
   // ---- line chart ---------------------------------------------------------
@@ -635,7 +640,7 @@
     if (s.cities && s.cities.length) {
       html += "<section><h2>Where from</h2>" +
         '<p class="note">City and country come from the network edge, never from a stored address.</p>' +
-        '<div class="pair"><div>' + bars(s.cities.slice(0, 10), { head: "City" }) +
+        '<div class="pair"><div>' + bars(s.cities, { head: "City" }) +
         "</div><div>" + bars(s.countries, { head: "Country", alt: true }) +
         "</div></div></section>";
     } else if (s.countries && s.countries.length) {
@@ -668,8 +673,21 @@
     }
 
     app.innerHTML = html;
+    fitScroll();
     wireChart(s);
   }
+
+  // Size each long Traffic-patterns list so exactly its first 10 rows show.
+  function fitScroll() {
+    [].forEach.call(app.querySelectorAll(".bars.scroll"), function (b) {
+      var r = b.children[9];
+      if (r) b.style.maxHeight = (r.offsetTop + r.offsetHeight - b.offsetTop + 4) + "px";
+    });
+  }
+  window.addEventListener("resize", function () {
+    [].forEach.call(app.querySelectorAll(".bars.scroll"), function (b) { b.style.maxHeight = ""; });
+    fitScroll();
+  });
 
   function tile(n, label, small) {
     return '<div class="tile"><div class="tile-n">' + n + '</div><div class="tile-l">' + label + "</div>" +
