@@ -2,31 +2,31 @@
  "*feature": {
   "display": "Featured",
   "slug": "feature",
-  "count": 1112,
+  "count": 1132,
   "section": "main"
  },
  "admissions": {
   "display": "Admissions",
   "slug": "admissions",
-  "count": 204,
+  "count": 205,
   "section": "main"
  },
  "adolescence": {
   "display": "Adolescence",
   "slug": "adolescence",
-  "count": 342,
+  "count": 344,
   "section": "main"
  },
  "arts": {
   "display": "Arts",
   "slug": "arts",
-  "count": 90,
+  "count": 92,
   "section": "main"
  },
  "assessment": {
   "display": "Assessment",
   "slug": "assessment",
-  "count": 297,
+  "count": 303,
   "section": "main"
  },
  "athena": {
@@ -38,7 +38,7 @@
  "athletics": {
   "display": "Athletics",
   "slug": "athletics",
-  "count": 182,
+  "count": 188,
   "section": "main"
  },
  "books": {
@@ -50,25 +50,25 @@
  "character": {
   "display": "Character",
   "slug": "character",
-  "count": 689,
+  "count": 700,
   "section": "main"
  },
  "creativity": {
   "display": "Creativity",
   "slug": "creativity",
-  "count": 470,
+  "count": 474,
   "section": "main"
  },
  "curriculum": {
   "display": "Curriculum",
   "slug": "curriculum",
-  "count": 534,
+  "count": 541,
   "section": "main"
  },
  "diversity/inclusion": {
   "display": "Diversity/Inclusion",
   "slug": "diversity-inclusion",
-  "count": 792,
+  "count": 794,
   "section": "main"
  },
  "early childhood": {
@@ -80,25 +80,25 @@
  "elementary": {
   "display": "Elementary",
   "slug": "elementary",
-  "count": 16,
+  "count": 17,
   "section": "main"
  },
  "government": {
   "display": "Government",
   "slug": "government",
-  "count": 77,
+  "count": 82,
   "section": "main"
  },
  "health": {
   "display": "Health",
   "slug": "health",
-  "count": 178,
+  "count": 184,
   "section": "main"
  },
  "higher ed": {
   "display": "Higher Ed",
   "slug": "higher-ed",
-  "count": 347,
+  "count": 353,
   "section": "main"
  },
  "history of education": {
@@ -110,7 +110,7 @@
  "humanities": {
   "display": "Humanities",
   "slug": "humanities",
-  "count": 1024,
+  "count": 1041,
   "section": "main"
  },
  "international": {
@@ -122,19 +122,19 @@
  "language": {
   "display": "Language",
   "slug": "language",
-  "count": 231,
+  "count": 232,
   "section": "main"
  },
  "leadership": {
   "display": "Leadership",
   "slug": "leadership",
-  "count": 874,
+  "count": 884,
   "section": "main"
  },
  "learning science": {
   "display": "Learning Science",
   "slug": "learning-science",
-  "count": 704,
+  "count": 709,
   "section": "main"
  },
  "mindfulness": {
@@ -146,13 +146,13 @@
  "pd": {
   "display": "PD",
   "slug": "pd",
-  "count": 311,
+  "count": 316,
   "section": "main"
  },
  "pedagogy": {
   "display": "Pedagogy",
   "slug": "pedagogy",
-  "count": 925,
+  "count": 936,
   "section": "main"
  },
  "productivity": {
@@ -164,37 +164,37 @@
  "reading/writing": {
   "display": "Reading/Writing",
   "slug": "reading-writing",
-  "count": 825,
+  "count": 847,
   "section": "main"
  },
  "safety": {
   "display": "Safety",
   "slug": "safety",
-  "count": 74,
+  "count": 75,
   "section": "main"
  },
  "social media": {
   "display": "Social Media",
   "slug": "social-media",
-  "count": 189,
+  "count": 192,
   "section": "main"
  },
  "stem": {
   "display": "STEM",
   "slug": "stem",
-  "count": 746,
+  "count": 753,
   "section": "main"
  },
  "sustainability": {
   "display": "Sustainability",
   "slug": "sustainability",
-  "count": 211,
+  "count": 214,
   "section": "main"
  },
  "tech": {
   "display": "Tech",
   "slug": "tech",
-  "count": 1188,
+  "count": 1193,
   "section": "main"
  },
  "tech/ai": {
@@ -206,49 +206,49 @@
  "tech/ai: *feature": {
   "display": "Tech/AI: Featured",
   "slug": "tech-ai-feature",
-  "count": 218,
+  "count": 242,
   "section": "ai"
  },
  "tech/ai: education": {
   "display": "Tech/AI: Education",
   "slug": "tech-ai-education",
-  "count": 631,
+  "count": 658,
   "section": "ai"
  },
  "tech/ai: ethics and risk": {
   "display": "Tech/AI: Ethics and Risk",
   "slug": "tech-ai-ethics-and-risk",
-  "count": 259,
+  "count": 297,
   "section": "ai"
  },
  "tech/ai: government and law": {
   "display": "Tech/AI: Government and Law",
   "slug": "tech-ai-government-and-law",
-  "count": 73,
+  "count": 78,
   "section": "ai"
  },
  "tech/ai: industry development": {
   "display": "Tech/AI: Industry Development",
   "slug": "tech-ai-industry-development",
-  "count": 287,
+  "count": 305,
   "section": "ai"
  },
  "tech/ai: social": {
   "display": "Tech/AI: Social",
   "slug": "tech-ai-social",
-  "count": 69,
+  "count": 72,
   "section": "ai"
  },
  "tech/ai: uses and applications": {
   "display": "Tech/AI: Uses and Applications",
   "slug": "tech-ai-uses-and-applications",
-  "count": 262,
+  "count": 282,
   "section": "ai"
  },
  "tech/ai: z-other": {
   "display": "Tech/AI: Other",
   "slug": "tech-ai-z-other",
-  "count": 49,
+  "count": 53,
   "section": "ai"
  },
  "visual design": {
@@ -266,13 +266,13 @@
  "workplace": {
   "display": "Workplace",
   "slug": "workplace",
-  "count": 566,
+  "count": 574,
   "section": "main"
  },
  "z-other": {
   "display": "General",
   "slug": "z-other",
-  "count": 1394,
+  "count": 1410,
   "section": "main"
  }
 }
